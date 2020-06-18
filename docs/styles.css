@@ -1,5 +1,5 @@
 body {
-	min-width: 816px;
+	min-width: 800px;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 16px;
 	background-color: #FFE0E4;
@@ -241,6 +241,9 @@ a:active {
 		float: none;
 		text-align: center;
 		margin: 0px 0px 12px 0px;
+	}
+	.dlbanner img {
+		width: 480px;
 	}
 	.dlinfo {
 		margin-bottom: 36px;
