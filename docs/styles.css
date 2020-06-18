@@ -113,6 +113,10 @@ a:active {
 	float: right;
 	margin-left: 16px;
 }
+.right iframe {
+	width: 400px;
+	height: 225px;
+}
 .second {
 	clear: both;
 	padding-top: 16px;
@@ -120,6 +124,9 @@ a:active {
 .left {
 	float: left;
 	margin-right: 16px;
+}
+.left img {
+	width: 400px;
 }
 .dlbanner {
 	clear: both;
@@ -241,6 +248,13 @@ a:active {
 		float: none;
 		text-align: center;
 		margin: 0px 0px 12px 0px;
+	}
+	.right iframe {
+		width: 480px;
+		height: 270px;
+	}
+	.left img {
+		width: 480px;
 	}
 	.dlbanner img {
 		width: 480px;
