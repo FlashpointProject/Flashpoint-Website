@@ -59,7 +59,7 @@ a:active {
 .sidebar {
 	position: absolute;
 	top: 16px;
-	left: 32px;
+	left: 28px;
 }
 .sidelinks {
 	width: 256px;
@@ -97,7 +97,7 @@ a:active {
 	margin-bottom: 32px;
 }
 .content {
-	margin: 16px 32px 24px 312px;
+	margin: 16px 28px 24px 308px;
 }
 .content img {
 	display: initial;
@@ -282,7 +282,7 @@ a:active {
 		display: block;
 	}
 }
-@media (max-width:999px) {
+@media (max-width:1007px) {
 	.techgrad {
 		display: none;
 	}
