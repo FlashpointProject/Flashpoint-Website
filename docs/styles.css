@@ -156,10 +156,13 @@ a:active {
 	margin: 24px 0px 80px;
 }
 .dlinfo ul {
-	margin: 24px 0px;
+	margin: 18px 0px;
 }
 .dlinfo li {
 	margin: 0px 0px 12px -24px;
+}
+.dldesc {
+	margin: 18px 0px 24px;
 }
 .warning {
 	display: table;
