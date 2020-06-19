@@ -1,7 +1,7 @@
 body {
-	min-width: 800px;
+	min-width: 784px;
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 16px;
+	font-size: 0.95em;
 	background-color: #FFE0E4;
 	margin: 0px;
 }
@@ -103,7 +103,7 @@ a:active {
 	display: initial;
 }
 .title {
-	font-size: 32px;
+	font-size: 2em;
 	font-weight: bold;
 }
 .tophr {
@@ -140,7 +140,7 @@ a:active {
 	animation: download-hover 30s linear infinite;
 }
 .smalltitle {
-	font-size: 24px;
+	font-size: 1.5em;
 	font-weight: bold;
 }
 .news {
@@ -174,7 +174,6 @@ a:active {
 .warning div {
 	display: table-cell;
 	vertical-align: middle;
-	text-align: center;
 	font-weight: bold;
 }
 .warnicon {
@@ -184,7 +183,8 @@ a:active {
 	width: inherit;
 	height: 64px;
 	color: white;
-	font-size: 40px;
+	text-align: center;
+	font-size: 48px;
 	background-color: #045EDD;
 	border-radius: 8px;
 }
