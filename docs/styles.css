@@ -149,7 +149,8 @@ a:active {
 }
 .newscol {
 	display: table-cell;
-	width: 116px;
+	white-space: nowrap;
+	padding-right: 16px;
 	font-weight: bold;
 }
 .dlinfo {
