@@ -18,6 +18,7 @@ hr {
 a:link {
 	color: #045EDD;
 	text-decoration: none;
+	outline: 0;
 }
 a:visited {
 	color: #DD04CA;
