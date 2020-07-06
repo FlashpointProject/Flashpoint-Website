@@ -13,7 +13,7 @@ br {
 }
 hr {
 	border: 1px solid #EFCCD1;
-	margin: 4px 0px 16px;
+	margin: 4px 0 16px;
 }
 a:link {
 	color: #045EDD;
@@ -31,6 +31,9 @@ a:active {
 	color: #DD0428;
 	text-decoration: underline;
 }
+
+/* Top header */
+
 .header {
 	width: 100%;
 	height: 168px;
@@ -57,6 +60,9 @@ a:active {
 .techimg:hover {
 	opacity: 0.4;
 }
+
+/* Sidebar and logo */
+
 .sidebar {
 	position: absolute;
 	top: 16px;
@@ -78,16 +84,19 @@ a:active {
 	background-color: #E85971;
 	padding-right: 20px;
 }
-.sidelinks span {
-	float: right;
+.sidelinks span:after {
+	display: inline;
+	content: '\25C0';
+	text-decoration: none;
 	font-size: 16px;
+	float: right;
 }
 .sidelinks a {
 	color: white;
 	text-decoration: none;
 }
 .sidelinks br {
-	margin-bottom: 0px !important;
+	margin-bottom: 0 !important;
 }
 .textlogo {
 	position: absolute;
@@ -97,6 +106,9 @@ a:active {
 .pixels {
 	margin-bottom: 32px;
 }
+
+/* Common classes */
+
 .content {
 	margin: 16px 28px 24px 308px;
 }
@@ -107,27 +119,35 @@ a:active {
 	font-size: 2em;
 	font-weight: bold;
 }
+.smalltitle {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: -4px;
+}
 .tophr {
 	border: 1px solid #E2BAC0;
 }
-.right {
-	float: right;
-	margin-left: 16px;
-}
-.right iframe {
-	width: 400px;
-	height: 225px;
-}
-.second {
-	clear: both;
-	padding-top: 16px;
-}
-.left {
+
+/* Homepage */
+
+.homeleft {
 	float: left;
 	margin-right: 16px;
 }
-.left img {
+.homeleft img {
 	width: 400px;
+}
+.homeright {
+	float: right;
+	margin-left: 16px;
+}
+.homeright iframe {
+	width: 400px;
+	height: 225px;
+}
+.homebottom {
+	clear: both;
+	padding-top: 16px;
 }
 .dlbanner {
 	clear: both;
@@ -140,13 +160,9 @@ a:active {
 .dlbanner img:hover {
 	animation: download-hover 30s linear infinite;
 }
-.smalltitle {
-	font-size: 1.5em;
-	font-weight: bold;
-}
 .news {
 	display: table;
-	margin: 16px 0px;
+	margin: 16px 0;
 }
 .newscol {
 	display: table-cell;
@@ -154,18 +170,9 @@ a:active {
 	padding-right: 16px;
 	font-weight: bold;
 }
-.dlinfo {
-	margin: 24px 0px 80px;
-}
-.dlinfo ul {
-	margin: 18px 0px;
-}
-.dlinfo li {
-	margin: 0px 0px 12px -24px;
-}
-.dldesc {
-	margin: 18px 0px 24px;
-}
+
+/* Downloads page */
+
 .warning {
 	display: table;
 	background-color: #A8C0EF;
@@ -196,33 +203,47 @@ a:active {
 .warntext {
 	padding-left: 16px;
 }
-.leftdl {
-	float: left;
-	width: 49% !important;
+.dlcontainer {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	margin: 24px 0;
 }
-.rightdl {
-	float: right;
-	width: 49% !important;
+.dlcontainer ul {
+	flex-grow: 1;
+	margin: 16px 0 8px;
+}
+.dlcontainer li {
+	margin: 0 0 12px -24px;
+}
+.dlinfo {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.dlleft {
+	margin-right: 12px;
+}
+.dlright {
+	margin-left: 12px;
+}
+.dldesc {
+	flex-grow: 1;
+	margin: 18px 0 24px;
 }
 .dllink:hover {
 	text-decoration: none;
 }
-.horizontal {
-	clear: both;
-}
 .dlbutton {
-	width: 100%;
 	background-color: #DD0428;
 	color: white;
 	font-weight: bold;
 	text-align: center;
-	padding: 12px 0px !important;
+	margin: 0;
+	padding: 12px 0;
 }
 .dlbutton:hover {
 	background-color: #E85971;
-}
-.vertical {
-	display: none;
 }
 .blue {
 	background-color: #045EDD;
@@ -230,6 +251,9 @@ a:active {
 .blue:hover {
 	background-color: #5995E8;
 }
+
+/* Homepage download banner hover */
+
 @keyframes download-hover {
 	from {
 		filter: hue-rotate(360deg);
@@ -238,6 +262,9 @@ a:active {
 		filter: hue-rotate(0deg);
 	}
 }
+
+/* Classes changed when width is less than 1280 pixels */
+
 @media (max-width:1279px) {
 	.sidebar {
 		left: 16px;
@@ -248,42 +275,35 @@ a:active {
 	.content {
 		margin: 16px 16px 24px 288px;
 	}
-	.right,
-	.left {
+	.homeright,
+	.homeleft {
 		float: none;
 		text-align: center;
-		margin: 0px 0px 12px 0px;
+		margin: 0 0 12px 0;
 	}
-	.right iframe {
+	.homeright iframe {
 		width: 480px;
 		height: 270px;
 	}
-	.left img {
+	.homeleft img {
 		width: 480px;
 	}
 	.dlbanner img {
 		width: 480px;
 	}
+	.dlcontainer {
+		margin-bottom: 0;
+	}
 	.dlinfo {
-		margin-bottom: 36px;
+		flex: 100%;
 	}
-	.leftdl,
-	.rightdl {
-		float: none;
-		width: 100% !important;
-		margin-bottom: 24px;
-	}
-	.dlbutton {
-		width: 100% !important;
-		padding: 24px 0px;
-	}
-	.dlbutton.leftdl {
-		display: none;
-	}
-	.vertical {
-		display: block;
-	}
+	.dlleft,
+	.dlright {
+		margin: 0 0 24px;
 }
+
+/* Classes changed when screen width is less than 1008 pixels */
+
 @media (max-width:1007px) {
 	.techgrad {
 		display: none;

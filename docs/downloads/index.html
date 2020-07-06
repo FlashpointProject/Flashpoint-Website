@@ -9,6 +9,13 @@
 		<meta name="description" content="A webgame preservation project and archive.">
 		<meta name="keywords" content="Flash, Shockwave, HTML5, Unity, Webgame Preservation, Flash Game Archive, BlueMaxima, DarkMoe">
 		<meta name="author" content="BlueMaxima">
+		<style>
+			@media (max-width:1279px) {
+				.content {
+					margin: 16px 16px 0 288px;
+				}
+			}
+		</style>
     </head>
     <body>
 		<div class="header">
@@ -48,17 +55,17 @@
 		<div class="sidebar">
 			<a href="../"><img src="../images/logo.png"></a>
 			<div class="sidelinks">
-				<a href="../"><div>Home<span>&#9664;</span></div></a>
-				<a href="../news"><div>News<span>&#9664;</span></div></a>
-				<a href="../faq"><div>FAQ<span>&#9664;</span></div></a>
-				<a href="../downloads"><div>Downloads<span>&#9664;</span></div></a>
-				<a href="../contact"><div>Contact<span>&#9664;</span></div></a>
+				<a href="../"><div>Home<span></span></div></a>
+				<a href="../news"><div>News<span></span></div></a>
+				<a href="../faq"><div>FAQ<span></span></div></a>
+				<a href="../downloads"><div>Downloads<span></span></div></a>
+				<a href="../contact"><div>Contact<span></span></div></a>
 				<br>
-				<a href="../datahub"><div>Wiki<span>&#9664;</span></div></a>
-				<a href="https://github.com/FlashpointProject/"><div>Github<span>&#9664;</span></div></a>
-				<a href="http://discord.gg/S9uJ794"><div>Discord<span>&#9664;</span></div></a>
+				<a href="../datahub"><div>Wiki<span></span></div></a>
+				<a href="https://github.com/FlashpointProject/"><div>Github<span></span></div></a>
+				<a href="http://discord.gg/S9uJ794"><div>Discord<span></span></div></a>
 				<br>
-				<a href="/"><div>BlueMaxima.org<span>&#9664;</span></div></a>
+				<a href="/"><div>BlueMaxima.org<span></span></div></a>
 			</div>
 			<img src="../images/pixels.png" class="pixels">
 			<div class="textlogo">
@@ -77,26 +84,25 @@
 				</div>
 			</div>
 			For setup and troubleshooting info, please refer to the <a href="../Manual.pdf">manual</a>. To find out what's changed since the beginning of time, see the <a href="../changelog.txt">changelog</a>. Warning: it's big.
-			<div class="dlinfo">
-				<div class="leftdl">
+			<div class="dlcontainer">
+				<div class="dlinfo dlleft">
 					<span class="smalltitle">Flashpoint Ultimate 9.0</span><br>
 					<b>For archivists and data hoarders</b>
 					<ul>
 						<li>Massive filesize (???GB download, ???GB when extracted)
-						<li>Every game and animation is available on your hard drive from the get-go - no internet is required
+						<li>Every game and animation is available on your hard drive from the get-go - no internet required
 						<li>Logos and screenshots are included by default
 						<li>Includes the Flashpoint Ultimate Updater, which allows you to upgrade the launcher without reinstalling
 					</ul>
-					
-					<!-- Left download link -->
-					
 					<a href="" class="dllink">
-						<div class="dlbutton vertical">
-							Download from Backup Server
+						<div class="dlbutton">
+							<div>
+								Download from Backup Server
+							</div>
 						</div>
 					</a>
 				</div>
-				<div class="rightdl">
+				<div class="dlinfo dlright">
 					<span class="smalltitle">Flashpoint Infinity 9.0</span><br>
 					<b>For casual players and disk space savers</b>
 					<ul>
@@ -105,65 +111,38 @@
 						<li>Logos and screenshots are downloaded on-demand
 						<li>Cannot be updated without reinstalling the launcher
 					</ul>
-				</div>
-				<div class="horizontal">
-				
-					<!-- Also left download link -->
-					
 					<a href="" class="dllink">
-						<div class="dlbutton leftdl">
-							Download from Backup Server
-						</div>
-					</a>
-					
-					<!-- Right download link -->
-					
-					<a href="" class="dllink">
-						<div class="dlbutton rightdl">
-							Download from BlueMaxima.org
+						<div class="dlbutton">
+							<div>
+								Download from BlueMaxima.org
+							</div>
 						</div>
 					</a>
 				</div>
 			</div>
 			<span class="title">Extra Downloads</span>
 			<hr class="tophr">
-			<div class="dlinfo">
-				<div class="leftdl">
+			<div class="dlcontainer">
+				<div class="dlinfo dlleft">
 					<span class="smalltitle">Flashpoint Core 6.0</span><br>
 					<b>For curators and contributors to the project</b>
 					<div class="dldesc">
 						A copy of the Flashpoint launcher that is tailored specifically to project contributors and contains example entries for each platform.
 					</div>
-					
-					<!-- Left download link -->
-					
 					<a href="" class="dllink">
-						<div class="dlbutton vertical blue">
+						<div class="dlbutton blue">
 							Download from BlueMaxima.org
 						</div>
 					</a>
 				</div>
-				<div class="rightdl">
+				<div class="dlinfo dlright">
 					<span class="smalltitle">Flashpoint Infinity Nightly</span><br>
 					<b>For risk-takers</b>
 					<div class="dldesc">
 						An edition of Infinity generated every day via the master build, for those who want to stay on the bleeding edge. Stability is not guaranteed; might not work at all. Does not automatically update.
 					</div>
-				</div>
-				<div class="horizontal">
-				
-					<!-- Also left download link -->
-					
 					<a href="" class="dllink">
-						<div class="dlbutton leftdl blue">
-							Download from BlueMaxima.org
-						</div>
-					</a>
-					
-					<!-- Right download link -->
-					
-					<a href="" class="dllink">
-						<div class="dlbutton rightdl blue">
+						<div class="dlbutton blue">
 							Download from Backup Server
 						</div>
 					</a>
