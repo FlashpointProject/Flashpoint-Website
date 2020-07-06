@@ -84,10 +84,7 @@ a:active {
 	background-color: #E85971;
 	padding-right: 20px;
 }
-.sidelinks span:after {
-	display: inline;
-	content: '\25C0';
-	text-decoration: none;
+.sidelinks span {
 	font-size: 16px;
 	float: right;
 }
