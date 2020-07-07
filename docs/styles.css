@@ -97,7 +97,7 @@ a:active {
 }
 .textlogo {
 	position: absolute;
-	left: 264px;
+	left: 256px;
 	top: 24px;
 }
 .pixels {
@@ -299,9 +299,9 @@ a:active {
 		margin: 0 0 24px;
 }
 
-/* Classes changed when screen width is less than 1008 pixels */
+/* Classes changed when screen width is less than 1024 pixels */
 
-@media (max-width:1007px) {
+@media (max-width:1023px) {
 	.techgrad {
 		display: none;
 	}
