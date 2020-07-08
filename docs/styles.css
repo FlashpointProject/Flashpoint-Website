@@ -228,18 +228,33 @@ a:active {
 	flex-grow: 1;
 	margin: 18px 0 24px;
 }
-.dllink:hover {
+.dllink {
+	display: flex;
+}
+.dllink a:hover {
 	text-decoration: none;
 }
 .dlbutton {
+	flex-grow: 1;
 	background-color: #DD0428;
-	color: white;
 	font-weight: bold;
 	text-align: center;
-	margin: 0;
 	padding: 12px 0;
 }
-.dlbutton:hover {
+a.dlbutton {
+	color: white;
+	text-decoration: none;
+}
+.dltorrent {
+	background-color: #DD0428;
+	margin-left: 8px;
+	padding: 9.5px 12px 2.5px;
+}
+.dltorrent img {
+	width: 1.5em;
+}
+.dlbutton:hover,
+.dltorrent:hover {
 	background-color: #E85971;
 }
 .blue {
