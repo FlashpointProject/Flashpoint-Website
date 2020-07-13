@@ -40,13 +40,13 @@ a:active {
 	background-color: white;
 	overflow: hidden;
 }
-.techgrad {
+.pfgradient {
 	float: right;
 }
-.techcol {
+.pfcolumn {
 	float: left;
 }
-.techimg {
+.pfimage {
 	width: 48px;
 	padding: 4px 6px;
 	opacity: 0.2;
@@ -57,7 +57,7 @@ a:active {
 		saturate(100)
 		hue-rotate(0deg);
 }
-.techimg:hover {
+.pfimage:hover {
 	opacity: 0.4;
 }
 
@@ -259,6 +259,12 @@ a:active {
 }
 .blue:hover {
 	background-color: #5995E8;
+}
+.dlchecksum {
+	font-size: 0.8em;
+	font-style: italic;
+	text-align: center;
+	margin-top: 8px;
 }
 
 /* Homepage download banner hover */
