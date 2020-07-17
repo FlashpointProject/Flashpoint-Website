@@ -320,7 +320,7 @@ a:active {
 /* Classes changed when screen width is less than 1024 pixels */
 
 @media (max-width:1023px) {
-	.techgrad {
+	.pfgradient {
 		display: none;
 	}
 }
