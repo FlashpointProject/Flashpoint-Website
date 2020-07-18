@@ -238,20 +238,18 @@ a:active {
 }
 .dlbutton {
 	flex-grow: 1;
+	flex-basis: 0;
 	background-color: #DD0428;
 	text-align: center;
 	padding: 12px 0;
 }
-.dldirect {
-	background-color: #DD0428;
-	margin-left: 6px;
-	padding: 12px;
+.torrent {
+	margin-right: 3px;
 }
-.dldirect img {
-	width: 1.8em;
+.direct {
+	margin-left: 3px;
 }
-.dlbutton:hover,
-.dldirect:hover {
+.dlbutton:hover {
 	background-color: #E85971;
 }
 .blue {
@@ -259,12 +257,6 @@ a:active {
 }
 .blue:hover {
 	background-color: #5995E8;
-}
-.dlchecksum {
-	font-size: 0.8em;
-	font-style: italic;
-	text-align: center;
-	margin-top: 8px;
 }
 
 /* Homepage download banner hover */
