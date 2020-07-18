@@ -244,10 +244,10 @@ a:active {
 	padding: 12px 0;
 }
 .torrent {
-	margin-right: 3px;
+	margin-right: 4px;
 }
 .direct {
-	margin-left: 3px;
+	margin-left: 4px;
 }
 .dlbutton:hover {
 	background-color: #E85971;
@@ -257,6 +257,14 @@ a:active {
 }
 .blue:hover {
 	background-color: #5995E8;
+}
+.dlmore {
+	font-size: 0.85em;
+	text-align: center;
+	margin-top: 8px;
+}
+.stub {
+	visibility: hidden;
 }
 
 /* Homepage download banner hover */
