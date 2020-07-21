@@ -300,6 +300,9 @@ a:active {
 	.homeleft img {
 		width: 480px;
 	}
+	.dlbanner {
+		padding-top: 24px;
+	}
 	.dlbanner img {
 		width: 480px;
 	}
