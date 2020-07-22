@@ -107,7 +107,8 @@ a:active {
 /* Common classes */
 
 .content {
-	margin: 16px 28px 24px 308px;
+	margin: 16px 28px 0 308px;
+	padding-bottom: 24px;
 }
 .content img {
 	display: initial;
@@ -285,7 +286,7 @@ a:active {
 		left: 256px;
 	}
 	.content {
-		margin: 16px 16px 24px 288px;
+		margin: 16px 16px 0 288px;
 	}
 	.homeright,
 	.homeleft {
