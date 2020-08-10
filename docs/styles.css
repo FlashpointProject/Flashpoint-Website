@@ -264,6 +264,9 @@ a:active {
 	text-align: center;
 	margin-top: 8px;
 }
+.dlstub {
+	visibility: hidden;
+}
 
 /* Homepage download banner hover */
 
