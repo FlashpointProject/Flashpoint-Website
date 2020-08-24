@@ -264,7 +264,10 @@ a:active {
 	text-align: center;
 	margin-top: 8px;
 }
-.dlstub {
+
+/* Miscellaneous */
+
+.stub {
 	visibility: hidden;
 }
 
@@ -323,7 +326,7 @@ a:active {
 
 /* Classes changed when screen width is less than 1024 pixels */
 
-@media (max-width:1023px) {
+@media (max-width:1071px) {
 	.pfgradient {
 		display: none;
 	}
