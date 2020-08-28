@@ -219,10 +219,10 @@ a:active {
 	flex-direction: column;
 	flex: 1;
 }
-.dlleft {
+.dlinfo.dlleft {
 	margin-right: 12px;
 }
-.dlright {
+.dlinfo.dlright {
 	margin-left: 12px;
 }
 .dldesc {
@@ -244,14 +244,14 @@ a:active {
 	text-align: center;
 	padding: 12px 0;
 }
-.torrent {
-	margin-right: 4px;
-}
-.direct {
-	margin-left: 4px;
-}
 .dlbutton:hover {
 	background-color: #E85971;
+}
+.dlbutton.dlleft {
+	margin-right: 4px;
+}
+.dlbutton.dlright {
+	margin-left: 4px;
 }
 .blue {
 	background-color: #045EDD;
