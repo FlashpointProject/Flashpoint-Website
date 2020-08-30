@@ -70,7 +70,7 @@ a:active {
 }
 .sidelinks {
 	width: 256px;
-	height: 384px;
+	height: 408px;
 	font-size: 18px;
 	font-weight: bold;
 	background-color: #DD0428;
@@ -107,7 +107,8 @@ a:active {
 /* Common classes */
 
 .content {
-	margin: 16px 28px 24px 308px;
+	margin: 16px 28px 0 308px;
+	padding-bottom: 24px;
 }
 .content img {
 	display: initial;
@@ -218,10 +219,10 @@ a:active {
 	flex-direction: column;
 	flex: 1;
 }
-.dlleft {
+.dlinfo.dlleft {
 	margin-right: 12px;
 }
-.dlright {
+.dlinfo.dlright {
 	margin-left: 12px;
 }
 .dldesc {
@@ -243,14 +244,14 @@ a:active {
 	text-align: center;
 	padding: 12px 0;
 }
-.torrent {
-	margin-right: 4px;
-}
-.direct {
-	margin-left: 4px;
-}
 .dlbutton:hover {
 	background-color: #E85971;
+}
+.dlbutton.dlleft {
+	margin-right: 4px;
+}
+.dlbutton.dlright {
+	margin-left: 4px;
 }
 .blue {
 	background-color: #045EDD;
@@ -263,6 +264,9 @@ a:active {
 	text-align: center;
 	margin-top: 8px;
 }
+
+/* Miscellaneous */
+
 .stub {
 	visibility: hidden;
 }
@@ -288,7 +292,7 @@ a:active {
 		left: 256px;
 	}
 	.content {
-		margin: 16px 16px 24px 288px;
+		margin: 16px 16px 0 288px;
 	}
 	.homeright,
 	.homeleft {
@@ -302,6 +306,9 @@ a:active {
 	}
 	.homeleft img {
 		width: 480px;
+	}
+	.dlbanner {
+		padding-top: 24px;
 	}
 	.dlbanner img {
 		width: 480px;
@@ -319,7 +326,7 @@ a:active {
 
 /* Classes changed when screen width is less than 1024 pixels */
 
-@media (max-width:1023px) {
+@media (max-width:1071px) {
 	.pfgradient {
 		display: none;
 	}
