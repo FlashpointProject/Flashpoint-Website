@@ -319,8 +319,8 @@ a:active {
 	.dlinfo {
 		flex: 100%;
 	}
-	.dlleft,
-	.dlright {
+	.dlinfo.dlleft,
+	.dlinfo.dlright {
 		margin: 0 0 24px;
 }
 
