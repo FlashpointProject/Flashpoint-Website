@@ -31,6 +31,12 @@ a:active {
 	color: #DD0428;
 	text-decoration: underline;
 }
+ol {
+	margin-left: -20px;
+}
+ol > li {
+	margin-bottom: 16px;
+}
 
 /* Top header */
 
@@ -171,36 +177,6 @@ a:active {
 
 /* Downloads page */
 
-.warning {
-	display: table;
-	background-color: #A8C0EF;
-	/*
-	background-color: #F5A0AD;
-	*/
-	border-radius: 8px;
-	margin-bottom: 16px;
-	padding: 16px;
-}
-.warning div {
-	display: table-cell;
-	vertical-align: middle;
-	font-weight: bold;
-}
-.warnicon {
-	width: 64px;
-}
-.warnicon div {
-	width: inherit;
-	height: 64px;
-	color: white;
-	text-align: center;
-	font-size: 48px;
-	background-color: #045EDD;
-	border-radius: 8px;
-}
-.warntext {
-	padding-left: 16px;
-}
 .dlcontainer {
 	display: flex;
 	align-items: stretch;
@@ -263,6 +239,39 @@ a:active {
 	font-size: 0.85em;
 	text-align: center;
 	margin-top: 8px;
+}
+
+/* Warning message */
+
+.warning {
+	display: table;
+	background-color: #A8C0EF;
+	/*
+	background-color: #F5A0AD;
+	*/
+	border-radius: 8px;
+	margin-bottom: 16px;
+	padding: 16px;
+}
+.warning div {
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.warnicon {
+	width: 64px;
+}
+.warnicon div {
+	width: inherit;
+	height: 64px;
+	color: white;
+	text-align: center;
+	font-size: 48px;
+	background-color: #045EDD;
+	border-radius: 8px;
+}
+.warntext {
+	padding-left: 16px;
 }
 
 /* Miscellaneous */
