@@ -31,9 +31,11 @@ a:active {
 	color: #DD0428;
 	text-decoration: underline;
 }
+ul,
 ol {
 	margin-left: -20px;
 }
+ul > li,
 ol > li {
 	margin-bottom: 16px;
 }
