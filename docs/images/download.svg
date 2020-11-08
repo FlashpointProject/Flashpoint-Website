@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="168" version="1.1" viewBox="0 0 135.47 44.45" xmlns="http://www.w3.org/2000/svg">
+ <rect x="-4.7595e-6" y="-2.5692e-6" width="135.47" height="44.45" fill="#dd0428" stroke-width=".99999"/>
+ <g transform="matrix(.51773 .037687 -.037687 .51773 68.971 -102.97)" clip-path="url(#clipPath929)" fill="#b1031f" stroke-width="1.9264">
+  <g transform="matrix(2.1003,0,0,2.1003,-22.549,-28.627)" fill="#bf0322" stroke-width="1.1672">
+   <path d="m21.913 153.57 54.484-16.79-72.872-42.304 56.673 41.86-34.451 10.084z"/>
+   <path d="m-0.55722 97.314 25.681 31.946-18.535 37.543 12.187-3.756c4.8574-11.168 9.7147-22.335 14.572-33.503l0.63359 8.7913 15.094-3.8998z"/>
+  </g>
+ </g>
+ <g fill="#ffffff" font-family="Arial" letter-spacing="0px" stroke-width=".26457" word-spacing="0px">
+  <text x="47.256485" y="19.226933" font-size="11.642px" style="line-height:1.25" xml:space="preserve"><tspan x="47.256485" y="19.226933" fill="#ffffff" font-family="Tahoma" font-size="11.642px" stroke-width=".26457">Download</tspan></text>
+  <text x="46.736637" y="35.290524" font-size="17.286px" style="line-height:1.25" xml:space="preserve"><tspan x="46.736637" y="35.290524" fill="#ffffff" font-family="Tahoma" font-size="17.286px" stroke-width=".26457">Flashpoint</tspan></text>
+ </g>
+ <g transform="matrix(.99998 0 0 .99998 -37.266 -63.676)" fill="#fff">
+  <path transform="scale(.26458)" d="m201.43 267.16v45.357h-21.785l44.643 44.643 44.643-44.643h-21.785v-45.357z"/>
+  <rect transform="scale(1,-1)" x="47.531" y="-101.11" width="23.624" height="3.9688"/>
+ </g>
+ <defs>
+  <clipPath id="clipPath929">
+   <rect transform="rotate(-4.1634)" x="-132.87" y="198.36" width="260.97" height="85.629" fill="#dd0428"/>
+  </clipPath>
+ </defs>
+</svg>
