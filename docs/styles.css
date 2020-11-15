@@ -60,7 +60,7 @@ ol > li {
 .pfimage {
 	width: 44px;
 	padding: 4px 6px;
-	opacity: 0.2;
+	opacity: 0.12;
 	transition: opacity .2s;
 	filter:
 		invert(0.5)
@@ -69,7 +69,7 @@ ol > li {
 		hue-rotate(0deg);
 }
 .pfimage:hover {
-	opacity: 0.4;
+	opacity: 0.24;
 }
 
 /* Sidebar and logo */
