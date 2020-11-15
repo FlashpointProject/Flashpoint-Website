@@ -1,7 +1,10 @@
+/* General */
+
 body {
 	min-width: 784px;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 0.95em;
+	line-height: 1.25;
 	background-color: #FFE0E4;
 	margin: 0px;
 }
@@ -44,7 +47,7 @@ ol > li {
 
 .header {
 	width: 100%;
-	height: 168px;
+	height: 156px;
 	background-color: white;
 	overflow: hidden;
 }
@@ -55,7 +58,7 @@ ol > li {
 	float: left;
 }
 .pfimage {
-	width: 48px;
+	width: 44px;
 	padding: 4px 6px;
 	opacity: 0.2;
 	transition: opacity .2s;
@@ -73,7 +76,7 @@ ol > li {
 
 .sidebar {
 	position: absolute;
-	top: 16px;
+	top: 18px;
 	left: 28px;
 }
 .sidelinks {
@@ -106,7 +109,7 @@ ol > li {
 .textlogo {
 	position: absolute;
 	left: 256px;
-	top: 24px;
+	top: 10px;
 }
 .pixels {
 	margin-bottom: 32px;
@@ -129,6 +132,9 @@ ol > li {
 	font-size: 1.5em;
 	font-weight: bold;
 	margin-bottom: -4px;
+}
+br.subtitle {
+	margin-bottom: 0;
 }
 .tophr {
 	border: 1px solid #E2BAC0;
@@ -155,15 +161,18 @@ ol > li {
 	clear: both;
 	padding-top: 16px;
 }
-.dlbanner {
+.homedl {
 	clear: both;
 	text-align: center;
-	padding-top: 32px;
+	padding-top: 24px;
 }
-.dlbanner img {
+.homedl br {
+	margin-bottom: 8px;
+}
+.homedl img {
 	border-radius: 12px;
 }
-.dlbanner img:hover {
+.homedl img:hover {
 	animation: download-hover 30s linear infinite;
 }
 .news {
@@ -231,12 +240,6 @@ ol > li {
 .dlbutton.dlright {
 	margin-left: 4px;
 }
-.blue {
-	background-color: #045EDD;
-}
-.blue:hover {
-	background-color: #5995E8;
-}
 .dlmore {
 	font-size: 0.85em;
 	text-align: center;
@@ -247,11 +250,6 @@ ol > li {
 
 .warning {
 	display: table;
-	background-color: #A8C0EF;
-	/*
-	background-color: #F5A0AD;
-	*/
-	border-radius: 8px;
 	margin-bottom: 16px;
 	padding: 16px;
 }
@@ -273,13 +271,16 @@ ol > li {
 	border-radius: 8px;
 }
 .warntext {
-	padding-left: 16px;
+	padding-left: 24px;
 }
 
 /* Miscellaneous */
 
 .stub {
 	visibility: hidden;
+}
+.hide {
+	display: none;
 }
 
 /* Homepage download banner hover */
@@ -318,10 +319,7 @@ ol > li {
 	.homeleft img {
 		width: 480px;
 	}
-	.dlbanner {
-		padding-top: 24px;
-	}
-	.dlbanner img {
+	.homedl img {
 		width: 480px;
 	}
 	.dlcontainer {

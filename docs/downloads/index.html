@@ -10,6 +10,9 @@
 		<meta name="keywords" content="Flash, Shockwave, HTML5, Unity, Webgame Preservation, Flash Game Archive, BlueMaxima, DarkMoe">
 		<meta name="author" content="BlueMaxima">
 		<style>
+			.warntext br {
+				margin-bottom: 12px;
+			}
 			@media (max-width:1279px) {
 				.content {
 					margin: 16px 16px 0 288px;
@@ -86,11 +89,13 @@
 					<div>!</div>
 				</div>
 				<div class="warntext">
-					Some antiviruses may detect Flashpoint as a threat. This is due to how it simulates an internet connection to make games work; however, we can assure you it's a false positive! <a href="../datahub/Troubleshooting_Antivirus_Interference">Click here</a> for instructions on how to make an exception for Flashpoint if needed. We try our best to keep Flashpoint virus-free.
+					<span class="smalltitle">Avast and AVG users:</span><br>
+					Due to an oversight on Avast/AVG's part, one of Flashpoint's requisites will be identified as a virus and quarantined; we can assure you it's a false positive. <a href="../datahub/Troubleshooting_Antivirus_Interference">Click here</a> for instructions on how to make an exception for Flashpoint if needed. We try our best to keep Flashpoint virus-free.
 				</div>
 			</div>
+			<hr class="tophr">
 			For setup and troubleshooting info, please refer to the <a href="../Manual.pdf">manual</a>. To find out what's changed since the beginning of time, see the <a href="../changelog.txt">changelog</a>. Warning: it's big.<br>
-			For information about installing Flashpoint on non-Windows systems, check out the <a href="../datahub/Mac_Support">Mac</a> and <a href="../datahub/Linux_Support">Linux</a> support pages.
+			For information about installing Flashpoint on non-Windows systems, check out the <a href="../datahub/Mac_Support">Mac</a> and <a href="../datahub/Linux_Support">Linux</a> support pages. Since Windows is the primary target of Flashpoint, updates may be sporadic and not everything will work. If you want the best experience on a non-Windows computer, consider using a <a href="https://www.virtualbox.org/">virtual machine</a> with <a href="https://www.microsoft.com/en-us/software-download/windows10">Windows installed</a>.
 			<div class="dlcontainer">
 				<div class="dlinfo dlleft">
 					<span class="smalltitle">Flashpoint Ultimate 8.2</span><br>
@@ -138,7 +143,8 @@
 					</div>
 				</div>
 			</div>
-			<span class="title">Extra Downloads</span>
+			<span class="title">Extra Downloads</span><br class="subtitle">
+			<b>(casual users can ignore these)</b>
 			<hr class="tophr">
 			<div class="dlcontainer">
 				<div class="dlinfo dlleft">
@@ -148,12 +154,12 @@
 						A copy of the Flashpoint launcher that is tailored specifically to project contributors and contains example entries for each platform.
 					</div>
 					<div class="dllink">
-						<a href="https://bluemaxima.org/flashpoint/Flashpoint%20Core%208.2.7z" class="dlbutton blue">
+						<a href="https://bluemaxima.org/flashpoint/Flashpoint%20Core%208.2.7z" class="dlbutton">
 							Download 7Z Archive
 						</a>
 					</div>
 					<div class="dlmore">
-						<a href="" class="stub">
+						<a href="" class="hide">
 							Alternate download
 						</a>
 					</div>
@@ -165,12 +171,12 @@
 						A nifty program that updates <b>only</b> Flashpoint Ultimate to a newer version. Can be used to create a full copy of Ultimate by setting it to an empty directory. Be warned that it will wipe Flashpoint clean - playlists, metadata changes and save games stored in Basilisk, among other things - so remember to back up those files if you need to.
 					</div>
 					<div class="dllink">
-						<a href="https://github.com/FlashpointProject/FlashpointUltimateUpdater/releases/latest" class="dlbutton blue">
+						<a href="https://github.com/FlashpointProject/FlashpointUltimateUpdater/releases/latest" class="dlbutton">
 							Download from GitHub
 						</a>
 					</div>
 					<div class="dlmore">
-						<a href="" class="stub">
+						<a href="" class="hide">
 							Alternate download
 						</a>
 					</div>
