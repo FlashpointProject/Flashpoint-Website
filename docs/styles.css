@@ -188,90 +188,33 @@ br.subtitle {
 
 /* Downloads page */
 
-.dlcontainer {
-	display: flex;
-	align-items: stretch;
-	flex-wrap: wrap;
-	margin: 24px 0;
-}
-.dlcontainer ul {
-	flex-grow: 1;
-	margin: 16px 0 8px;
-}
-.dlcontainer li {
-	margin: 0 0 12px -24px;
-}
-.dlinfo {
-	display: flex;
-	flex-direction: column;
-	flex: 1;
-}
-.dlinfo.dlleft {
-	margin-right: 12px;
-}
-.dlinfo.dlright {
-	margin-left: 12px;
-}
-.dldesc {
-	flex-grow: 1;
-	margin: 18px 0 24px;
-}
-.dllink {
-	display: flex;
-}
-.dllink a {
+.avast {
+	display: table;
+	background-color: #DD0428;
 	color: white;
 	font-weight: bold;
-	text-decoration: none;
+	border-radius: 8px;
+	margin: 16px 0;
+	padding: 12px 16px;
 }
-.dlbutton {
-	flex-grow: 1;
-	flex-basis: 0;
-	background-color: #DD0428;
-	text-align: center;
-	padding: 12px 0;
-}
-.dlbutton:hover {
-	background-color: #E85971;
-}
-.dlbutton.dlleft {
-	margin-right: 4px;
-}
-.dlbutton.dlright {
-	margin-left: 4px;
-}
-.dlmore {
-	font-size: 0.85em;
-	text-align: center;
-	margin-top: 8px;
-}
-
-/* Warning message */
-
-.warning {
-	display: table;
-	margin-bottom: 16px;
-	padding: 16px;
-}
-.warning div {
+.avast div {
 	display: table-cell;
 	vertical-align: middle;
-	font-weight: bold;
 }
-.warnicon {
+.avastlogo img {
 	width: 64px;
+	filter: invert(100);
+	padding: 4px 20px 0 4px;
 }
-.warnicon div {
-	width: inherit;
-	height: 64px;
-	color: white;
-	text-align: center;
-	font-size: 48px;
-	background-color: #045EDD;
-	border-radius: 8px;
+.avasttext {
+	width: 100%;
 }
-.warntext {
-	padding-left: 24px;
+.avasttext br {
+	margin-bottom: 4px;
+}
+.avasttext a {
+	color: #FFF;
+	text-decoration: underline;
 }
 
 /* Miscellaneous */
@@ -322,15 +265,6 @@ br.subtitle {
 	.homedl img {
 		width: 480px;
 	}
-	.dlcontainer {
-		margin-bottom: 0;
-	}
-	.dlinfo {
-		flex: 100%;
-	}
-	.dlinfo.dlleft,
-	.dlinfo.dlright {
-		margin: 0 0 24px;
 }
 
 /* Classes changed when screen width is less than 1024 pixels */
