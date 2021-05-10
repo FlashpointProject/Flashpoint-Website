@@ -12,7 +12,8 @@ img {
 	display: block;
 }
 br {
-	margin-bottom: 16px;
+	display: block;
+    content: "";
 }
 hr {
 	border: 1px solid #EFCCD1;
@@ -104,7 +105,7 @@ ol > li {
 	text-decoration: none;
 }
 .sidelinks br {
-	margin-bottom: 0 !important;
+	margin-bottom: 12px !important;
 }
 .textlogo {
 	position: absolute;
