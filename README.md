@@ -1,4 +1,7 @@
 # Flashpoint-Website
-This is the GitHub repository for the Flashpoint website, located at http://bluemaxima.org/flashpoint/. Due to the current setup requiring Blue to manually apply changes from the repo to the site (often needing to fill in blanks himself), do not expect the site presented here to always align with the one hosted at bluemaxima.org.
+This is the GitHub repository for the Flashpoint website, located at http://bluemaxima.org/flashpoint/.
 
 https://flashpointproject.github.io/Flashpoint-Website/
+
+## Disclaimer
+Because Blue's setup involves manually applying - and making his own - changes from here to his site, don't expect this repository to always exactly reflect what's hosted at bluemaxima.org (*especially* around new releases).
