@@ -37,7 +37,7 @@ a:active {
 }
 ul,
 ol {
-	margin-left: -20px;
+    margin: 2px 0 2px -20px
 }
 ul > li,
 ol > li {
@@ -139,6 +139,11 @@ br.subtitle {
 }
 .tophr {
 	border: 1px solid #E2BAC0;
+}
+.emphasis {
+    border: 2px solid #EFCCD1;
+    margin: 16px 0;
+	padding: 16px 20px 20px;
 }
 
 /* Homepage */
