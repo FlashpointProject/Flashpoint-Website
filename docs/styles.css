@@ -275,7 +275,7 @@ br.subtitle {
 
 /* Classes changed when screen width is less than 1024 pixels */
 
-@media (max-width:1071px) {
+@media (max-width:1112px) {
 	.pfgradient {
 		display: none;
 	}
