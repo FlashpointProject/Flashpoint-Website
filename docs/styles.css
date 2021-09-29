@@ -82,7 +82,7 @@ ol > li {
 }
 .sidelinks {
 	width: 256px;
-	height: 408px;
+	height: 448px;
 	font-size: 18px;
 	font-weight: bold;
 	background-color: #DD0428;
@@ -145,19 +145,21 @@ br.subtitle {
     margin: 16px 0;
 	padding: 16px 20px 20px;
 }
-
-/* Homepage */
-
+.left,
 .homeleft {
 	float: left;
 	margin-right: 16px;
 }
-.homeleft img {
-	width: 400px;
-}
+.right,
 .homeright {
 	float: right;
 	margin-left: 16px;
+}
+
+/* Homepage */
+
+.homeleft img {
+	width: 400px;
 }
 .homeright iframe {
 	width: 400px;
@@ -223,6 +225,38 @@ br.subtitle {
 	text-decoration: underline;
 }
 
+/* Branding page */
+
+.wallcontainer {
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+}
+.wallpaper {
+    margin: 0 12px;
+    display: inline-block;
+    white-space: pre-line;
+    text-align: center;
+}
+.wpdownload {
+    display: table;
+    margin: 4px 0 0 10px;
+    text-align: left;
+}
+.wpleft,
+.wpright {
+    display: table-cell;
+    white-space: nowrap;
+    padding-right: 6px;
+}
+.wpleft {
+    font-weight: bold;
+}
+.wpright a::after {
+    white-space: pre;
+    content: '\A';
+}
+
 /* Miscellaneous */
 
 .stub {
@@ -255,8 +289,8 @@ br.subtitle {
 	.content {
 		margin: 16px 16px 0 288px;
 	}
-	.homeright,
-	.homeleft {
+	.homeleft, .left,
+	.homeright, .right {
 		float: none;
 		text-align: center;
 		margin: 0 0 12px 0;
