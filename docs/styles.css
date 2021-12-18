@@ -83,16 +83,13 @@ ol > li {
 .sidelinks {
     width: 256px;
     height: 448px;
-    /* height: 400px; */
-    font-size: 18px;
-    /* font-size: 17px; */
+    font-size: 17px;
     font-weight: bold;
     background-color: #DD0428;
 }
 .sidelinks div {
     height: 22px;
-    padding: 6px 10px;
-    /* padding: 5px 10px 8px; */
+    padding: 4px 10px;
     transition: padding-right .2s;
 }
 .sidelinks div:hover {
@@ -100,8 +97,7 @@ ol > li {
     padding-right: 20px;
 }
 .sidelinks span {
-    font-size: 16px;
-    /* font-size: 15px; */
+    font-size: 15px;
     float: right;
 }
 .sidelinks a {
@@ -109,8 +105,7 @@ ol > li {
     text-decoration: none;
 }
 .sidelinks br {
-    margin-bottom: 20px !important;
-    /* margin-bottom: 16px !important; */
+    margin-bottom: 16px !important;
 }
 .textlogo {
     position: absolute;
