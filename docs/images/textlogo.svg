@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="378" height="128" version="1.1" viewBox="0 0 100.01 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="378" height="128" title="Home" version="1.1" viewBox="0 0 100.01 33.867" xmlns="http://www.w3.org/2000/svg">
+ <title>Home</title>
  <defs>
   <style type="text/css">
    <![CDATA[
@@ -10,6 +11,7 @@
      src: url("https://fonts.gstatic.com/l/font?kit=HTxtL2QoJDuBh5RMEMDg&skey=9d22fae1754942f6&v=v11") format("woff2")
     }
    ]]>
+   svg { cursor: pointer; user-select: none; }
   </style>
  </defs>
  <g transform="translate(0 -263.13)" fill="#000000" font-family="Tahoma" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">

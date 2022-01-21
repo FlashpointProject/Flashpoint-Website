@@ -177,10 +177,11 @@ br.subtitle {
 .homedl br {
     margin-bottom: 8px;
 }
-.homedl img {
+.homedl object {
     border-radius: 12px;
+    cursor: pointer;
 }
-.homedl img:hover {
+.homedl object:hover {
     animation: download-hover 30s linear infinite;
 }
 .news {

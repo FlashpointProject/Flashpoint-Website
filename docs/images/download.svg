@@ -10,6 +10,7 @@
      src: url("https://fonts.gstatic.com/l/font?kit=HTxtL2QoJDuBh5RMEMDg&skey=9d22fae1754942f6&v=v11") format("woff2")
     }
    ]]>
+   svg { cursor: pointer; user-select: none; }
   </style>
  </defs>
  <rect x="-4.7595e-6" y="-2.5692e-6" width="135.47" height="44.45" fill="#dd0428" stroke-width=".99999"/>
