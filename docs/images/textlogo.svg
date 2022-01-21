@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="378" height="128" version="1.1" viewBox="0 0 100.01 33.867" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    @font-face {
+     font-family: 'Tahoma';
+     font-style: normal;
+     font-weight: 400;
+     src: url("https://fonts.gstatic.com/l/font?kit=HTxtL2QoJDuBh5RMEMDg&skey=9d22fae1754942f6&v=v11") format("woff2")
+    }
+   ]]>
+  </style>
+ </defs>
  <g transform="translate(0 -263.13)" fill="#000000" font-family="Tahoma" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
   <text x="7.0896835" y="273.95712" font-size="9.5486px" style="line-height:1.25" xml:space="preserve"><tspan x="7.0896835" y="273.95712" fill="#000000" font-family="Tahoma" font-size="9.525px" stroke-width=".26458">BlueMaxima's</tspan></text>
   <text x="5.0195312" y="289.57352" font-size="19.104px" style="line-height:1.25" xml:space="preserve"><tspan x="5.0195312" y="289.57352" dx="0" fill="#000000" font-family="Tahoma" font-size="19.085px" letter-spacing=".30427px" stroke-width=".26458">Flashpoint</tspan></text>
