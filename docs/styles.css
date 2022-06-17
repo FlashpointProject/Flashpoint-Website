@@ -1,15 +1,9 @@
 /* General */
 
 body {
-    min-width: 784px;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 0.95em;
-    line-height: 1.25;
-    background-color: #FFE0E4;
+    min-height: 100vh;
+    background-image: linear-gradient(#FFF 156px, #FFE0E4 156px, #FFE0E4);
     margin: 0px;
-}
-img {
-    display: block;
 }
 br {
     display: block;
@@ -44,76 +38,68 @@ ol > li {
     margin-bottom: 16px;
 }
 
-/* Top header */
+/* Page */
+
+.page-container {
+    /* max-width: 1600px; */
+    min-width: 816px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.95em;
+    line-height: 1.25;
+    margin: 0 auto;
+}
+
+/* Header */
 
 .header {
     width: 100%;
     height: 156px;
-    background-color: white;
-    overflow: hidden;
 }
-.pfgradient {
-    float: right;
-}
-.pfcolumn {
+.header-wordmark {
+    display: inline-block;
+    position: relative;
+    left: 284px;
+    top: 34px;
     float: left;
 }
-.pfimage {
-    width: 35px;
-    padding: 2px 5px 2px;
-    opacity: 0.12;
-    transition: opacity .2s;
-    filter:
-        invert(0.5)
-        sepia(1)
-        saturate(100)
-        hue-rotate(0deg);
-}
-.pfimage:hover {
-    opacity: 0.24;
-}
 
-/* Sidebar and logo */
+/* Sidebar */
 
 .sidebar {
-    position: absolute;
+    display: inline-block;
+    position: relative;
     top: 18px;
-    left: 28px;
+    left: -350px;
 }
-.sidelinks {
+.sidebar img {
+    display: block;
+}
+.sidebar-links {
     width: 256px;
     height: 448px;
     font-size: 17px;
     font-weight: bold;
     background-color: #DD0428;
 }
-.sidelinks div {
+.sidebar-links div {
     height: 22px;
     padding: 4px 10px;
     transition: padding-right .2s;
 }
-.sidelinks div:hover {
+.sidebar-links div:hover {
     background-color: #E85971;
     padding-right: 20px;
 }
-.sidelinks span {
+.sidebar-links span {
     font-size: 15px;
     float: right;
 }
-.sidelinks a {
+.sidebar-links a {
     color: white;
     text-decoration: none;
 }
-.sidelinks br {
+.sidebar-links br {
     margin-bottom: 16px !important;
-}
-.textlogo {
-    position: absolute;
-    left: 256px;
-    top: 16px;
-}
-.pixels {
-    margin-bottom: 32px;
 }
 
 /* Common classes */
@@ -129,74 +115,65 @@ ol > li {
     font-size: 2em;
     font-weight: bold;
 }
-.smalltitle {
+.title-divider {
+    border: 1px solid #E2BAC0;
+}
+.title-small {
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: -4px;
 }
-br.subtitle {
-    margin-bottom: 0;
-}
-.tophr {
-    border: 1px solid #E2BAC0;
-}
-.emphasis {
+.border {
     border: 2px solid #EFCCD1;
     margin: 16px 0;
     padding: 16px 20px 20px;
 }
-.left,
-.homeleft {
+.left {
     float: left;
     margin-right: 16px;
 }
-.right,
-.homeright {
+.right {
     float: right;
     margin-left: 16px;
 }
 
 /* Homepage */
 
-.homeleft img {
-    width: 400px;
-}
-.homeright iframe {
+.home-media * {
     width: 400px;
     height: 225px;
 }
-.homebottom {
-    clear: both;
-    padding-top: 16px;
-}
-.homedl {
+.home-download {
     clear: both;
     text-align: center;
     padding-top: 24px;
 }
-.homedl br {
+.home-download br {
     margin-bottom: 8px;
 }
-.homedl img {
+.home-download img {
     border-radius: 12px;
 }
-.homedl img:hover {
+.home-download img:hover {
     animation: download-hover 30s linear infinite;
 }
-.news {
-    display: table;
-    margin: 16px 0;
-}
-.newscol {
-    display: table-cell;
+
+/* News page */
+
+.news-date {
+    float: left;
     white-space: nowrap;
+    margin-left: -4px;
     padding-right: 16px;
     font-weight: bold;
+}
+.news-divider {
+    margin: 16px 0;
 }
 
 /* Downloads page */
 
-.avast {
+.avast-container {
     display: table;
     background-color: #DD0428;
     color: white;
@@ -205,54 +182,54 @@ br.subtitle {
     margin: 20px 0 12px;
     padding: 20px 16px;
 }
-.avast div {
+.avast-container div {
     display: table-cell;
     vertical-align: middle;
 }
-.avastlogo img {
+.avast-logo img {
     width: 64px;
     filter: invert(100);
     padding: 4px 20px 0 4px;
 }
-.avasttext {
+.avast-text {
     width: 100%;
 }
-.avasttext br {
+.avast-text br {
     margin-bottom: 4px;
 }
-.avasttext a {
+.avast-text a {
     color: #FFF;
     text-decoration: underline;
 }
 
 /* Branding page */
 
-.wallcontainer {
+.wallpaper-container {
     display: table;
     text-align: center;
     margin: 0 auto;
 }
-.wallpaper {
+.wallpaper-item {
     margin: 0 12px;
     display: inline-block;
     white-space: pre-line;
     text-align: center;
 }
-.wpdownload {
+.wallpaper-download {
     display: table;
     margin: 4px 0 0 10px;
     text-align: left;
 }
-.wpleft,
-.wpright {
+.wallpaper-left,
+.wallpaper-right {
     display: table-cell;
     white-space: nowrap;
     padding-right: 6px;
 }
-.wpleft {
+.wallpaper-left {
     font-weight: bold;
 }
-.wpright a::after {
+.wallpaper-right a::after {
     white-space: pre;
     content: '\A';
 }
@@ -280,37 +257,16 @@ br.subtitle {
 /* Classes changed when width is less than 1280 pixels */
 
 @media (max-width:1279px) {
-    .sidebar {
-        left: 16px;
-    }
-    .textlogo {
-        left: 256px;
-    }
-    .content {
-        margin: 16px 16px 0 288px;
-    }
-    .homeleft, .left,
-    .homeright, .right {
+    .home-media {
         float: none;
         text-align: center;
         margin: 0 0 12px 0;
     }
-    .homeright iframe {
+    .home-media * {
         width: 480px;
         height: 270px;
     }
-    .homeleft img {
+    .home-download img {
         width: 480px;
-    }
-    .homedl img {
-        width: 480px;
-    }
-}
-
-/* Classes changed when screen width is less than 1024 pixels */
-
-@media (max-width:1112px) {
-    .pfgradient {
-        display: none;
     }
 }
