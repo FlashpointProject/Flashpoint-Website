@@ -29,11 +29,9 @@ a:active {
     color: #DD0428;
     text-decoration: underline;
 }
-ul,
 ol {
     margin: 2px 0 2px -20px
 }
-ul > li,
 ol > li {
     margin-bottom: 16px;
 }
@@ -42,7 +40,7 @@ ol > li {
 
 .page-container {
     /* max-width: 1600px; */
-    min-width: 816px;
+    min-width: 832px;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 0.95em;
     line-height: 1.25;
@@ -202,6 +200,84 @@ ol > li {
     text-decoration: underline;
 }
 
+.download-container {
+	display: flex;
+	flex-direction: row;
+}
+.download-container ul {
+	flex-grow: 1;
+	margin: 12px 0 6px;
+}
+.download-container li {
+	margin: 0 0 12px -24px;
+}
+.download-item {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.download-left {
+	margin-right: 12px;
+}
+.download-right {
+	margin-left: 12px;
+}
+.download-title {
+    margin-bottom: 6px;
+}
+.download-recommended {
+    display: inline-block;
+    position: relative;
+    background-color: #045EDD;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 1px 6px 2px;
+    top: -3px;
+    left: 8px;
+}
+
+.download-link {
+	display: flex;
+}
+.download-link a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.download-button {
+	flex-grow: 1;
+	flex-basis: 0;
+    background-color: #045EDD;
+	text-align: center;
+	padding: 12px 0;
+}
+.download-button:hover {
+    filter: brightness(125%);
+}
+.download-button.download-left {
+	margin-right: 4px;
+}
+.download-button.download-right {
+	margin-left: 4px;
+}
+.download-more {
+    height: 16px;
+	font-size: 0.85em;
+	text-align: center;
+	margin-top: 8px;
+}
+.download-more div {
+    display: inline-block;
+}
+
+.manual-container {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 24px;
+}
+
 /* Branding page */
 
 .wallpaper-container {
@@ -254,9 +330,9 @@ ol > li {
     }
 }
 
-/* Classes changed when width is less than 1280 pixels */
+/* Classes changed when width is less than 1376 pixels */
 
-@media (max-width:1279px) {
+@media (max-width:1375px) {
     .home-media {
         float: none;
         text-align: center;
@@ -268,5 +344,15 @@ ol > li {
     }
     .home-download img {
         width: 480px;
+    }
+    .download-container {
+        flex-direction: column;
+        margin: 16px 0;
+    }
+    .download-item.download-left {
+        margin: 0;
+    }
+    .download-item.download-right {
+        margin: 16px 0 0;
     }
 }
