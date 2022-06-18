@@ -40,7 +40,7 @@ ol > li {
 
 .page-container {
     /* max-width: 1600px; */
-    min-width: 832px;
+    min-width: 816px;
     min-height: max(943px, 100vh);
     font-family: Verdana, Geneva, sans-serif;
     font-size: 0.95em;
@@ -335,9 +335,9 @@ ol > li {
     }
 }
 
-/* Classes changed when width is less than 1376 pixels */
+/* Classes changed when width is less than 1280 pixels */
 
-@media (max-width:1375px) {
+@media (max-width:1279px) {
     .left,
     .right {
         float: none;
@@ -355,16 +355,6 @@ ol > li {
     }
     .home-download img {
         width: 480px;
-    }
-    .download-container {
-        flex-direction: column;
-        margin: 16px 0;
-    }
-    .download-item.download-left {
-        margin: 0;
-    }
-    .download-item.download-right {
-        margin: 16px 0 0;
     }
 }
 
