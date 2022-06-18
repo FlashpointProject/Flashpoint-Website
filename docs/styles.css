@@ -41,6 +41,7 @@ ol > li {
 .page-container {
     /* max-width: 1600px; */
     min-width: 832px;
+    min-height: max(943px, 100vh);
     font-family: Verdana, Geneva, sans-serif;
     font-size: 0.95em;
     line-height: 1.25;
@@ -59,6 +60,10 @@ ol > li {
     left: 284px;
     top: 34px;
     float: left;
+}
+.header-mosaic {
+    float: right;
+    margin: 0;
 }
 
 /* Sidebar */
@@ -173,8 +178,8 @@ ol > li {
 
 .avast-container {
     display: table;
-    background-color: #DD0428;
-    color: white;
+    background-color: #000;
+    color: #FFF;
     font-weight: bold;
     border-radius: 8px;
     margin: 20px 0 12px;
@@ -333,6 +338,12 @@ ol > li {
 /* Classes changed when width is less than 1376 pixels */
 
 @media (max-width:1375px) {
+    .left,
+    .right {
+        float: none;
+        text-align: center;
+        margin-bottom: 16px;
+    }
     .home-media {
         float: none;
         text-align: center;
@@ -354,5 +365,12 @@ ol > li {
     }
     .download-item.download-right {
         margin: 16px 0 0;
+    }
+}
+
+/* Hide mosaic when width is less than 1100 pixels */
+@media (max-width:1151px) {
+    .header-mosaic {
+        display: none;
     }
 }
