@@ -4,11 +4,28 @@
         <title>BlueMaxima's Flashpoint</title>
         <link rel="icon" href="favicon.svg">
         <link rel="stylesheet" href="styles.css">
-        <script type="application/javascript" src="/i18nextify.min.js"></script>
+        <script type="text/javascript">
+            var _jipt = [];
+            _jipt.push(['preload_texts', true]);
+            _jipt.push(['project', 'flashpoint-launcher']);
+        </script>
         <script>
-        window.i18nextify.init({
-            fallbackLng: 'en'
-        });
+        (function() { // Scoping function to avoid globals
+            const params = new URLSearchParams(window.location.search);
+            if (params.get('translate')) {
+                document.write('<script type="text\/javascript" src="\/\/cdn.crowdin.com\/jipt\/jipt.js"><\/script>');
+            }
+        })();
+        </script>
+        <script type="text/javascript" src="/i18nextify.min.js"></script>
+        <script>
+            var i18opts = {
+                fallbackLng: 'en'
+            }
+            if ((new URLSearchParams(window.location.search)).get('translate')) {
+                i18opts.lng = 'ach';
+            }
+            window.i18nextify.init(i18opts);
         </script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="Content-Language" content="en">
