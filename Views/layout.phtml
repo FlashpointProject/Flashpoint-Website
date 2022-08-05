@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="/" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Language" content="en">
+        <meta name="viewport" content="width=device-width" />
+
+        <title><?= ${basename(__FILE__, '.phtml').'_title'} ?></title>
+        <meta name="description" content="<?= ${basename(__FILE__, '.phtml').'_description'} ?>">
+        <meta name="keywords" content="<?= ${basename(__FILE__, '.phtml').'_keywords'} ?>">
+        <meta name="author" content="BlueMaxima">
+
+        <!-- Stylesheets -->
+        <?php foreach (self::$cssFiles as $cssFile) : ?>
+            <link rel="stylesheet" type="text/css" href="css/<?= $cssFile ?>.css">
+        <?php endforeach ?>
+        <style>
+            .content br {
+                margin-bottom: 24px;
+            }
+        </style>
+        <link rel="icon" href="images/favicon.svg">
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="header">
+                <div class="sidebar">
+                    <a href="" title="Home"><img src="images/logo.svg"></a>
+                    <div class="sidebar-links">
+                        <a href=""><div>Home<span>◀&#xFE0E;</span></div></a>
+                        <a href="/news"><div>News<span>◀&#xFE0E;</span></div></a>
+                        <a href="/faq"><div>FAQ<span>◀&#xFE0E;</span></div></a>
+                        <a href="/platforms"><div>Platforms<span>◀&#xFE0E;</span></div></a>
+                        <a href="/downloads"><div>Downloads<span>◀&#xFE0E;</span></div></a>
+                        <a href="/branding"><div>Branding<span>◀&#xFE0E;</span></div></a>
+                        <a href="/contact"><div>Contact<span>◀&#xFE0E;</span></div></a>
+                        <br>
+                        <a href="https://flashpointproject.github.io/manual/"><div>Manual<span>◀&#xFE0E;</span></div></a>
+                        <a href="/datahub"><div>Wiki<span>◀&#xFE0E;</span></div></a>
+                        <a href="https://github.com/FlashpointProject/"><div>GitHub<span>◀&#xFE0E;</span></div></a>
+                        <a href="/discord"><div>Discord<span>◀&#xFE0E;</span></div></a>
+                        <a href="https://twitter.com/fp_archive"><div>Twitter<span>◀&#xFE0E;</span></div></a>
+                        <br>
+                        <a href="/"><div>BlueMaxima.org<span>◀&#xFE0E;</span></div></a>
+                    </div>
+                    <img src="images/pixels.svg">
+                </div>
+                <div class="header-wordmark">
+                    <a href="" title="Home"><img src="images/textlogo.svg"></a>
+                </div>
+                <div class="header-mosaic">
+                    <img src="images/mosaic.png">
+                </div>
+            </div>
+            <div class="content">
+                <?php require $this->getNextView(); ?>
+            </div>
+        </div>
+        <!-- JavaScript -->
+        <?php foreach (self::$jsFiles as $jsFile) : ?>
+            <script type="text/javascript" src="js/<?= $jsFile ?>.js"></script>
+        <?php endforeach ?>
+    </body>
+</html>
