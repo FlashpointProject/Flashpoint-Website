@@ -1,0 +1,18 @@
+.page-container {
+    min-width: 832px;
+}
+.content br {
+    margin-bottom: 6px;
+}
+@media (max-width:1375px) {
+    .download-container {
+        flex-direction: column;
+        margin: 16px 0;
+    }
+    .download-item.download-left {
+        margin: 0;
+    }
+    .download-item.download-right {
+        margin: 16px 0 0;
+    }
+}
