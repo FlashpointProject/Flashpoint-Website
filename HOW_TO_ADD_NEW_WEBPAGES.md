@@ -19,9 +19,11 @@ Example:
 credits=Credits
 ```
 This will cause the Credits controller to respond requests on `https://bluemaxima.org/flashpoint/credits`.
+
 3. Open the `Controllers` directory and create a new file with the name you used in the `routes.ini` file, in our case,
 `Credits.php`.
 4. Inside the empty file, paste the following text:
+
 ```php
 <?php
 
