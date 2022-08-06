@@ -1,8 +1,11 @@
 {
+  "About_Welcome": "Vítejte",
   "About_Title": "BlueMaxima Flashpoint je projekt na uchování webových her.",
   "About_Para1": "Historie a kultura internetu je důležitá a obsah vyrobený pro webové platformy, jako například Adobe Flash tvoří významnou část této kultury. Tento projekt je zaměřen na uchování co největšího množství zážitků z těchto platforem, aby nebyly ztraceny v historii. Od začátku roku 2018 Flashpoint archivoval více než 100 000 her a 10 000 animací běžících na 35 různých platformách.",
   "About_Para2": "Flashpoint odstartoval v lednu roku 2018, kdy BlueMaxima chtěl předejít mizení výtvorů před ukončením podpory platformy Flash. Od té doby se Flashpoint vyvinul v mezinárodní projekt zahrnující přes 100 komunitních přispěvatelů a uchovávající jak webové hry, tak i animace vytvořené pro mnoho internetových pluginů, frameworků a standardů.",
   "About_Para3": "Flashpoint využívá velké množství open-source softwaru. Zkombinováním schopností Apache, našeho vlastního spouštěče a naší vlastní aplikace nazývané Flashpoint Secure Player můžeme spouštět média založená na webových technologiích rychle, v uživatelsky přívětivém prostředí a bez zanechávání permanentních změn nebo bezpečnostních děr ve vašem počítači.",
   "About_Para4": "Nabízíme dvě verze našeho softwaru: Verzi Ultimate, která obsahuje všechny média ve formátu pro offline využití. Druhou možností je verze Infinity, což je mnohem menší balíček, který umožňuje stahování obsahu z našich serverů, podle toho, která média chcete využívat. Ani jedna z těchto verzí není ovlivněna ukončením podpory platformy Flash, nebo jiných pluginů.",
-  "About_Para5": "Tento projekt je a vždy bude kompletně neziskový, abychom zachovali ducha komunity a sdílení, který provázel platformu Flash a jí podobné. Chcete-li se dozvědět o Flashpointu více, projděte si jednotlivé záložky na levé postranní liště."
+  "About_Para5": "Tento projekt je a vždy bude kompletně neziskový, abychom zachovali ducha komunity a sdílení, který provázel platformu Flash a jí podobné. Chcete-li se dozvědět o Flashpointu více, projděte si jednotlivé záložky na levé postranní liště.",
+  "Search_Collection": "Prohledat knihovnu",
+  "Request_Archival": "Zažádat o archivaci obsahu"
 }
