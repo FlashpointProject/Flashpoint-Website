@@ -4,6 +4,8 @@
 namespace Flashpoint\Controllers;
 
 
+use Flashpoint\Models\LanguageHandler;
+
 class Rooter extends Controller
 {
 
@@ -37,6 +39,10 @@ class Rooter extends Controller
         $controllerNameAndParams = explode('?', $controllerNameAndParams); //Get list of arguments to pass
         $controllerName = self::CONTROLLERS_NAMESPACE.'\\'.array_shift($controllerNameAndParams); //The first argument is the controller name
         $params = $controllerNameAndParams; //Just rename the variable
+
+        //Handle the language selection
+        $languageHandler = new LanguageHandler();
+        $languageCode = $languageHandler->loadLanguage($_SERVER['HTTP_ACCEPT_LANGUAGE']);
 
         $controller = new $controllerName(); //Get the next controller (usually the last)
         return $controller->process($params); //Pass control to the next controller
