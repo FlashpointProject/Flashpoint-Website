@@ -91,8 +91,13 @@ class LanguageHandler
         //Step 2: get rid of the useless junk
         $languages = array();
         foreach ($languageOptions as $languageOption) {
-            //Get the first two characters
-            $languages[] = substr($languageOption, 0, 2);
+            //Get the first two characters ("en")
+            $lang = substr($languageOption, 0, 2);
+            //If the 3rd character is a dash, get the next three characters ("en-US")
+            if (strlen($languageOption) > 2 && $languageOption[2] === '-') {
+                $lang .= substr($languageOption, 2, 3);
+            }
+            $languages[] = $lang;
         }
 
         return $languages;

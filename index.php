@@ -1,9 +1,8 @@
 <?php
 
-namespace Flashpoint;
-
 use Flashpoint\Controllers\Error404;
 use Flashpoint\Controllers\Rooter;
+use Flashpoint\Models\Translator;
 
 //Define and set autoloader for custom classes
 function autoloader(string $name): void
@@ -18,7 +17,7 @@ function autoloader(string $name): void
     require $name;
 }
 
-spl_autoload_register('Flashpoint\autoloader');
+spl_autoload_register('autoloader');
 
 //Set character encoding
 mb_internal_encoding('UTF-8');
@@ -32,6 +31,11 @@ if ($result !== true) {
     //Display the error webpage, overwrite the page headers (title, description, keywords)
     $errorController = new Error404();
     $errorController->process(array());
+}
+
+//Function for inserting translations into views
+function t(string $key) {
+    return Translator::translate($key);
 }
 
 //Display the generated website
