@@ -17,6 +17,7 @@ class News extends Controller
         self::$data['layout_keywords'] = 'Flash, Shockwave, HTML5, Unity, Webgame Preservation, Flash Game Archive, BlueMaxima, DarkMoe';
 
         self::$views[] = 'news';
+        self::$dictionaries[] = 'news';
         self::$cssFiles[] = 'news';
         return true;
     }

@@ -17,6 +17,7 @@ class Home extends Controller
         self::$data['layout_keywords'] = 'Flash, Shockwave, HTML5, Unity, Webgame Preservation, Flash Game Archive, BlueMaxima, DarkMoe';
 
         self::$views[] = 'home';
+        self::$dictionaries[] = 'home';
         self::$cssFiles[] = 'home';
         return true;
     }

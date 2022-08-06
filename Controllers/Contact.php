@@ -17,6 +17,7 @@ class Contact extends Controller
         self::$data['layout_keywords'] = 'Flash, Shockwave, HTML5, Unity, Webgame Preservation, Flash Game Archive, BlueMaxima, DarkMoe';
 
         self::$views[] = 'contact';
+        self::$dictionaries[] = 'contact';
         self::$cssFiles[] = 'contact';
         return true;
     }

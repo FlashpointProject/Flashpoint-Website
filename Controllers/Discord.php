@@ -17,6 +17,7 @@ class Discord extends Controller
         self::$data['layout_keywords'] = 'Flash, Shockwave, HTML5, Unity, Webgame Preservation, Flash Game Archive, BlueMaxima, DarkMoe';
 
         self::$views[] = 'discord';
+        self::$dictionaries[] = 'discord';
         self::$cssFiles[] = 'discord';
         return true;
     }

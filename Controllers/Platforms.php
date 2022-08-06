@@ -17,6 +17,7 @@ class Platforms extends Controller
         self::$data['layout_keywords'] = 'Flash, Shockwave, HTML5, Unity, Webgame Preservation, Flash Game Archive, BlueMaxima, DarkMoe';
 
         self::$views[] = 'platforms';
+        self::$dictionaries[] = 'platforms';
         self::$cssFiles[] = 'platforms';
         return true;
     }

@@ -1,3 +1,5 @@
 files:
-  - source: /locales/en/translation.json
-    translation: /locales/%locale%/translation.json
+  - source: /locales/en/layout.json
+    translation: /locales/%locale%/layout.json
+  - source: /locales/en/home.json
+    translation: /locales/%locale%/home.json

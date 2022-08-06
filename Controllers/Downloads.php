@@ -17,6 +17,7 @@ class Downloads extends Controller
         self::$data['layout_keywords'] = 'Flash, Shockwave, HTML5, Unity, Webgame Preservation, Flash Game Archive, BlueMaxima, DarkMoe';
 
         self::$views[] = 'downloads';
+        self::$dictionaries[] = 'downloads';
         self::$cssFiles[] = 'downloads';
         return true;
     }

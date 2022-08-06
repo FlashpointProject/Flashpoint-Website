@@ -44,10 +44,15 @@ class Rooter extends Controller
         //Handle the language selection
         $languageHandler = new LanguageHandler();
         $languageCode = $languageHandler->loadLanguage($_SERVER['HTTP_ACCEPT_LANGUAGE']);
-        Translator::loadDictionary($languageCode);
 
+        //Process the request
         $controller = new $controllerName(); //Get the next controller (usually the last)
-        return $controller->process($params); //Pass control to the next controller
+        $result = $controller->process($params); //Pass control to the next controller
+
+        //Load the translations
+        Translator::loadDictionaries($languageCode, Controller::$dictionaries);
+
+        return $result;
     }
 
     /**

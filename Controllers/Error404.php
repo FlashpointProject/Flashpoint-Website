@@ -19,6 +19,7 @@ class Error404 extends Controller
         self::$data['layout_keywords'] = '';
         
         self::$views[] = 'error404';
+        self::$dictionaries[] = 'error404';
         return true;
     }
 }
