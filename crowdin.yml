@@ -13,3 +13,9 @@ files:
     translation: /locales/%locale%/downloads.json
   - source: /locales/en/error404.json
     translation: /locales/%locale%/error404.json
+  - source: /locales/en/faq.json
+    translation: /locales/%locale%/faq.json
+  - source: /locales/en/news.json
+    translation: /locales/%locale%/news.json
+  - source: /locales/en/platforms.json
+    translation: /locales/%locale%/platforms.json
