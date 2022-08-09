@@ -1,21 +1,3 @@
 files:
-  - source: /locales/en/layout.json
-    translation: /locales/%locale%/layout.json
-  - source: /locales/en/home.json
-    translation: /locales/%locale%/home.json
-  - source: /locales/en/branding.json
-    translation: /locales/%locale%/branding.json
-  - source: /locales/en/contact.json
-    translation: /locales/%locale%/contact.json
-  - source: /locales/en/discord.json
-    translation: /locales/%locale%/discord.json
-  - source: /locales/en/downloads.json
-    translation: /locales/%locale%/downloads.json
-  - source: /locales/en/error404.json
-    translation: /locales/%locale%/error404.json
-  - source: /locales/en/faq.json
-    translation: /locales/%locale%/faq.json
-  - source: /locales/en/news.json
-    translation: /locales/%locale%/news.json
-  - source: /locales/en/platforms.json
-    translation: /locales/%locale%/platforms.json
+  - source: /locales/en/*.json
+    translation: /locales/%locale%/%original_file_name%
