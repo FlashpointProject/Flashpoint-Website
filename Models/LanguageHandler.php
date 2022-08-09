@@ -46,6 +46,11 @@ class LanguageHandler
                     $this->setLanguageCookie($languageCode);
                     return $languageCode;
                 }
+                else if (in_array(substr($languageCode, 0, 2), self::AVAILABLE_LANGUAGES)) {
+                    $languageCode = substr($languageCode, 0, 2);
+                    $this->setLanguageCookie($languageCode);
+                    return $languageCode;
+                }
             }
         }
 
