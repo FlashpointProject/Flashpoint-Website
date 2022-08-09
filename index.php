@@ -34,8 +34,8 @@ if ($result !== true) {
 }
 
 //Function for inserting translations into views
-function t(string $key) {
-    return Translator::translate($key);
+function t(string $key, string ...$formatTags) {
+    return Translator::translate($key, ...$formatTags);
 }
 
 //Display the generated website
