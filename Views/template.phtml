@@ -1,2 +1,27 @@
-<span class="title">Title</span>
+<span class="title">Template webpage</span>
 <hr class="title-divider">
+<p>
+    This text won't have language variants. If you want a text to be translatable, you need to write it in this way:
+</p>
+<p>
+    <?= t('Template_Testing_Paragraph') ?>
+</p>
+<p>
+    If you want to add some formatting to the translated strings, you need to do it this way:
+</p>
+<p>
+    <?=
+        t('Template_Formatted_Testing_Paragraph',
+        '<b>',
+        '<i>',
+        '<span style="text-decoration: underline;">',
+        '<a href="http://bluemaxima.org">',
+        '<b><i><span style="text-decoration: underline"><a href="http://bluemaxima.org">')
+    ?>
+</p>
+<p>
+    All the strings to be translated must be specified in the "en" locale file located in <code>locales/en/[PAGE NAME].json</code>.
+</p>
+<p>
+    If you need more information on how does the translation system works, contact <b style="color:#6495ed;">Shady#2948</b> on Discord.
+</p>
