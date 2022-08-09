@@ -44,6 +44,7 @@ class [CONTROLLER NAME] extends Controller
         self::$data['layout_keywords'] = '[WEBPAGE KEYWORDS]';
 
         self::$views[] = '[VIEW NAME]';
+        self::$dictionaries[] = '[DICTIONARY NAME]';
         self::$cssFiles[] = '[CSS FILE NAME]';
         return true;
     }
@@ -56,14 +57,24 @@ effect on the system.
 7. On lines 15, 16 and 17, you can change the webpage's title, description and keywords. These values will eventually be
 used in the corresponding HTML `<title>` and `<meta>` tags.
 8. On line 19, you need to replace `[VIEW NAME]` with the name of a new view. You'd probably use `credits` in our
-scenario.
-9. On line 20, you can specify name of an additional CSS file that will be applied to the new webpage. This step isn't
+scenario. Fill in the same text in the next line in the place of `[DICTIONARY NAME]`.
+9. On line 21, you can specify name of an additional CSS file that will be applied to the new webpage. This step isn't
 necessary, as all webpages will have the `styles.css` file applied to them by default. If you don't with to add a CSS
 file just for this one webpage, delete this line. DON'T WRITE CSS INTO `<style>` TAGS IN THE VIEWS PLEASE.
 10. There's also a way to set JavaScript files similar way, let me know if you need to use JavaScript in the future.
 11. You can now close the controller file.
-12. Move to the `Views` directory and create a new file here, with the same name as you chose in step 7, in our case,
-`credits.phtml`. You can also copy-paste the present `template.phtml` file.
+12. Move to the `Views` directory and create a new file here, with the same name as you chose in step 8, in our case,
+`credits.phtml`. You can also copy-paste the present `template.phtml` file. At the same time, go to the `locales/en/`
+directory and create a new file here named the same way as the `.phtml` file, just with the `.json` extension instead.
+This will be the file used for translatable strings. This file needs to be in the following format:
+```json
+{
+  "WebpageName_StringId": "String to translate", // <-- example
+  "Credits_Title": "Credits",
+  //...
+  "Credits_Everyone_Else": "And thank you everyone else, who isn't mentioned on this webpage."
+}
+```
 13. You can start writing HTML code into this file. Open other view files in the same folder to see where to start. The
 content of this file will be inserted into the HTML found in the `layout.phtml` file, so don't write tags like `<html>`,
 `<head>` or `<body>`.
