@@ -2,12 +2,12 @@
 <html>
     <head>
         <title><?= ${basename(__FILE__, '.phtml').'_title'} ?></title>
+        <base href="/" />
         <link rel="icon" href="images/favicon.svg">
         <?php foreach (self::$cssFiles as $cssFile) : ?>
             <link rel="stylesheet" type="text/css" href="css/<?= $cssFile ?>.css">
         <?php endforeach ?>
-        
-        <base href="/" />
+
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="Content-Language" content="en">
         <meta name="viewport" content="width=device-width" />
