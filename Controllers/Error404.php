@@ -1,12 +1,9 @@
 <?php
 
-
 namespace Flashpoint\Controllers;
-
 
 class Error404 extends Controller
 {
-    
     /**
      * Method setting the view and headers for the error page
      * @param array $args Leave this array empty - no data are used
@@ -23,4 +20,3 @@ class Error404 extends Controller
         return true;
     }
 }
-

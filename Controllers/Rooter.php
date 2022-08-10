@@ -1,15 +1,12 @@
 <?php
 
-
 namespace Flashpoint\Controllers;
-
 
 use Flashpoint\Models\LanguageHandler;
 use Flashpoint\Models\Translator;
 
 class Rooter extends Controller
 {
-
     private const CONTROLLERS_NAMESPACE = 'Flashpoint\\Controllers';
     private const VIEWS_FOLDER = 'Views';
 
@@ -80,4 +77,3 @@ class Rooter extends Controller
         return self::VIEWS_FOLDER.'/'.array_shift(self::$views).'.phtml';
     }
 }
-

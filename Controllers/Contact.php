@@ -4,7 +4,6 @@ namespace Flashpoint\Controllers;
 
 class Contact extends Controller
 {
-
     /**
      * Method setting the view and headers for the contact page
      * @param array $args Leave this array empty - no data are used

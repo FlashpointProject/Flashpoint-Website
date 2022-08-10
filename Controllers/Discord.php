@@ -4,7 +4,6 @@ namespace Flashpoint\Controllers;
 
 class Discord extends Controller
 {
-
     /**
      * Method setting the view and headers for the Discord page
      * @param array $args Leave this array empty - no data are used

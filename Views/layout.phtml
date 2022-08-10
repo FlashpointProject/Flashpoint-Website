@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title><?= ${basename(__FILE__, '.phtml').'_title'} ?></title>
+        <link rel="icon" href="images/favicon.svg">
+        <?php foreach (self::$cssFiles as $cssFile) : ?>
+            <link rel="stylesheet" type="text/css" href="css/<?= $cssFile ?>.css">
+        <?php endforeach ?>
+        
         <base href="/" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="Content-Language" content="en">
         <meta name="viewport" content="width=device-width" />
-
-        <title><?= ${basename(__FILE__, '.phtml').'_title'} ?></title>
         <meta name="description" content="<?= ${basename(__FILE__, '.phtml').'_description'} ?>">
         <meta name="keywords" content="<?= ${basename(__FILE__, '.phtml').'_keywords'} ?>">
         <meta name="author" content="BlueMaxima">
-
-        <!-- Stylesheets -->
-        <?php foreach (self::$cssFiles as $cssFile) : ?>
-            <link rel="stylesheet" type="text/css" href="css/<?= $cssFile ?>.css">
-        <?php endforeach ?>
-        <link rel="icon" href="images/favicon.svg">
     </head>
     <body>
         <div class="page-container">
-            <div style="position:absolute; top:0; z-index: 10;">
-                <!-- TODO: Style this and move it to a proper place -->
-                <a href="<?= $url ?>?lang=en"><button>Switch to English</button></a>
-                <a href="<?= $url ?>?lang=cs"><button>Switch to Czech</button></a>
-            </div>
             <div class="header">
                 <div class="sidebar">
                     <a href="" title="Home"><img src="images/logo.svg"></a>
@@ -57,9 +50,5 @@
                 <?php require $this->getNextView(); ?>
             </div>
         </div>
-        <!-- JavaScript -->
-        <?php foreach (self::$jsFiles as $jsFile) : ?>
-            <script type="text/javascript" src="js/<?= $jsFile ?>.js"></script>
-        <?php endforeach ?>
     </body>
 </html>
