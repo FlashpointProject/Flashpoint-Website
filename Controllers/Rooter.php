@@ -19,6 +19,7 @@ class Rooter extends Controller
     {
         $url = $args[0];
         $url = strtok($url, '?'); //Remove the query string
+        $url = preg_replace('/\/flashpoint\//', '', $url);
         $url = trim($url, ' /'); //Remove the slashes and whitespace
         self::$data['url'] = $url; //Save current url for same-webpage links in the layout view
         $urlArguments = explode('/', $url); //Split the arguments

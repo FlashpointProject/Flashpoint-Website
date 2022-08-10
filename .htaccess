@@ -3,7 +3,7 @@ Options -Indexes
 RewriteEngine On
 
 # In case of redirection problems, uncommenting the following line might help
-# RewriteBase /
+# RewriteBase /flashpoint/
 
 # In case it's necessary to allow direct access to all files besides those with extensions listed bellow, uncomment the next two lines
 # RewriteCond %{REQUEST_FILENAME} !-f
