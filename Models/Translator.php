@@ -7,7 +7,7 @@ class Translator
 {
 
     private const TRANSLATION_FILE_PATH = 'locales/{locale}.json';
-    public static array $dictionary = array();
+    private static array $dictionary = array();
 
     /**
      * Method loading all required translations into a static variable
