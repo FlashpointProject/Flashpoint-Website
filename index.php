@@ -29,8 +29,7 @@ $rooter = new Rooter();
 $result = $rooter->process(array($requestedUrl));
 if ($result !== true) {
     //Display the error webpage, overwrite the page headers (title, description, keywords)
-    $errorController = new Error404();
-    $errorController->process(array());
+    $rooter->process(array('err404'));
 }
 
 //Function for inserting translations into views
