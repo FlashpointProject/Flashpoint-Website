@@ -84,25 +84,50 @@ ol > li {
     font-weight: bold;
     background-color: #DD0428;
 }
-.sidebar-links div {
+.sidebar-links > a div {
     height: 22px;
     padding: 4px 10px;
     transition: padding-right .2s;
 }
-.sidebar-links div:hover {
+.sidebar-links > a div:hover {
     background-color: #E85971;
     padding-right: 20px;
 }
-.sidebar-links span {
+.sidebar-links > a span {
     font-size: 15px;
     float: right;
 }
-.sidebar-links a {
+.sidebar-links > a {
     color: white;
     text-decoration: none;
 }
-.sidebar-links br {
+.sidebar-links > br {
     margin-bottom: 16px !important;
+}
+
+/* Language select */
+
+.sidebar-links > a:first-child:hover ~ .language-select,
+.language-select:hover {
+    display: inline-block;
+}
+.sidebar > .sidebar-links > a:first-child div {
+    padding-right: 8px !important;
+}
+.language-select {
+    display: none;
+    position: absolute;
+    left: 256px;
+    top: 248px;
+    width: auto;
+    height: auto;
+    max-height: 420px;
+    overflow: auto;
+    padding: 8px 0;
+}
+.language-select > a div {
+    padding-right: 28px !important;
+    white-space: nowrap;
 }
 
 /* Common classes */
