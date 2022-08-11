@@ -10,11 +10,9 @@ class LanguageHandler
 {
 
     private const DEFAULT_LANGUAGE = 'en';
-    private const AVAILABLE_LANGUAGES = array(
-        'cs',
-        'de',
-        'en',
-        'fr',
+    public const AVAILABLE_LANGUAGES = array(
+        'cs' => 'Čeština',
+        'en' => 'English',
     ); //Temporary value, replace it with the list of all languages later
 
     /**
@@ -27,8 +25,8 @@ class LanguageHandler
      */
     public function loadLanguage(?string $headerLanguage = null): string
     {
-        //Is the language specified in the query string (highest priority)?
-        if (isset($_GET['lang']) && in_array($_GET['lang'], self::AVAILABLE_LANGUAGES)) {
+        //Is the language specified in the query string (the highest priority)?
+        if (isset($_GET['lang']) && in_array($_GET['lang'], array_keys(self::AVAILABLE_LANGUAGES))) {
             $this->setLanguageCookie($_GET['lang']);
             return $_GET['lang'];
         }
@@ -42,11 +40,11 @@ class LanguageHandler
         if (empty($this->readLanguageCookie()) && !empty($headerLanguage)) {
             $languagesArr = $this->parseLanguageHeader($headerLanguage);
             foreach ($languagesArr as $languageCode) {
-                if (in_array($languageCode, self::AVAILABLE_LANGUAGES)) {
+                if (in_array($languageCode, array_keys(self::AVAILABLE_LANGUAGES))) {
                     $this->setLanguageCookie($languageCode);
                     return $languageCode;
                 }
-                else if (in_array(substr($languageCode, 0, 2), self::AVAILABLE_LANGUAGES)) {
+                else if (in_array(substr($languageCode, 0, 2), array_keys(self::AVAILABLE_LANGUAGES))) {
                     $languageCode = substr($languageCode, 0, 2);
                     $this->setLanguageCookie($languageCode);
                     return $languageCode;
@@ -66,7 +64,7 @@ class LanguageHandler
      */
     private function setLanguageCookie(string $languageCode): bool
     {
-        return setcookie('lang', $languageCode, time() + 60 * 60 * 24 * 365, '', '', false, true);
+        return setcookie('lang', $languageCode, time() + 60 * 60 * 24 * 365, '', '', false, true); //Cookie expires in 1 year
     }
 
     /**

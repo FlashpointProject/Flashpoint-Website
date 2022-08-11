@@ -43,6 +43,10 @@ class Rooter extends Controller
         $languageHandler = new LanguageHandler();
         $languageCode = $languageHandler->loadLanguage($_SERVER['HTTP_ACCEPT_LANGUAGE']);
 
+        //Data for the layout view
+        self::$data['selectedLanguage'] = LanguageHandler::AVAILABLE_LANGUAGES[$languageCode];
+        self::$data['availableLanguages'] = LanguageHandler::AVAILABLE_LANGUAGES;
+
         //Process the request
         $controller = new $controllerName(); //Get the next controller (usually the last)
         $result = $controller->process($params); //Pass control to the next controller

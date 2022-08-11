@@ -21,12 +21,13 @@
                 <div class="sidebar">
                     <a href="" title="Home"><img src="images/logo.svg"></a>
                     <div class="sidebar-links">
-                        <a><div>English<span>▶&#xFE0E;</span></div></a>
+                        <a><div>
+                                <?= $selectedLanguage ?><span>▶&#xFE0E;</span>
+                        </div></a>
                         <div class="language-select sidebar-links">
-                            <a href="currentpage?lang=cs"><div>PLACEHOLDER 1</div></a>
-                            <a href="currentpage?lang=de"><div>PLACEHOLDER 2</div></a>
-                            <a href="currentpage?lang=en"><div>PLACEHOLDER 3</div></a>
-                            <a href="currentpage?lang=fr"><div>PLACEHOLDER 4</div></a>
+                            <?php foreach ($availableLanguages as $code => $name) : ?>
+                                <a href="<?= $url ?>?lang=<?= $code ?>"><div><?= $name ?></div></a>
+                            <?php endforeach ?>
                         </div>
                         <br>
                         <a href="./"><div><?= t('Home') ?><span>◀&#xFE0E;</span></div></a>
