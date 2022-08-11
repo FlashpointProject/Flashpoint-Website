@@ -20,7 +20,6 @@ class Rooter extends Controller
         $url = $args[0];
         $url = strtok($url, '?'); //Remove the query string
         $url = preg_replace('/^\/flashpoint\//', '', $url); //Remove containing directory from string
-        self::$data['url'] = $url; //Save current url for same-webpage links in the layout view
         $urlArguments = explode('/', $url); //Split the arguments
 
         $firstArgument = array_shift($urlArguments); //Get the first argument
@@ -44,6 +43,7 @@ class Rooter extends Controller
         $languageCode = $languageHandler->loadLanguage($_SERVER['HTTP_ACCEPT_LANGUAGE']);
 
         //Data for the layout view
+        self::$data['url'] = $url; //URL for same-webpage links
         self::$data['selectedLanguage'] = LanguageHandler::AVAILABLE_LANGUAGES[$languageCode];
         self::$data['availableLanguages'] = LanguageHandler::AVAILABLE_LANGUAGES;
 

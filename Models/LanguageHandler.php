@@ -64,7 +64,7 @@ class LanguageHandler
      */
     private function setLanguageCookie(string $languageCode): bool
     {
-        return setcookie('lang', $languageCode, time() + 60 * 60 * 24 * 365, '', '', false, true); //Cookie expires in 1 year
+        return setcookie('lang', $languageCode, time() + 60 * 60 * 24 * 365, '/flashpoint', '', false, true); //Cookie expires in 1 year
     }
 
     /**
