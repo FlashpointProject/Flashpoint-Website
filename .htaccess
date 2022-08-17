@@ -9,9 +9,8 @@ RewriteEngine On
 # RewriteCond %{REQUEST_FILENAME} !-f
 # RewriteCond %{REQUEST_FILENAME} !-d
 
-# Allow dirrect access to browser configuration files
-RewriteCond %{REQUEST_URI} !^/browserconfig\.xml$
-RewriteCond %{REQUEST_URI} !^/site\.webmanifest$
+# Allow direct access to datahub documents
+RewriteCond %{REQUEST_URI} !^/flashpoint/datahub
 
 # Allow direct access to files with certain extensions, redirect everything else to index.php
 RewriteRule !\.(txt|xml|ico|svg|gif|png|jpg|7z|zip|css|js\.gz)$ index.php [L]
