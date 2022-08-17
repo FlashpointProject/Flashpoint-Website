@@ -1,0 +1,392 @@
+/* General */
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#FFF 156px, #FFE0E4 156px, #FFE0E4);
+    margin: 0px;
+}
+br {
+    display: block;
+    content: "";
+}
+hr {
+    border: 1px solid #EFCCD1;
+    margin: 4px 0 16px;
+}
+a:link {
+    color: #045EDD;
+    text-decoration: none;
+    outline: 0;
+}
+a:visited {
+    color: #ED687E;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: #DD0428;
+    text-decoration: underline;
+}
+ol {
+    margin: 2px 0 2px -20px
+}
+ol > li {
+    margin-bottom: 16px;
+}
+
+/* Page */
+
+.page-container {
+    /* max-width: 1600px; */
+    min-width: 816px;
+    min-height: max(943px, 100vh);
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.95em;
+    line-height: 1.25;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    height: 156px;
+}
+.header-wordmark {
+    display: inline-block;
+    position: relative;
+    left: 284px;
+    top: 34px;
+    float: left;
+}
+.header-mosaic {
+    float: right;
+    margin: 0;
+}
+
+/* Sidebar */
+
+.sidebar {
+    display: inline-block;
+    position: relative;
+    top: 18px;
+    left: -350px;
+}
+.sidebar img {
+    display: block;
+}
+.sidebar-links {
+    width: 256px;
+    height: 448px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #DD0428;
+}
+.sidebar-links > a div {
+    height: 22px;
+    padding: 4px 10px;
+    transition: padding-right .2s;
+}
+.sidebar-links > a div:hover {
+    background-color: #E85971;
+    padding-right: 20px;
+}
+.sidebar-links > a span {
+    font-size: 15px;
+    float: right;
+}
+.sidebar-links > a {
+    color: white;
+    text-decoration: none;
+}
+.sidebar-links > br {
+    margin-bottom: 16px !important;
+}
+
+/* Language select */
+
+.sidebar-links > a:first-child:hover ~ .language-select,
+.language-select:hover {
+    display: inline-block;
+}
+.sidebar > .sidebar-links > a:first-child div {
+    padding-right: 8px !important;
+    cursor: default;
+}
+.language-select {
+    display: none;
+    position: absolute;
+    left: 256px;
+    top: 248px;
+    width: auto;
+    height: auto;
+    max-height: 420px;
+    overflow: auto;
+    padding: 8px 0;
+}
+.language-select > a div {
+    padding-right: 28px !important;
+    white-space: nowrap;
+}
+
+/* Common classes */
+
+.content {
+    margin: 16px 28px 0 308px;
+    padding-bottom: 24px;
+}
+.content img {
+    display: initial;
+}
+.title {
+    font-size: 2em;
+    font-weight: bold;
+}
+.title-divider {
+    border: 1px solid #E2BAC0;
+}
+.title-small {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: -4px;
+}
+.border {
+    border: 2px solid #EFCCD1;
+    margin: 16px 0;
+    padding: 16px 20px 20px;
+}
+.left {
+    float: left;
+    margin-right: 16px;
+}
+.right {
+    float: right;
+    margin-left: 16px;
+}
+
+/* Homepage */
+
+.home-media * {
+    width: 400px;
+    height: 225px;
+}
+.home-download {
+    clear: both;
+    text-align: center;
+    padding-top: 24px;
+}
+.home-download br {
+    margin-bottom: 8px;
+}
+.home-download img {
+    border-radius: 12px;
+}
+.home-download img:hover {
+    animation: download-hover 30s linear infinite;
+}
+
+/* News page */
+
+.news-date {
+    float: left;
+    white-space: nowrap;
+    margin-left: -4px;
+    padding-right: 16px;
+    font-weight: bold;
+}
+.news-divider {
+    margin: 16px 0;
+}
+
+/* Downloads page */
+
+.avast-container {
+    display: table;
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 20px 0 12px;
+    padding: 20px 16px;
+}
+.avast-container div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.avast-logo img {
+    width: 64px;
+    filter: invert(100);
+    padding: 4px 20px 0 4px;
+}
+.avast-text {
+    width: 100%;
+}
+.avast-text br {
+    margin-bottom: 4px;
+}
+.avast-text a {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.download-container {
+	display: flex;
+	flex-direction: row;
+}
+.download-container ul {
+	flex-grow: 1;
+	margin: 12px 0 6px;
+}
+.download-container li {
+	margin: 0 0 12px -24px;
+}
+.download-item {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.download-left {
+	margin-right: 12px;
+}
+.download-right {
+	margin-left: 12px;
+}
+.download-title {
+    margin-bottom: 6px;
+}
+.download-recommended {
+    display: inline-block;
+    position: relative;
+    background-color: #045EDD;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 1px 6px 2px;
+    top: -3px;
+    left: 8px;
+}
+
+.download-link {
+	display: flex;
+}
+.download-link a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.download-button {
+	flex-grow: 1;
+	flex-basis: 0;
+    background-color: #045EDD;
+	text-align: center;
+	padding: 12px 0;
+}
+.download-button:hover {
+    filter: brightness(125%);
+}
+.download-button.download-left {
+	margin-right: 4px;
+}
+.download-button.download-right {
+	margin-left: 4px;
+}
+.download-more {
+    height: 16px;
+	font-size: 0.85em;
+	text-align: center;
+	margin-top: 8px;
+}
+.download-more div {
+    display: inline-block;
+}
+
+.manual-container {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Branding page */
+
+.wallpaper-container {
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+}
+.wallpaper-item {
+    margin: 0 12px;
+    display: inline-block;
+    white-space: pre-line;
+    text-align: center;
+}
+.wallpaper-download {
+    display: table;
+    margin: 4px 0 0 10px;
+    text-align: left;
+}
+.wallpaper-left,
+.wallpaper-right {
+    display: table-cell;
+    white-space: nowrap;
+    padding-right: 6px;
+}
+.wallpaper-left {
+    font-weight: bold;
+}
+.wallpaper-right a::after {
+    white-space: pre;
+    content: '\A';
+}
+
+/* Miscellaneous */
+
+.stub {
+    visibility: hidden;
+}
+.hide {
+    display: none;
+}
+
+/* Homepage download banner hover */
+
+@keyframes download-hover {
+    from {
+        filter: hue-rotate(360deg);
+    }
+    to {
+        filter: hue-rotate(0deg);
+    }
+}
+
+/* Classes changed when width is less than 1280 pixels */
+
+@media (max-width:1279px) {
+    .left,
+    .right {
+        float: none;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .home-media {
+        float: none;
+        text-align: center;
+        margin: 0 0 12px 0;
+    }
+    .home-media * {
+        width: 480px;
+        height: 270px;
+    }
+    .home-download img {
+        width: 480px;
+    }
+}
+
+/* Hide mosaic when width is less than 1100 pixels */
+@media (max-width:1151px) {
+    .header-mosaic {
+        display: none;
+    }
+}
