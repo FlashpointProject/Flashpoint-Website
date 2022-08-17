@@ -13,7 +13,7 @@ RewriteEngine On
 RewriteCond %{REQUEST_URI} !^/flashpoint/datahub
 
 # Allow direct access to files with certain extensions, redirect everything else to index.php
-RewriteRule !\.(txt|xml|ico|svg|gif|png|jpg|7z|zip|css|js\.gz)$ index.php [L]
+RewriteRule !\.(txt|xml|ico|svg|gif|png|jpg|exe|7z|zip|css|js\.gz)$ index.php [L]
 
 # Use .phtml files as .php files
 AddType application/x-httpd-php .php .phtml
