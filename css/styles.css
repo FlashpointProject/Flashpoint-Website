@@ -311,32 +311,36 @@ ol > li {
 
 /* Branding page */
 
-.wallpaper-container {
+.branding-container {
     display: table;
     text-align: center;
     margin: 0 auto;
 }
-.wallpaper-item {
+.branding-item {
     margin: 0 12px;
     display: inline-block;
     white-space: pre-line;
     text-align: center;
 }
-.wallpaper-download {
+.branding-download {
+    white-space: normal;
+    text-align: center;
+}
+.branding-downloads {
     display: table;
     margin: 4px 0 0 10px;
     text-align: left;
 }
-.wallpaper-left,
-.wallpaper-right {
+.branding-left,
+.branding-right {
     display: table-cell;
     white-space: nowrap;
     padding-right: 6px;
 }
-.wallpaper-left {
+.branding-left {
     font-weight: bold;
 }
-.wallpaper-right a::after {
+.branding-right a::after {
     white-space: pre;
     content: '\A';
 }
