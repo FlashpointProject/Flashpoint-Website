@@ -1,5 +1,5 @@
 {
-  "News_Title": "News",
+  "News_Title": "Actualités",
   "News_Description": "All notable events in Flashpoint history as of October 2019.",
   "News_Flashpoint_Started": "BlueMaxima's Flashpoint was started.",
   "News_Flashpoint_0": "Flashpoint Zero was released.",
@@ -67,5 +67,7 @@
   "News_Flashpoint_10_0": "Absence",
   "News_Flashpoint_10_0_Meta": "This is the first version to release to a post-Flash internet, hence the name 'Absence'. It also happened to be the name of the last track on the Mesarthim EP 'Vacuum Solution'.",
   "News_Flashpoint_10_1": "Absence II",
-  "News_Flashpoint_10_1_Meta": "Go on, guess."
+  "News_Flashpoint_10_1_Meta": "Go on, guess.",
+  "News_Flashpoint_11": "Oops, All Plugins!",
+  "News_Flashpoint_11_Meta": "It's a meme, because 11 added three dozen new plugins."
 }
