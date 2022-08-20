@@ -4,7 +4,7 @@
   "Downloads_Title": "Scaricamenti",
   "Downloads_Para1": "Tutti gli scaricamenti di Flashpoint sono portatili, gratuiti e {built with open-source software} (ovviamente esclusi i giochi e le piattaforme stesse). Gran parte del codice open-source è originale del progetto, lo puoi trovare nella nostra pagina GitHub {here}.",
   "Downloads_Para2": "Per vedere cosa è cambiato sin dall'inizio dei tempi, vedi {changelog}. Attenzione: è grande.",
-  "Downloads_Para3": "{Supported operating systems:} Windows 7 SP1 and up, MacOS, Linux",
+  "Downloads_Para3": "{Supported operating systems:} da Windows 7 SP1 in avanti, MacOS, Linux",
   "Downloads_Prerequisites": "{Prerequisites:} {Visual C++ 2015 Redistributable},\n{Microsoft .NET Framework 4.7}\n({7-Zip} è richiesto per estrarre Ultimate e Core)",
   "Downloads_Content_Disclaimer_Title": "DICHIARAZIONE SUI CONTENUTI:",
   "Downloads_Content_Disclaimer_Warning": "Come museo della cultura di internet, Flashpoint contiene una gamma estremamente ampia di contenuti - alcuni dei quali potrebbero essere illegali nella vostra giurisdizione. Se questo ti crea un problema, {download Flashpoint Infinity} in quanto ti dà controllo su ciò che viene memorizzato sul tuo dispositivo.",
@@ -17,7 +17,7 @@
   "Downloads_Ultimate_Line4": "Fornito come archivio .7z ({qBittorrent} e {Free Download Manager} sono consigliati rispettivamente per il torrent e il download diretto)",
   "Downloads_7z_Torrent": "Scarica 7Z (Torrent)",
   "Downloads_7z_Direct": "Scarica 7Z (Direttamente)",
-  "Downloads_Hash_Placeholder": "(Hashes arriverà presto)",
+  "Downloads_Hash_Placeholder": "(Hashes prossimamente)",
   "Downloads_Recommended": "Consigliato",
   "Downloads_Size_Grows": "le dimensioni del file aumentano con l'uso",
   "Downloads_Infinity_Line1": "Un pacchetto leggero per l'utente medio",
@@ -25,8 +25,8 @@
   "Downloads_Infinity_Line3": "Deve essere ri-scaricato per applicare gli aggiornamenti",
   "Downloads_Infinity_Line4": "Fornito come file eseguibile auto-estraente (estrarrà Flashpoint nella cartella specificata durante l'esecuzione)",
   "Downloads_Exe": "Scarica EXE",
-  "Downloads_Instructions": "Instructions",
-  "Downloads_Mirror": "Archive.org Mirror (Windows)",
+  "Downloads_Instructions": "Istruzioni",
+  "Downloads_Mirror": "Mirror su Archive.org (Windows)",
   "Downloads_Manual": "Fare riferimento a {help manual} per usare Flashpoint o risolvere problemi!",
   "Downloads_Core": "C'è anche {Flashpoint Core}, una copia in miniatura di Flashpoint sviluppata nello specifico per i collaboratori del progetto. Contiene voci di esempio per ogni piattaforma e strumenti utili per curare. Puoi scaricarlo {here}. Per imparare a contribuire all'archivio usando Flashpoint Core, leggi {curation tutorial}."
 }
