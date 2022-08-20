@@ -3,7 +3,7 @@
   "FAQ_Question1": "谁/什么是 BlueMaxima？",
   "FAQ_Answer1": "BlueMaxima，或叫 Ben Latimore，是一名澳大利亚人，他发起了 Flashpoint 项目并处理原始版本。没有任何企业或组织参与 Flashpoint 项目——这个项目完全由社区管理。",
   "FAQ_Question2": "你们支持什么操作系统？",
-  "FAQ_Answer2": "Flashpoint 支持 Windows SP1 和更新的版本（不包括原始的 Windows 8）。Mac 和 Linux 版本的支持始终在不断变化，因为 Windows 版本上使用的技术在不断变化，而我们目前缺少专门的维护人员。要获取最新信息，您需要在 Discord 上询问。",
+  "FAQ_Answer2": "Flashpoint 支持 Windows SP1 和更新的版本（不包括原始的 Windows 8）。MacOS 和 Linux 版本也可用，但需要额外的安装步骤，并且只能运行少数最流行的浏览器技术。",
   "FAQ_Question3": "Flashpoint 是否会暴露安全漏洞？",
   "FAQ_Answer3": "目前不存在已知问题。我们整个应用套件（除了无限版中下载游戏的技术）都无法连接到公共互联网。任何 Flashpoint 安全播放器造成的注册表更改都会在游戏关闭后立即清除。所有加入的展品都需要通过有足够防御能力并安装最新杀毒软件的计算机传递。最重要的是，启动器和 Flashpoint 得所有内部组件都是开源的，可以在{这里}获取。我们尽全力确保藏品是安全的，但即使我们作出足够的努力，仍然有杀毒软件，例如 Avast 和 AVG，会经常认为我们的重要组件是危险的。如果您受到此问题影响，请{阅读此页面}排除故障。",
   "FAQ_Question4": "目前有多少部游戏/动画？",
