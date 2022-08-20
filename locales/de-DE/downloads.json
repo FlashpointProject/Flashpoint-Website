@@ -25,7 +25,7 @@
   "Downloads_Infinity_Line3": "Muss neu heruntergeladen werden, um Updates zu übernehmen",
   "Downloads_Infinity_Line4": "Wird als selbstextrahierende, ausführbare Datei bereitgestellt (Flashpoint wird beim Ausführen in das angegebene Verzeichnis entpackt)",
   "Downloads_Exe": "EXE herunterladen",
-  "Downloads_Mirror": "Archive.org Mirror (Slow)",
+  "Downloads_Mirror": "Archive.org Mirror (langsam)",
   "Downloads_Manual": "Refer to the {help manual} for using/troubleshooting Flashpoint!",
-  "Downloads_Core": "There is also {Flashpoint Core}, a miniature copy of Flashpoint that is tailored specifically to project contributors. It contains example entries for each platform as well as helpful tools for curation. You can download it {here}. To learn how to contribute to the archive using Flashpoint Core, read the {curation tutorial}."
+  "Downloads_Core": "Es gibt auch {Flashpoint Core}, eine mini-Kopie von Flashpoint, die speziell auf Projektmitwirkende zugeschnitten ist. Es enthält Beispieleinträge für jede Plattform sowie hilfreiche Werkzeuge zur Kuratierung. {here} kann es heruntergeladen werden. Um zu erfahren, wie du mit Flashpoint Core zum Archiv beitragen kannst, lies bitte das {curation tutorial}."
 }
