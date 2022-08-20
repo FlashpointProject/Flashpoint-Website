@@ -1,13 +1,13 @@
 {
   "Downloads_Avast_Title": "OSTRZEŻENIE DLA UŻYTKOWNIKÓW AVAST I AVG:",
-  "Downloads_Avast_Warning": "A file needed by Flashpoint to play games will be detected as a virus and quarantined; this is a false positive! {Follow these instructions} to make an exception for Flashpoint. We try our best to keep the archive and its surrounding technologies virus-free. {Learn more}",
+  "Downloads_Avast_Warning": "Plik potrzebny Flashpoint do grania w gry zostanie wykryty jako wirus i poddany kwarantannie; to jest fałszywy alarm! {Follow these instructions}, aby zrobić wyjątek dla Flashpoint. Dokładamy wszelkich starań, aby archiwum i otaczające je technologie były wolne od wirusów. {Learn more}",
   "Downloads_Title": "Pliki do pobrania",
   "Downloads_Para1": "Wszystkie pliki do pobrania Flashpoint są przenośne, bezpłatne i {built with open-source software} (oczywiście z wyłączeniem samych gier i platform). Duża część kodu open-source jest oryginalna dla projektu, który można znaleźć na naszej stronie zespołu GitHub {here}.",
   "Downloads_Para2": "Aby dowiedzieć się, co zmieniło się od początku czasu, zobacz {changelog}. Ostrzeżenie: jest duży.",
   "Downloads_Para3": "{Supported operating systems:} Windows 7 SP1, Windows 8.1, Windows 10, Windows 11, (limited {Mac} and {Linux} support is also available)",
   "Downloads_Prerequisites": "{Prerequisites:} {Visual C++ 2015 Redistributable}, \n{Microsoft .NET Framework 4.7} \n(do wypakowania wersji Ultimate i Core wymagany jest {7-Zip})",
   "Downloads_Content_Disclaimer_Title": "ZASTRZEŻENIE DOTYCZĄCE TREŚCI:",
-  "Downloads_Content_Disclaimer_Warning": "As a museum of internet culture, Flashpoint contains an extremely broad range of content - portions of which may be illegal depending on your jurisdiction. If you are uncomfortable with this, {download Flashpoint Infinity} as it gives you control over what content is stored on your device.",
+  "Downloads_Content_Disclaimer_Warning": "Jako muzeum kultury internetowej Flashpoint zawiera niezwykle szeroki zakres treści, których część może być nielegalna w zależności od Twojej jurysdykcji. Jeśli nie czujesz się z tym komfortowo, {download Flashpoint Infinity}, ponieważ daje Ci kontrolę nad tym, jakie treści są przechowywane na Twoim urządzeniu.",
   "Downloads_Size": "Rozmiar",
   "Downloads_Download": "do pobrania",
   "Downloads_Extracted": "po rozpakowaniu",
@@ -27,5 +27,5 @@
   "Downloads_Exe": "Pobierz EXE",
   "Downloads_Mirror": "Kopia Archive.org (Wolna)",
   "Downloads_Manual": "Zapoznaj się z {help manual}, aby dowiedzieć się, jak używać/rozwiązywać problemy z Flashpointem!",
-  "Downloads_Core": "There is also {Flashpoint Core}, a miniature copy of Flashpoint that is tailored specifically to project contributors. It contains example entries for each platform as well as helpful tools for curation. You can download it {here}. To learn how to contribute to the archive using Flashpoint Core, read the {curation tutorial}."
+  "Downloads_Core": "Istnieje również {Flashpoint Core}, miniaturowa kopia Flashpoint, która jest specjalnie dostosowana do współtwórców projektu. Zawiera przykładowe utwory dla każdej platformy, a także pomocne narzędzia do kuracji. Możesz go pobrać {here}. Aby dowiedzieć się, jak wnieść swój wkład do archiwum za pomocą Flashpoint Core, przeczytaj {curation tutorial}."
 }
