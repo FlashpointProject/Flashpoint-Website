@@ -77,6 +77,10 @@ ol > li {
 .sidebar img {
     display: block;
 }
+.sidebar img:first-child {
+    /* Fix subpixel gap on Chrome */
+    box-shadow: inset 0 -1px #DD0428;
+}
 .sidebar-links {
     width: 256px;
     height: 448px;
@@ -107,11 +111,21 @@ ol > li {
 
 /* Language select */
 
-.sidebar-links > a:first-child:hover ~ .language-select,
+.sidebar-links > input:is(:hover, :checked) ~ a:first-of-type ~ .language-select,
 .language-select:hover {
     display: inline-block;
 }
-.sidebar > .sidebar-links > a:first-child div {
+.sidebar-links > input {
+    position: absolute;
+    margin: 0;
+    width: 256px;
+    height: 30px;
+    opacity: 0;
+}
+.sidebar-links > input:is(:hover, :checked) ~ a:first-of-type div {
+    background-color: #E85971;
+}
+.sidebar > .sidebar-links > a:first-of-type div {
     padding-right: 8px !important;
     cursor: default;
 }
@@ -234,6 +248,7 @@ ol > li {
 .download-container {
 	display: flex;
 	flex-direction: row;
+    column-gap: 16px;
 }
 .download-container ul {
 	flex-grow: 1;
@@ -246,12 +261,6 @@ ol > li {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-}
-.download-left {
-	margin-right: 12px;
-}
-.download-right {
-	margin-left: 12px;
 }
 .download-title {
     margin-bottom: 6px;
@@ -268,32 +277,36 @@ ol > li {
     left: 8px;
 }
 
-.download-link {
+.download-button-container {
 	display: flex;
-}
-.download-link a {
-	color: white;
-	font-weight: bold;
-	text-decoration: none;
+    column-gap: 6px;
+    height: 42px;
 }
 .download-button {
-	flex-grow: 1;
-	flex-basis: 0;
+	flex: 2 0;
     background-color: #045EDD;
+    color: #FFF !important;
+	font-weight: bold;
+	text-decoration: none !important;
 	text-align: center;
-	padding: 12px 0;
+}
+.download-button.small {
+    flex: 1 0;
 }
 .download-button:hover {
     filter: brightness(125%);
 }
-.download-button.download-left {
-	margin-right: 4px;
+.download-button img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+    padding-top: 10px;
 }
-.download-button.download-right {
-	margin-left: 4px;
+.download-button span {
+    position: relative;
+    top: -4px;
 }
 .download-more {
-    height: 16px;
 	font-size: 0.85em;
 	text-align: center;
 	margin-top: 8px;

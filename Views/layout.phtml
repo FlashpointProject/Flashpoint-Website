@@ -21,9 +21,8 @@
                 <div class="sidebar">
                     <a href="" title="Home"><img src="images/logo.svg"></a>
                     <div class="sidebar-links">
-                        <a><div>
-                                <?= $selectedLanguage ?><span>▶&#xFE0E;</span>
-                        </div></a>
+                        <input type="checkbox">
+                        <a><div><?= $selectedLanguage ?><span>▶&#xFE0E;</span></div></a>
                         <div class="language-select sidebar-links">
                             <?php foreach ($availableLanguages as $code => $name) : ?>
                                 <a href="<?= $url ?>?lang=<?= $code ?>"><div><?= $name ?></div></a>
