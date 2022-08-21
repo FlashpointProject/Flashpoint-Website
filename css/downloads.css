@@ -1,10 +1,18 @@
 .page-container {
-    min-width: 832px;
+    min-width: 896px;
 }
 .content br {
     margin-bottom: 6px;
 }
-@media (max-width:1375px) {
+@media (max-width:1599px) and (min-width:1408px), (max-width:1023px) {
+    .download-button.small {
+        flex: 0 0 42px;
+    }
+    .download-button.small span {
+        display: none;
+    }
+}
+@media (max-width:1407px) {
     .download-container {
         flex-direction: column;
         margin: 16px 0;
