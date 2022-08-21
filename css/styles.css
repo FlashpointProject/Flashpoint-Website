@@ -139,6 +139,7 @@ ol > li {
     max-height: 420px;
     overflow: auto;
     padding: 8px 0;
+    z-index: 1;
 }
 .language-select > a div {
     padding-right: 28px !important;
