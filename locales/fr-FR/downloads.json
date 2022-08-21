@@ -1,6 +1,6 @@
 {
   "Downloads_Avast_Title": "ATTENTION POUR LES UTILISATEURS AVAST ET AVG :",
-  "Downloads_Avast_Warning": "A file needed by Flashpoint to play games will be detected as a virus and quarantined; this is a false positive! {Follow these instructions} to make an exception for Flashpoint. We try our best to keep the archive and its surrounding technologies virus-free. {Learn more}",
+  "Downloads_Avast_Warning": "Un fichier requis par Flashpoint pour jouer aux jeux sera détecté comme un virus et mis en quarantaine ; c'est un faux positif ! {Follow these instructions} pour faire une exception pour Flashpoint. Nous faisons de notre mieux pour garder l'archive et les technologies qui l'entourent sans virus. {Learn more}",
   "Downloads_Title": "Téléchargements",
   "Downloads_Para1": "All Flashpoint downloads are portable, free-of-charge and {built with open-source software} (obviously excluding the games and platforms themselves). Much of the open-source code is original to the project, which you can find at our GitHub team page {here}.",
   "Downloads_Para2": "To find out what's changed since the beginning of time, see the {changelog}. Warning: it's big.",
