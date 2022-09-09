@@ -1,0 +1,4 @@
+{
+  "Template_Testing_Paragraph": "此文本将被发送到 Crowdin 进行翻译。",
+  "Template_Formatted_Testing_Paragraph": "此文本为{粗体}、{斜体}、{下划线}或{超链接}。{本句包括所有格式。}"
+}
