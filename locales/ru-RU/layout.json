@@ -1,12 +1,12 @@
 {
-  "Lang_Code": "en",
-  "Home": "Home",
-  "Platforms": "Platforms",
-  "News": "News",
-  "FAQ": "FAQ",
-  "Downloads": "Downloads",
-  "Branding": "Branding",
-  "Contact": "Contact",
-  "Manual": "Manual",
+  "Lang_Code": "ru",
+  "Home": "Главная",
+  "Platforms": "Платформы",
+  "News": "Новости",
+  "FAQ": "Часто задаваемые вопросы",
+  "Downloads": "Загрузки",
+  "Branding": "Брендинг",
+  "Contact": "Обратная связь",
+  "Manual": "Руководство",
   "Wiki": "Wiki"
 }
