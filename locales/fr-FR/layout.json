@@ -1,12 +1,12 @@
 {
-  "Lang_Code": "en",
-  "Home": "Home",
-  "Platforms": "Platforms",
-  "News": "News",
+  "Lang_Code": "fr",
+  "Home": "Accueil",
+  "Platforms": "Plateformes",
+  "News": "Actualités",
   "FAQ": "FAQ",
-  "Downloads": "Downloads",
-  "Branding": "Branding",
+  "Downloads": "Téléchargements",
+  "Branding": "Marque",
   "Contact": "Contact",
-  "Manual": "Manual",
+  "Manual": "Manuel",
   "Wiki": "Wiki"
 }
