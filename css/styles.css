@@ -83,27 +83,37 @@ ol > li {
 }
 .sidebar-links {
     width: 256px;
-    height: 448px;
     font-size: 17px;
     font-weight: bold;
     background-color: #DD0428;
-}
-.sidebar-links > a div {
-    height: 22px;
-    padding: 4px 10px;
-    transition: padding-right .2s;
-}
-.sidebar-links > a div:hover {
-    background-color: #E85971;
-    padding-right: 20px;
-}
-.sidebar-links > a span {
-    font-size: 15px;
-    float: right;
+    padding-bottom: 24px;
+    box-sizing: border-box;
 }
 .sidebar-links > a {
+    display: table;
+    width: 100%;
     color: white;
     text-decoration: none;
+    box-sizing: border-box;
+    padding: 4px 10px;
+}
+.sidebar-links > a:hover {
+    background-color: #E85971;
+}
+.sidebar-links > a div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.sidebar-links > a div:first-child:not(:only-child) {
+    width: 200px;
+}
+.sidebar-links > a div:nth-child(2) {
+    font-size: 15px;
+    text-align: right;
+    transition: padding-right .2s;
+}
+.sidebar-links > a:hover div:nth-child(2) {
+    padding-right: 12px;
 }
 .sidebar-links > br {
     margin-bottom: 16px !important;
@@ -122,10 +132,10 @@ ol > li {
     height: 30px;
     opacity: 0;
 }
-.sidebar-links > input:is(:hover, :checked) ~ a:first-of-type div {
+.sidebar-links > input:is(:hover, :checked) ~ a:first-of-type {
     background-color: #E85971;
 }
-.sidebar > .sidebar-links > a:first-of-type div {
+.sidebar > .sidebar-links > a:first-of-type {
     padding-right: 8px !important;
     cursor: default;
 }
@@ -141,7 +151,7 @@ ol > li {
     padding: 8px 0;
     z-index: 1;
 }
-.language-select > a div {
+.language-select > a {
     padding-right: 28px !important;
     white-space: nowrap;
 }
