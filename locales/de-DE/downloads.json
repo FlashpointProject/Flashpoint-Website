@@ -4,7 +4,7 @@
   "Downloads_Title": "Downloads",
   "Downloads_Para1": "Alle Flashpoint-Downloads sind portabel, kostenlos und {built with open-source software} (natürlich ohne die Spiele und Plattformen selbst). Ein Großteil des Open-Source-Codes ist nur für das Projekt erstellt worden, welches du auf unserer GitHub-Team-Seite {here} findest.",
   "Downloads_Para2": "Um herauszufinden, was sich seit Beginn der Zeit geändert hat, lies das {changelog}. Warnung: Es ist groß.",
-  "Downloads_Para3": "{Supported operating systems:} Windows 7 SP1 and up, MacOS, Linux",
+  "Downloads_Para3": "{Supported operating systems:} Windows 7 SP1 und höher, MacOS, Linux",
   "Downloads_Prerequisites": "{Prerequisites:} {Visual C++ 2015 Redistributable},\n{Microsoft .NET Framework 4.7}\n({7-Zip} ist erforderlich, um Ultimate und Core zu extrahieren)",
   "Downloads_Content_Disclaimer_Title": "HAFTUNGSAUSSCHLUSS ZUM INHALT:",
   "Downloads_Content_Disclaimer_Warning": "Als Museum für Internetkultur enthält Flashpoint ein sehr breites Spektrum von Inhalten - von denen Teile je nach Rechtsprechung illegal sein können. Wenn dir das nicht gefällt, {download Flashpoint Infinity}, da es dir die Kontrolle darüber gibt, welche Inhalte auf deinem Gerät gespeichert sind.",
@@ -25,7 +25,7 @@
   "Downloads_Infinity_Line3": "Muss neu heruntergeladen werden, um Updates zu übernehmen",
   "Downloads_Infinity_Line4": "Wird als selbstextrahierende, ausführbare Datei bereitgestellt (Flashpoint wird beim Ausführen in das angegebene Verzeichnis entpackt)",
   "Downloads_Exe": "EXE herunterladen",
-  "Downloads_Instructions": "Instructions",
+  "Downloads_Instructions": "Anleitung",
   "Downloads_Mirror": "Archive.org Mirror (Windows)",
   "Downloads_Manual": "Sieh dir das {help manual} für die Verwendung/Fehlerbehebung von Flashpoint an!",
   "Downloads_Core": "Es gibt auch {Flashpoint Core}, eine mini-Kopie von Flashpoint, die speziell auf Projektmitwirkende zugeschnitten ist. Es enthält Beispieleinträge für jede Plattform sowie hilfreiche Werkzeuge zur Kuratierung. {here} kann es heruntergeladen werden. Um zu erfahren, wie du mit Flashpoint Core zum Archiv beitragen kannst, lies bitte das {curation tutorial}."
