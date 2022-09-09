@@ -11,9 +11,12 @@ class LanguageHandler
 
     private const DEFAULT_LANGUAGE = 'en';
     public const AVAILABLE_LANGUAGES = array(
-        'cs' => 'Čeština',
+        'de-DE' => 'Deutsch',
         'en' => 'English',
-    ); //Temporary value, replace it with the list of all languages later
+        'it-IT' => 'Italiano',
+        'pl-PL' => 'Polski',
+        'zh-CN' => '中文',
+    );
 
     /**
      * Loads the language selection from the GET parameter or the language header and saves it to the cookie.
