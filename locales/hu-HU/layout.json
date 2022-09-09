@@ -1,12 +1,12 @@
 {
-  "Lang_Code": "en",
-  "Home": "Home",
-  "Platforms": "Platforms",
-  "News": "News",
-  "FAQ": "FAQ",
+  "Lang_Code": "hu",
+  "Home": "Kezdőlap",
+  "Platforms": "Platformok",
+  "News": "Hírek",
+  "FAQ": "GYIK",
   "Downloads": "Downloads",
   "Branding": "Branding",
-  "Contact": "Contact",
-  "Manual": "Manual",
+  "Contact": "Kapcsolat",
+  "Manual": "Útmutató",
   "Wiki": "Wiki"
 }
