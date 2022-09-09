@@ -1,11 +1,11 @@
 {
-  "About_Welcome": "Welcome",
-  "About_Title": "BlueMaxima's Flashpoint is a webgame preservation project.",
-  "About_Para1": "Internet history and culture is important, and content made on web platforms including, but not limited to Adobe Flash, make up a significant portion of that culture. This project is dedicated to preserving as many experiences from these platforms as possible, so that they aren't lost to time. Since early 2018, Flashpoint has saved more than 100,000 games and 10,000 animations running on 35 different platforms.",
-  "About_Para2": "Flashpoint was started in January 2018 by BlueMaxima in an attempt to outrun the disappearance of content prior to the death of Flash. It has since evolved into an international project involving over 100 community contributors, encompassing both webgames and animations created for numerous internet plugins, frameworks, and standards.",
-  "About_Para3": "Flashpoint utilizes a strong selection of open-source software. By combining the power of Apache, a custom-built launcher, and our own application called the Flashpoint Secure Player, we can play web-based media in a quick, user-friendly environment without leaving permanent changes or security holes on your computer.",
-  "About_Para4": "We offer two versions of the software; Ultimate, which contains every piece of media in an offline ready format, and Infinity, a smaller distribution that allows you to download and play content at will. Both  versions are unaffected by the end of support for Flash and other plugins.",
-  "About_Para5": "This project is and will always be entirely non-profit, to preserve the sense of community and sharing that came with Flash and its ilk. To learn more about Flashpoint, refer to the sidebar on the left of the page.",
-  "Search_Collection": "Search the Collection",
-  "Request_Archival": "Request Content for Archival"
+  "About_Welcome": "Bienvenue",
+  "About_Title": "Flashpoint de BlueMaxima est un projet de préservation de jeux web.",
+  "About_Para1": "L'histoire et la culture d'internet sont importantes, et le contenu créé sur les plateformes web, y compris mais pas limité à Adobe Flash, constitue une part importante de cette culture. Ce projet est dédié à préserver autant d'expériences que possible de ces plateformes, afin qu'elles ne soient pas perdues avec le temps. Depuis début 2018, Flashpoint a sauvé plus de 100 000 jeux et 10 000 animations sur 35 plateformes différentes.",
+  "About_Para2": "Flashpoint a été commencé en Janvier 2018 par BlueMaxima dans une tentative de devancer la disparition de contenu avant la mort de Flash. Ceci a depuis évolué en un projet international impliquant plus de 100 contributeurs communautaires, englobant à la fois les jeux web et les animations créées pour de nombreux plugins, frameworks et standards internet.",
+  "About_Para3": "Flashpoint utilise une grande sélection de logiciels open-source. En combinant la puissance d'Apache, un lanceur personalisé et notre propre application appelée Flashpoint Secure Player, nous pouvons lire des médias web dans un environnement rapide et convivial sans laisser de changements permanents ou de trous de sécurité sur votre ordinateur.",
+  "About_Para4": "Nous proposons deux versions du logiciel ; Ultimate, qui contient tous les médias en un format hors ligne, et Infinity, une distribution plus petite qui vous permet de télécharger et de lire le contenu à volonté. Les deux versions ne sont pas affectées par la fin du support de Flash et d'autres plugins.",
+  "About_Para5": "Ce projet est et sera toujours à but non lucratif, afin de préserver le sens de la communauté et de partage qui sont venu avec Flash et ces semblables. Pour en savoir plus sur Flashpoint, référez-vous à la barre latérale à gauche de la page.",
+  "Search_Collection": "Rechercher dans la collection",
+  "Request_Archival": "Demander du contenu pour archivage"
 }
