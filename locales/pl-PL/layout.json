@@ -1,12 +1,12 @@
 {
-  "Lang_Code": "en",
-  "Home": "Home",
-  "Platforms": "Platforms",
-  "News": "News",
-  "FAQ": "FAQ",
-  "Downloads": "Downloads",
+  "Lang_Code": "pl",
+  "Home": "Strona główna",
+  "Platforms": "Platformy",
+  "News": "Aktualności",
+  "FAQ": "Najczęściej zadawane pytania",
+  "Downloads": "Pliki do pobrania",
   "Branding": "Branding",
-  "Contact": "Contact",
-  "Manual": "Manual",
+  "Contact": "Kontakt",
+  "Manual": "Instrukcja",
   "Wiki": "Wiki"
 }
