@@ -1,5 +1,5 @@
 {
-  "Error_Title": "404 – Page not found",
-  "Error_Para1": "Make sure you typed the URL address correctly.",
-  "Error_Para2": "If you got to this webpage by clicking a link somewhere on our website, {contact us} please."
+  "Error_Title": "404 – Stránka nenalezena",
+  "Error_Para1": "Ujistěte se, že jste správně zadali URL adresu.",
+  "Error_Para2": "Pokud jste se dostali na tuto stránku kliknutím na odkaz někde na těchto stránkách, {kontaktujte nás}, prosím."
 }
