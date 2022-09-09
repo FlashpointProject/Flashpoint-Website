@@ -1,5 +1,5 @@
 {
-  "FAQ_Title": "Frequently Asked Questions",
+  "FAQ_Title": "常見問題",
   "FAQ_Question1": "Who/what is BlueMaxima?",
   "FAQ_Answer1": "BlueMaxima, or Ben Latimore is the Aussie who started Flashpoint and handles the master copies. No business or organization is involved with Flashpoint - it is a wholly community-run project.",
   "FAQ_Question2": "What operating systems do you support?",
@@ -28,6 +28,6 @@
   "FAQ_Answer13": "Follow the troubleshooting steps listed in the {manual}. If you're still having problems afterwards, ask for help in our Discord.",
   "FAQ_Question14": "I want a game/animation removed from Flashpoint for one reason or another.",
   "FAQ_Answer14": "Alert us, either via our Discord or {directly by email}. We'll probably try to convince you to let us keep your game in for historical sake, but we aren't unreasonable.",
-  "FAQ_Question15": "I have another question.",
+  "FAQ_Question15": "我還有其他問題。",
   "FAQ_Answer15": "Consult our {extended FAQ}. If your question isn't answered there, join our Discord."
 }
