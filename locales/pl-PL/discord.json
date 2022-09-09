@@ -1,15 +1,15 @@
 {
   "Discord_Title": "Discord",
-  "Discord_Intro": "Please read the rules before joining our Discord server (they can also be viewed in {#rules-and-faq} once you're in):",
-  "Discord_Rule1": "Abide by Discord’s rules, and ours: {https://discordapp.com/terms} / {https://discordapp.com/guidelines}.",
-  "Discord_Rule2": "Be respectful towards others. Don't be a bigot, incite drama, act obnoxiously, mention users/roles repeatedly, or send DMs to server members (including staff) without permission.",
-  "Discord_Rule3": "Keep topics to their designated channels. Always read the description if you aren't fully sure of its purpose. If a staff member asks you to move the conversation, please do so.",
-  "Discord_Rule4": "Distribution of content that is currently being sold or requested to be removed from Flashpoint is not allowed.",
-  "Discord_Rule5": "{Never send emails relating to Flashpoint without the consent of staff, no matter how good you think it is.} Nobody wants their chance of contacting a developer to go to waste, that's why we want to make sure it doesn't happen.",
-  "Discord_Rule6": "Promotion of yourself or affiliated parties through Discord invites, YouTube links, money-making ventures or the like is prohibited unless it's in the context of Flashpoint or digital archival.",
-  "Discord_Rule7": "NSFW content and discussion must be kept in {#nsfw-lounge} (the channel's existence alone should explain more than enough).",
-  "Discord_Rule8": "Political talk has no place in this server. Take it somewhere else or don't discuss it at all.",
-  "Discord_Curation_Exception": "(Curations - specific discussion of, and included content - are the only exception to rules 7 and 8.)",
-  "Discord_Sanctions": "Team members are allowed to warn/silence/kick/ban users they feel are breaking these rules based on the severity of the rule broken. We encourage staff to show levity to first time or accidental rule breaks, but multiple broken rules will result in harsher punishments.",
-  "Discord_Agreed": "I've read the rules and I want to join the server!"
+  "Discord_Intro": "Prosimy o zapoznanie się z regulaminem przed dołączeniem do naszego serwera Discord (można go również zobaczyć w {#rules-and-faq}, gdy już tam będziesz):",
+  "Discord_Rule1": "Przestrzegaj zasad Discorda i naszych: {https://discordapp.com/terms} / {https://discordapp.com/guidelines}.",
+  "Discord_Rule2": "Szanuj innych. Nie bądź bigotem, nie prowokuj dramatów, nie zachowuj się nieprzyjemnie, nie wymieniaj wielokrotnie użytkowników/ról oraz nie wysyłaj wiadomości DM do członków serwera (w tym personelu) bez pozwolenia.",
+  "Discord_Rule3": "Utrzymuj tematy w wyznaczonych im kanałach. Zawsze czytaj opis, jeśli nie jesteś w pełni pewien jego celu. Jeśli członek personelu poprosi Cię o przeniesienie rozmowy, zrób to.",
+  "Discord_Rule4": "Dystrybucja treści, które są obecnie sprzedawane lub zgłoszone do usunięcia z Flashpoint jest niedozwolona.",
+  "Discord_Rule5": "{Never send emails relating to Flashpoint without the consent of staff, no matter how good you think it is.} Nikt nie chce, aby jego szansa na kontakt z deweloperem poszła na marne, dlatego chcemy mieć pewność, że tak się nie stanie.",
+  "Discord_Rule6": "Promowanie siebie lub podmiotów stowarzyszonych za pośrednictwem zaproszeń na Discord, linków do YouTube, przedsięwzięć zarobkowych itp. jest zabronione, chyba że odbywa się to w kontekście Flashpoint lub cyfrowego archiwum.",
+  "Discord_Rule7": "Treści i dyskusje NSFW muszą być przechowywane w {#nsfw-lounge} (samo istnienie kanału powinno wyjaśniać więcej niż wystarczająco).",
+  "Discord_Rule8": "Na tym serwerze nie ma miejsca na rozmowy polityczne. Zabierz je gdzie indziej lub w ogóle o nich nie rozmawiaj.",
+  "Discord_Curation_Exception": "(Kuracje – konkretne omówienie i zawarte treści – są jedynym wyjątkiem od reguł 7 i 8.)",
+  "Discord_Sanctions": "Członkowie zespołu mogą ostrzec/uciszyć/wyrzucić/zbanować użytkowników, gdy uważają, że łamią te zasady, w oparciu o powagę złamanej zasady. Zachęcamy personel do okazywania litości w przypadku pierwszego lub przypadkowego złamania zasad, lecz wielokrotne złamanie zasad spowoduje surowsze kary.",
+  "Discord_Agreed": "Przeczytałem zasady i chcę dołączyć do serwera!"
 }
