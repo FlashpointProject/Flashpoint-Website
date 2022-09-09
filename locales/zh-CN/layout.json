@@ -1,12 +1,12 @@
 {
-  "Lang_Code": "en",
-  "Home": "Home",
-  "Platforms": "Platforms",
-  "News": "News",
-  "FAQ": "FAQ",
-  "Downloads": "Downloads",
-  "Branding": "Branding",
-  "Contact": "Contact",
-  "Manual": "Manual",
+  "Lang_Code": "zh-CN",
+  "Home": "主页",
+  "Platforms": "平台",
+  "News": "新闻",
+  "FAQ": "常见问题",
+  "Downloads": "下载",
+  "Branding": "品牌",
+  "Contact": "联系我们",
+  "Manual": "手册",
   "Wiki": "Wiki"
 }
