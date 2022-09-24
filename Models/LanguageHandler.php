@@ -40,7 +40,7 @@ class LanguageHandler
         }
 
         //Is the language cookie empty while there's a language available in the http-accept-language header?
-        if (empty($this->readLanguageCookie()) && !empty($headerLanguage)) {
+        if (!empty($headerLanguage)) {
             $languagesArr = $this->parseLanguageHeader($headerLanguage);
             foreach ($languagesArr as $languageCode) {
                 if (in_array($languageCode, array_keys(self::AVAILABLE_LANGUAGES))) {
@@ -72,12 +72,17 @@ class LanguageHandler
 
     /**
      * Reads and returns the language code saved in the cookie
+     * The contents of the cookie is first checked against the list of available languages (see constants)
+     * If the contents of the cookie is an invalid language code, an empty string is returned
      * If the cookie doesn't exist, an empty string is returned
-     * @return string The saved language code
+     * @return string The saved (and valid) language code or an empty string
      */
     private function readLanguageCookie(): string
     {
-        return (isset($_COOKIE['lang'])) ? $_COOKIE['lang'] : '';
+        if (isset($_COOKIE['lang']) && in_array($_COOKIE['lang'], array_keys(self::AVAILABLE_LANGUAGES))) {
+                return $_COOKIE['lang'];
+            }
+        return '';
     }
 
     /**
