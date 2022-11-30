@@ -11,6 +11,7 @@ class Translator
 
     /**
      * Method loading all required translations into a static variable
+     * If a locale file for the chosen language doesn't exist, an equivalent locale file in the default language is loaded
      * @param string $languageCode Code of the language whose translations are needed
      * @param array $dictionaries Filenames (without extensions) of the dictionary files containing the translations
      * @return bool TRUE, if the loaded static dictionary variable is not empty after loading everything, FALSE otherwise
@@ -18,9 +19,14 @@ class Translator
     public static function loadDictionaries(string $languageCode, array $dictionaries): bool
     {
         foreach ($dictionaries as $dictionary) {
+            $dictFilename = 'locales/'.$languageCode.'/'.$dictionary.'.json';
+            if (!file_exists($dictFilename)) {
+                $dictFilename = 'locales/'.LanguageHandler::DEFAULT_LANGUAGE.'/'.$dictionary.'.json';
+            }
+
             self::$dictionary = array_merge(
                 self::$dictionary,
-                json_decode(file_get_contents('locales/'.$languageCode.'/'.$dictionary.'.json'), true)
+                json_decode(file_get_contents($dictFilename), true)
             );
         }
         return empty(self::$dictionary);

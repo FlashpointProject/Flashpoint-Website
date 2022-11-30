@@ -9,7 +9,7 @@ namespace Flashpoint\Models;
 class LanguageHandler
 {
 
-    private const DEFAULT_LANGUAGE = 'en-US';
+    public const DEFAULT_LANGUAGE = 'en-US';
     public const AVAILABLE_LANGUAGES = array(
         'de-DE' => 'Deutsch',
         'en-US' => 'English',
