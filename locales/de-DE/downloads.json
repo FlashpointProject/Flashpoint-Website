@@ -5,7 +5,7 @@
   "Downloads_Para1": "Alle Flashpoint-Downloads sind portabel, kostenlos und {built with open-source software} (natürlich ohne die Spiele und Plattformen selbst). Ein Großteil des Open-Source-Codes ist nur für das Projekt erstellt worden, welches du auf unserer GitHub-Team-Seite {here} findest.",
   "Downloads_Para2": "Um herauszufinden, was sich seit Beginn der Zeit geändert hat, lies das {changelog}. Warnung: Es ist groß.",
   "Downloads_Para3": "{Supported operating systems:} Windows 7 SP1 und höher, MacOS, Linux",
-  "Downloads_Prerequisites": "{Prerequisites:} {Visual C++ 2015 Redistributable},\n{Microsoft .NET Framework 4.7}\n({7-Zip} ist erforderlich, um Ultimate und Core zu extrahieren)",
+  "Downloads_Prerequisites": "{Prerequisites:} {Visual C++ 2015 Redistributable (x86)},\n{Microsoft .NET Framework 4.7}\n({7-Zip} ist erforderlich, um Ultimate und Core zu extrahieren)",
   "Downloads_Content_Disclaimer_Title": "HAFTUNGSAUSSCHLUSS ZUM INHALT:",
   "Downloads_Content_Disclaimer_Warning": "Als Museum für Internetkultur enthält Flashpoint ein sehr breites Spektrum von Inhalten - von denen Teile je nach Rechtsprechung illegal sein können. Wenn dir das nicht gefällt, {download Flashpoint Infinity}, da es dir die Kontrolle darüber gibt, welche Inhalte auf deinem Gerät gespeichert sind.",
   "Downloads_Size": "Größe",

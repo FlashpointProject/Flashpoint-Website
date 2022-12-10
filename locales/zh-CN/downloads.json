@@ -5,7 +5,7 @@
   "Downloads_Para1": "所有 Flashpoint 的下载都是可移植的、免费的并且{以开源软件构建}（显然这不包括游戏及其平台）。大多数开源代码是此项目原创，您可以在{这里}的 GitHub 团队页面查看。",
   "Downloads_Para2": "要了解自开始到现在发生了什么变更，请查看{更新记录}。注意：记录很长。",
   "Downloads_Para3": "{支持的操作系统：}Windows 7 SP1 及更高、MacOS、Linux",
-  "Downloads_Prerequisites": "{前置依赖：} {Visual C++ 2015 Redistributable}，\n{Microsoft .NET Framework 4.7}\n（终极版与核心版需要 {7-Zip} 来解压）",
+  "Downloads_Prerequisites": "{前置依赖：} {Visual C++ 2015 Redistributable (x86)}，\n{Microsoft .NET Framework 4.7}\n（终极版与核心版需要 {7-Zip} 来解压）",
   "Downloads_Content_Disclaimer_Title": "内容免责声明：",
   "Downloads_Content_Disclaimer_Warning": "作为互联网文化博物馆，Flashpoint 含有范围极为广泛的内容——根据您所属的管辖权范围，部分内容可能是非法的。如果您对此感到不适，{请下载 Flashpoint 无限版}，因为它使您能够控制您设备上存储的内容。",
   "Downloads_Size": "大小",
