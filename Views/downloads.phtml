@@ -3,18 +3,18 @@
         <img src="images/avast.svg">
     </div>
     <div class="avast-text">
-        <span style="font-size:20px"><?= t('Downloads_Avast_Title') ?></span><br>
+        <span><?= t('Downloads_Avast_Title') ?></span><br>
         <?= t('Downloads_Avast_Warning', '<a href="datahub/Troubleshooting_Antivirus_Interference">', '<a href="faq#security-concerns">') ?>
     </div>
 </div>
 
 <span class="title"><?= t('Downloads_Title') ?></span>
 <hr class="title-divider">
-<?= t('Downloads_Para1', '<span style="text-decoration: underline">', '<a href="https://github.com/FlashpointProject">') ?><br style="margin-bottom:12px">
+<?= t('Downloads_Para1', '<span style="text-decoration: underline">', '<a href="source">') ?><br style="margin-bottom:12px">
 
 <?= t('Downloads_Para2', '<a href="changelog.txt">') ?><br style="margin-bottom:12px">
 
-<?= t('Downloads_Para3', '<b>', '<a href="datahub/Mac_Support">', '<a href="datahub/Linux_Support">') ?><br style="margin-bottom:0">
+<?= t('Downloads_Para3', '<b>') ?><br style="margin-bottom:0">
 <?= t('Downloads_Prerequisites', '<b>', '<a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">', '<a href="https://dotnet.microsoft.com/download/dotnet-framework/net47">', '<a href="https://www.7-zip.org/">') ?><br style="margin-bottom:12px">
 <hr>
 
@@ -23,10 +23,10 @@
 <div class="download-container">
     <div class="download-item download-left border">
         <div class="download-title">
-            <span class="title-small">Flashpoint 10.1 Ultimate</span>
+            <span class="title-small">Flashpoint 11 Ultimate</span>
         </div>
         <div>
-            <b><?= t('Downloads_Size') ?>:</b> 766GB <?= t('Downloads_Download') ?>, 874GB <?= t('Downloads_Extracted') ?>
+            <b><?= t('Downloads_Size') ?>:</b> 1.31TB <?= t('Downloads_Size_Download') ?>, 1.42TB <?= t('Downloads_Size_Extracted') ?>
         </div>
         <ul>
             <li><?= t('Downloads_Ultimate_Line1') ?></li>
@@ -34,25 +34,28 @@
             <li><?= t('Downloads_Ultimate_Line3', '<a href="https://github.com/FlashpointProject/FlashpointUltimateUpdater/releases/latest">') ?></li>
             <li><?= t('Downloads_Ultimate_Line4', '<a href="https://www.qbittorrent.org/">', '<a href="https://www.freedownloadmanager.org/">') ?></li>
         </ul>
-        <div class="download-link">
-            <a href="https://download.unstable.life/static/Flashpoint%2010.1%20Ultimate.7z.torrent" class="download-button download-left blue">
-                <?= t('Downloads_7z_Torrent') ?>
+        <div class="download-button-container">
+            <a href="https://download.unstable.life/static/Flashpoint%252011.0%2520Ultimate.7z.torrent" class="download-button">
+                <img src="images/windows.svg" title="Windows">
+                <span><?= t('Downloads_7z_Torrent') ?></span>
             </a>
-            <a href="https://archive.org/details/Flashpoint10.1" class="download-button download-right blue">
-                <?= t('Downloads_7z_Direct') ?>
+            <a href="https://archive.org/details/Flashpoint11.0" class="download-button">
+                <img src="images/windows.svg" title="Windows">
+                <span><?= t('Downloads_7z_Direct') ?></span>
             </a>
         </div>
         <div class="download-more">
-            <div><b>MD5:</b> 0a0ffbcebd9e77e3506a4dadc171c032</div> &nbsp; <div><b>SHA-1:</b> f5c4e0f9288eda06979dabb48be8cf85881d5d5d</div>
+            <!--div><b>MD5:</b> 0a0ffbcebd9e77e3506a4dadc171c032</div> &nbsp; <div><b>SHA-1:</b> f5c4e0f9288eda06979dabb48be8cf85881d5d5d</div-->
+            <div><?= t('Downloads_Hash_Placeholder') ?></div>
         </div>
     </div>
     <div class="download-item download-right border">
         <div class="download-title">
-            <span class="title-small">Flashpoint 10.1 Infinity</span>
+            <span class="title-small">Flashpoint 11 Infinity</span>
             <div class="download-recommended"><?= t('Downloads_Recommended') ?></div>
         </div>
         <div>
-            <b><?= t('Downloads_Size') ?>:</b> 715MB <?= t('Downloads_Download') ?>, 3GB <?= t('Downloads_Extracted') ?>; <?= t('Downloads_File_Size_Grows') ?>
+            <b><?= t('Downloads_Size') ?>:</b> 790MB <?= t('Downloads_Size_Download') ?>, 2.7GB <?= t('Downloads_Size_Extracted') ?>; <?= t('Downloads_Size_Grows') ?>
         </div>
         <ul>
             <li><?= t('Downloads_Infinity_Line1') ?></li>
@@ -60,13 +63,22 @@
             <li><?= t('Downloads_Infinity_Line3') ?></li>
             <li><?= t('Downloads_Infinity_Line4') ?></li>
         </ul>
-        <div class="download-link">
-            <a href="Flashpoint%2010.1%20Infinity.exe" class="download-button download-left green">
-                <?= t('Downloads_Exe') ?>
+        <div class="download-button-container">
+            <a href="Flashpoint%2011%20Infinity.exe" class="download-button">
+                <img src="images/windows.svg" title="Windows">
+                <span><?= t('Downloads_Exe') ?></span>
+            </a>
+            <a href="datahub/Mac_Support" class="download-button small">
+                <img src="images/macos.svg" title="MacOS">
+                <span><?= t('Downloads_Instructions') ?></span>
+            </a>
+            <a href="datahub/Linux_Support" class="download-button small">
+                <img src="images/linux.svg" title="Linux">
+                <span><?= t('Downloads_Instructions') ?></span>
             </a>
         </div>
         <div class="download-more">
-            <a href="https://archive.org/details/flashpoint-10.1-infinity">
+            <a href="https://archive.org/details/flashpoint-11-infinity">
                 <?= t('Downloads_Mirror') ?>
             </a>
         </div>

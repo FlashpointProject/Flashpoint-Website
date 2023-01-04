@@ -8,21 +8,42 @@ class Translator
 
     private const TRANSLATION_FILE_PATH = 'locales/{locale}.json';
     private static array $dictionary = array();
+    private static array $fallbackDictionary = array();
 
     /**
      * Method loading all required translations into a static variable
+     * If a locale file for the chosen language doesn't exist, an equivalent locale file in the default language is loaded
      * @param string $languageCode Code of the language whose translations are needed
      * @param array $dictionaries Filenames (without extensions) of the dictionary files containing the translations
+     * @param bool $fallbackStrings TRUE, if the strings should be loaded into a fallback dictionary instead of the primary one; default FALSE
      * @return bool TRUE, if the loaded static dictionary variable is not empty after loading everything, FALSE otherwise
      */
-    public static function loadDictionaries(string $languageCode, array $dictionaries): bool
+    public static function loadDictionaries(string $languageCode, array $dictionaries, bool $fallbackStrings = false): bool
     {
         foreach ($dictionaries as $dictionary) {
-            self::$dictionary = array_merge(
-                self::$dictionary,
-                json_decode(file_get_contents('locales/'.$languageCode.'/'.$dictionary.'.json'), true)
-            );
+            $dictFilename = 'locales/'.$languageCode.'/'.$dictionary.'.json';
+            if (!file_exists($dictFilename)) {
+                continue;
+            }
+
+            if ($fallbackStrings) {
+                self::$fallbackDictionary = array_merge(
+                    self::$fallbackDictionary,
+                    json_decode(file_get_contents($dictFilename), true)
+                );
+            } else {
+                self::$dictionary = array_merge(
+                    self::$dictionary,
+                    json_decode(file_get_contents($dictFilename), true)
+                );
+            }
         }
+
+        if ($languageCode !== LanguageHandler::DEFAULT_LANGUAGE) {
+            //Load the fallback dictionary (the default language)
+            self::loadDictionaries(LanguageHandler::DEFAULT_LANGUAGE, $dictionaries, true);
+        }
+
         return empty(self::$dictionary);
     }
 
@@ -35,7 +56,10 @@ class Translator
     {
         $markedString = @self::$dictionary[$key];
         if (empty($markedString)) {
-            return null;
+            $markedString = @self::$fallbackDictionary[$key];
+            if (empty($markedString)) {
+                return null;
+            }
         }
 
         if (empty($formatTags)) {
