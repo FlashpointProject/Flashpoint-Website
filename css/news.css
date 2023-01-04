@@ -1,6 +1,14 @@
-.emphasis {
-    padding: 0 16px 0;
-}
 .content br {
     margin-bottom: 12px;
+}
+
+.news-date {
+    float: left;
+    white-space: nowrap;
+    margin-left: -4px;
+    padding-right: 16px;
+    font-weight: bold;
+}
+.news-divider {
+    margin: 16px 0;
 }

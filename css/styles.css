@@ -2,7 +2,7 @@
 
 body {
     min-height: 100vh;
-    background-image: linear-gradient(#FFF 156px, #FFE0E4 156px, #FFE0E4);
+    background-color: #FFE0E4;
     margin: 0px;
 }
 br {
@@ -30,7 +30,7 @@ a:active {
     text-decoration: underline;
 }
 ol {
-    margin: 2px 0 2px -20px
+    margin: 2px 0 2px -20px;
 }
 ol > li {
     margin-bottom: 16px;
@@ -39,7 +39,6 @@ ol > li {
 /* Page */
 
 .page-container {
-    /* max-width: 1600px; */
     min-width: 816px;
     min-height: max(943px, 100vh);
     font-family: Verdana, Geneva, sans-serif;
@@ -52,6 +51,7 @@ ol > li {
 
 .header {
     width: 100%;
+    background-color: #FFF;
     height: 156px;
 }
 .header-wordmark {
@@ -83,7 +83,7 @@ ol > li {
 }
 .sidebar-links {
     width: 256px;
-    font-size: 17px;
+    font-size: 1.1em;
     font-weight: bold;
     background-color: #DD0428;
     padding-bottom: 24px;
@@ -108,7 +108,7 @@ ol > li {
     width: 200px;
 }
 .sidebar-links > a div:nth-child(2) {
-    font-size: 15px;
+    font-size: 0.8em;
     text-align: right;
     transition: padding-right .2s;
 }
@@ -152,6 +152,7 @@ ol > li {
     z-index: 1;
 }
 .language-select > a {
+    font-size: 0.9em;
     padding-right: 28px !important;
     white-space: nowrap;
 }
@@ -191,184 +192,6 @@ ol > li {
     margin-left: 16px;
 }
 
-/* Homepage */
-
-.home-media * {
-    width: 400px;
-    height: 225px;
-}
-.home-download {
-    clear: both;
-    text-align: center;
-    padding-top: 24px;
-}
-.home-download br {
-    margin-bottom: 8px;
-}
-.home-download img {
-    border-radius: 12px;
-}
-.home-download img:hover {
-    animation: download-hover 30s linear infinite;
-}
-
-/* News page */
-
-.news-date {
-    float: left;
-    white-space: nowrap;
-    margin-left: -4px;
-    padding-right: 16px;
-    font-weight: bold;
-}
-.news-divider {
-    margin: 16px 0;
-}
-
-/* Downloads page */
-
-.avast-container {
-    display: table;
-    background-color: #000;
-    color: #FFF;
-    font-weight: bold;
-    border-radius: 8px;
-    margin: 20px 0 12px;
-    padding: 20px 16px;
-}
-.avast-container div {
-    display: table-cell;
-    vertical-align: middle;
-}
-.avast-logo img {
-    width: 64px;
-    filter: invert(100);
-    padding: 4px 20px 0 4px;
-}
-.avast-text {
-    width: 100%;
-}
-.avast-text br {
-    margin-bottom: 4px;
-}
-.avast-text a {
-    color: #FFF;
-    text-decoration: underline;
-}
-
-.download-container {
-	display: flex;
-	flex-direction: row;
-    column-gap: 16px;
-}
-.download-container ul {
-	flex-grow: 1;
-	margin: 12px 0 6px;
-}
-.download-container li {
-	margin: 0 0 12px -24px;
-}
-.download-item {
-	display: flex;
-	flex-direction: column;
-	flex: 1;
-}
-.download-title {
-    margin-bottom: 6px;
-}
-.download-recommended {
-    display: inline-block;
-    position: relative;
-    background-color: #045EDD;
-    color: #FFF;
-    font-weight: bold;
-    border-radius: 4px;
-    padding: 1px 6px 2px;
-    top: -3px;
-    left: 8px;
-}
-
-.download-button-container {
-	display: flex;
-    column-gap: 6px;
-    height: 42px;
-}
-.download-button {
-	flex: 2 0;
-    background-color: #045EDD;
-    color: #FFF !important;
-	font-weight: bold;
-	text-decoration: none !important;
-	text-align: center;
-}
-.download-button.small {
-    flex: 1 0;
-}
-.download-button:hover {
-    filter: brightness(125%);
-}
-.download-button img {
-    width: 20px;
-    height: 20px;
-    filter: invert(1);
-    padding-top: 10px;
-}
-.download-button span {
-    position: relative;
-    top: -4px;
-}
-.download-more {
-	font-size: 0.85em;
-	text-align: center;
-	margin-top: 8px;
-}
-.download-more div {
-    display: inline-block;
-}
-
-.manual-container {
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* Branding page */
-
-.branding-container {
-    display: table;
-    text-align: center;
-    margin: 0 auto;
-}
-.branding-item {
-    margin: 0 12px;
-    display: inline-block;
-    white-space: pre-line;
-    text-align: center;
-}
-.branding-download {
-    white-space: normal;
-    text-align: center;
-}
-.branding-downloads {
-    display: table;
-    margin: 4px 0 0 10px;
-    text-align: left;
-}
-.branding-left,
-.branding-right {
-    display: table-cell;
-    white-space: nowrap;
-    padding-right: 6px;
-}
-.branding-left {
-    font-weight: bold;
-}
-.branding-right a::after {
-    white-space: pre;
-    content: '\A';
-}
-
 /* Miscellaneous */
 
 .stub {
@@ -389,7 +212,7 @@ ol > li {
     }
 }
 
-/* Classes changed when width is less than 1280 pixels */
+/* Collapse horizontally-aligned elements when width is less than 1280 pixels */
 
 @media (max-width:1279px) {
     .left,
@@ -397,18 +220,6 @@ ol > li {
         float: none;
         text-align: center;
         margin-bottom: 16px;
-    }
-    .home-media {
-        float: none;
-        text-align: center;
-        margin: 0 0 12px 0;
-    }
-    .home-media * {
-        width: 480px;
-        height: 270px;
-    }
-    .home-download img {
-        width: 480px;
     }
 }
 

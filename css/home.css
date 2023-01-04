@@ -1,3 +1,37 @@
 .content br {
     margin-bottom: 24px;
 }
+
+.home-media * {
+    width: 400px;
+    height: 225px;
+}
+.home-download {
+    clear: both;
+    text-align: center;
+    padding-top: 24px;
+}
+.home-download br {
+    margin-bottom: 8px;
+}
+.home-download img {
+    border-radius: 12px;
+}
+.home-download img:hover {
+    animation: download-hover 30s linear infinite;
+}
+
+@media (max-width:1279px) {
+    .home-media {
+        float: none;
+        text-align: center;
+        margin: 0 0 12px 0;
+    }
+    .home-media * {
+        width: 480px;
+        height: 270px;
+    }
+    .home-download img {
+        width: 480px;
+    }
+}

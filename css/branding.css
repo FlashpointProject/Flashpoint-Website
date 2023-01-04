@@ -1,6 +1,41 @@
+hr {
+    clear: left;
+}
+
 .content br {
     margin-bottom: 16px;
 }
-hr {
-    clear: left;
+
+.branding-container {
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+}
+.branding-item {
+    margin: 0 12px;
+    display: inline-block;
+    white-space: pre-line;
+    text-align: center;
+}
+.branding-download {
+    white-space: normal;
+    text-align: center;
+}
+.branding-downloads {
+    display: table;
+    margin: 4px 0 0 10px;
+    text-align: left;
+}
+.branding-left,
+.branding-right {
+    display: table-cell;
+    white-space: nowrap;
+    padding-right: 6px;
+}
+.branding-left {
+    font-weight: bold;
+}
+.branding-right a::after {
+    white-space: pre;
+    content: '\A';
 }

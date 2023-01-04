@@ -4,6 +4,116 @@
 .content br {
     margin-bottom: 6px;
 }
+
+.avast-container {
+    display: table;
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 20px 0 12px;
+    padding: 20px 16px;
+}
+.avast-container div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.avast-logo img {
+    width: 64px;
+    filter: invert(100);
+    padding: 4px 20px 0 4px;
+}
+.avast-text {
+    width: 100%;
+}
+.avast-text span {
+    font-size: 1.4em;
+}
+.avast-text br {
+    margin-bottom: 4px;
+}
+.avast-text a {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.download-container {
+	display: flex;
+	flex-direction: row;
+    column-gap: 16px;
+}
+.download-container ul {
+	flex-grow: 1;
+	margin: 12px 0 6px;
+}
+.download-container li {
+	margin: 0 0 12px -24px;
+}
+.download-item {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.download-title {
+    margin-bottom: 6px;
+}
+.download-recommended {
+    display: inline-block;
+    position: relative;
+    background-color: #045EDD;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 1px 6px 2px;
+    top: -3px;
+    left: 8px;
+}
+
+.download-button-container {
+	display: flex;
+    column-gap: 6px;
+    height: 42px;
+}
+.download-button {
+	flex: 2 0;
+    background-color: #045EDD;
+    color: #FFF !important;
+	font-weight: bold;
+	text-decoration: none !important;
+	text-align: center;
+}
+.download-button.small {
+    flex: 1 0;
+}
+.download-button:hover {
+    filter: brightness(125%);
+}
+.download-button img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+    padding-top: 10px;
+}
+.download-button span {
+    position: relative;
+    top: -4px;
+}
+.download-more {
+	font-size: 0.85em;
+	text-align: center;
+	margin-top: 8px;
+}
+.download-more div {
+    display: inline-block;
+}
+
+.manual-container {
+    font-size: 1.85em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 @media (max-width:1599px) and (min-width:1408px), (max-width:1023px) {
     .download-button.small {
         flex: 0 0 42px;
