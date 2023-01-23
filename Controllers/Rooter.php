@@ -44,8 +44,8 @@ class Rooter extends Controller
 
         //Data for the layout view
         self::$data['url'] = $url; //URL for same-webpage links
-        self::$data['selectedLanguage'] = LanguageHandler::AVAILABLE_LANGUAGES[$languageCode];
-        self::$data['availableLanguages'] = LanguageHandler::AVAILABLE_LANGUAGES;
+        self::$data['selectedLanguage'] = $languageHandler->availableLanguages[$languageCode];
+        self::$data['availableLanguages'] = $languageHandler->availableLanguages;
 
         //Process the request
         $controller = new $controllerName(); //Get the next controller (usually the last)
