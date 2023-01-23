@@ -7,7 +7,7 @@
   "FAQ_Question3": "Does Flashpoint pose any security concerns?",
   "FAQ_Answer3": "Not that we know of. The entirety of our application suite (minus Infinity's game-downloading tech) can't connect to the open internet; any registry changes made by Flashpoint Secure Player are removed once the game is closed; all incoming curations are passed through a PC with competent and up-to-date antivirus software; and most importantly, the launcher and all of Flashpoint's inner workings {are free and open-source}. We've done our best to ensure the collection is as safe as it can be, but despite our efforts, certain antiviruses such as Avast and AVG tend to detect important components as being dangerous. If you're affected by this issue, {read this page} for troubleshooting instructions.",
   "FAQ_Question4": "How many games/animations are there?",
-  "FAQ_Answer4": "As of Flashpoint 11.1, we have over 150,000 games and 25,000 animations. You can search the collection without downloading Flashpoint {here}.",
+  "FAQ_Answer4": "Flashpoint currently offers {} games and {} animations. You can search the collection without downloading Flashpoint {here}.",
   "FAQ_Question5": "What platforms does the collection offer?",
   "FAQ_Answer5": "We support games and animations running on every platform listed at the {Supported Platforms} page.",
   "FAQ_Question6": "Where are the Nitrome games?",

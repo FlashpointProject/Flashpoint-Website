@@ -1,3 +1,4 @@
+<?php $stats = json_decode(file_get_contents('https://db-api.unstable.life/stats'), true); ?>
 <span class="title"><?= t('FAQ_Title') ?></span>
 <hr class="title-divider">
 
@@ -14,7 +15,7 @@
 <br style="margin-bottom:22px">
 
 <b><?= t('FAQ_Question4') ?></b><br>
-<?= t('FAQ_Answer4', '<a href="https://unstable.life/flashpoint-database/search/">', '<a href="datahub/Game_Master_List">', '<a href="datahub/Animation_Master_List">') ?>
+<?= t('FAQ_Answer4', number_format($stats['libraryTotals'][0]['count']), number_format($stats['libraryTotals'][1]['count']), '<a href="https://unstable.life/flashpoint-database/search/">') ?>
 <br style="margin-bottom:22px">
 
 <b><?= t('FAQ_Question5') ?></b><br>
