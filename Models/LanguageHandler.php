@@ -11,11 +11,7 @@ class LanguageHandler
 
     public const DEFAULT_LANGUAGE = 'en-US';
     public const AVAILABLE_LANGUAGES = array(
-        'de-DE' => 'Deutsch',
         'en-US' => 'English',
-        'it-IT' => 'Italiano',
-        'pl-PL' => 'Polski',
-        'zh-CN' => '中文',
     );
 
     /**

@@ -121,10 +121,6 @@ ol > li {
 
 /* Language select */
 
-.sidebar-links > input:is(:hover, :checked) ~ a:first-of-type ~ .language-select,
-.language-select:hover {
-    display: inline-block;
-}
 .sidebar-links > input {
     position: absolute;
     margin: 0;
@@ -132,12 +128,16 @@ ol > li {
     height: 30px;
     opacity: 0;
 }
+.sidebar-links > input ~ a:first-of-type {
+    padding-right: 8px !important;
+    cursor: default;
+}
 .sidebar-links > input:is(:hover, :checked) ~ a:first-of-type {
     background-color: #E85971;
 }
-.sidebar > .sidebar-links > a:first-of-type {
-    padding-right: 8px !important;
-    cursor: default;
+.sidebar-links > input:is(:hover, :checked) ~ a:first-of-type ~ .language-select,
+.language-select:hover {
+    display: inline-block;
 }
 .language-select {
     display: none;
