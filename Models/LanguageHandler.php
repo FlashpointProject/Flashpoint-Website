@@ -9,10 +9,21 @@ namespace Flashpoint\Models;
 class LanguageHandler
 {
 
+    public const LOCALE_DIRECTORY = 'locales';
     public const DEFAULT_LANGUAGE = 'en-US';
-    public const AVAILABLE_LANGUAGES = array(
-        'en-US' => 'English',
-    );
+    public array $availableLanguages = [];
+
+    /**
+     * Constructor of the language handler that loads the list of available languages by scanning the locale directory
+     */
+    public function __construct() {
+        $func = function($fullDirName) { return substr($fullDirName, strlen(self::LOCALE_DIRECTORY) + 1); };
+        $dirs = array_map($func, glob(self::LOCALE_DIRECTORY.'/*', GLOB_ONLYDIR));
+        foreach ($dirs as $localeDir) {
+            $languageNameFile = glob(self::LOCALE_DIRECTORY.'/'.$localeDir.'/.LOCALENAME')[0];
+            $this->availableLanguages[$localeDir] = file_get_contents($languageNameFile);
+        }
+    }
 
     /**
      * Loads the language selection from the GET parameter or the language header and saves it to the cookie.
@@ -25,7 +36,7 @@ class LanguageHandler
     public function loadLanguage(?string $headerLanguage = null): string
     {
         //Is the language specified in the query string (the highest priority)?
-        if (isset($_GET['lang']) && in_array($_GET['lang'], array_keys(self::AVAILABLE_LANGUAGES))) {
+        if (isset($_GET['lang']) && in_array($_GET['lang'], array_keys($this->availableLanguages))) {
             $this->setLanguageCookie($_GET['lang']);
             return $_GET['lang'];
         }
@@ -39,11 +50,11 @@ class LanguageHandler
         if (!empty($headerLanguage)) {
             $languagesArr = $this->parseLanguageHeader($headerLanguage);
             foreach ($languagesArr as $languageCode) {
-                if (in_array($languageCode, array_keys(self::AVAILABLE_LANGUAGES))) {
+                if (in_array($languageCode, array_keys($this->availableLanguages))) {
                     $this->setLanguageCookie($languageCode);
                     return $languageCode;
                 }
-                else if (in_array(substr($languageCode, 0, 2), array_keys(self::AVAILABLE_LANGUAGES))) {
+                else if (in_array(substr($languageCode, 0, 2), array_keys($this->availableLanguages))) {
                     $languageCode = substr($languageCode, 0, 2);
                     $this->setLanguageCookie($languageCode);
                     return $languageCode;
@@ -75,7 +86,7 @@ class LanguageHandler
      */
     private function readLanguageCookie(): string
     {
-        if (isset($_COOKIE['lang']) && in_array($_COOKIE['lang'], array_keys(self::AVAILABLE_LANGUAGES))) {
+        if (isset($_COOKIE['lang']) && in_array($_COOKIE['lang'], array_keys($this->availableLanguages))) {
                 return $_COOKIE['lang'];
             }
         return '';
