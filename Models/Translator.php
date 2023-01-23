@@ -6,7 +6,7 @@ namespace Flashpoint\Models;
 class Translator
 {
 
-    private const TRANSLATION_FILE_PATH = 'locales/{locale}.json';
+    private const TRANSLATION_FILE_PATH = LanguageHandler::LOCALE_DIRECTORY . '/{locale}/{dictionary}.json';
     private static array $dictionary = array();
     private static array $fallbackDictionary = array();
 
@@ -21,7 +21,10 @@ class Translator
     public static function loadDictionaries(string $languageCode, array $dictionaries, bool $fallbackStrings = false): bool
     {
         foreach ($dictionaries as $dictionary) {
-            $dictFilename = 'locales/'.$languageCode.'/'.$dictionary.'.json';
+            $dictFilename = strtr(self::TRANSLATION_FILE_PATH, array(
+                '{locale}' => $languageCode,
+                '{dictionary}' => $dictionary
+            ));
             if (!file_exists($dictFilename)) {
                 continue;
             }
