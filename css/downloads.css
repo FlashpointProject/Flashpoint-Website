@@ -1,9 +1,6 @@
 .page-container {
     min-width: 896px;
 }
-.content br {
-    margin-bottom: 6px;
-}
 
 .avast-container {
     display: table;
@@ -19,6 +16,7 @@
     vertical-align: middle;
 }
 .avast-logo img {
+    float: left;
     width: 64px;
     filter: invert(100);
     padding: 4px 20px 0 4px;
@@ -28,9 +26,6 @@
 }
 .avast-text span {
     font-size: 1.4em;
-}
-.avast-text br {
-    margin-bottom: 4px;
 }
 .avast-text a {
     color: #FFF;

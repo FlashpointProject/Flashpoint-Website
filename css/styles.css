@@ -5,10 +5,6 @@ body {
     background-color: #FFE0E4;
     margin: 0px;
 }
-br {
-    display: block;
-    content: "";
-}
 hr {
     border: 1px solid #EFCCD1;
     margin: 4px 0 16px;
@@ -115,9 +111,6 @@ ol > li {
 .sidebar-links > a:hover div:nth-child(2) {
     padding-right: 12px;
 }
-.sidebar-links > br {
-    margin-bottom: 16px !important;
-}
 
 /* Language select */
 
@@ -190,6 +183,24 @@ ol > li {
 .right {
     float: right;
     margin-left: 16px;
+}
+
+/* Line breaks */
+
+.break-min {
+    display: block !important;
+}
+.break-small {
+    display: block !important;
+    margin-top: 0.3em;
+}
+.break-medium {
+    display: block !important;
+    margin-top: 0.8em;
+}
+.break-large {
+    display: block !important;
+    margin-top: 1.3em;
 }
 
 /* Miscellaneous */
