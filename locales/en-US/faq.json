@@ -1,7 +1,7 @@
 {
   "FAQ_Title": "Frequently Asked Questions",
-  "FAQ_Question1": "Who/what is BlueMaxima?",
-  "FAQ_Answer1": "BlueMaxima, or Ben Latimore is the Aussie who started Flashpoint and handled the master copies until his retirement from the project in January 2023. No business or organization is involved with Flashpoint - it is a wholly community-run project.",
+  "FAQ_Question1": "Didn't this used to be called BlueMaxima's Flashpoint?",
+  "FAQ_Answer1": "Yes - the project used to operate with BlueMaxima in the name until his retirement from the project in January 2023.",
   "FAQ_Question2": "What operating systems do you support?",
   "FAQ_Answer2": "Flashpoint supports Windows 7 SP1 and newer (excluding stock Windows 8). MacOS and Linux versions are also available; however, they require extra steps to install and can only run a handful of the most popular browser technologies.",
   "FAQ_Question3": "Does Flashpoint pose any security concerns?",
@@ -21,7 +21,7 @@
   "FAQ_Question10": "Is Flashpoint open source?",
   "FAQ_Answer10": "Yes...ish. The sources for our custom-made tech such as the launcher are all available at our {GitHub}. The sources for the software we include in Flashpoint are available from their respective websites (we don't modify the source of any of the software we include). The binaries for the web plugins themselves aren't open source, but if they were, we wouldn't be here to begin with.",
   "FAQ_Question11": "Can I use the logo/is it available under Creative Commons?",
-  "FAQ_Answer11": "Yes - the logo falls under the {CC-BY 4.0} license. For attribution, you may optionally credit Seirade and BlueMaxima's Flashpoint. Source files can be found {here}.",
+  "FAQ_Answer11": "Yes - the logo falls under the {CC-BY 4.0} license. For attribution, you may optionally credit Seirade and Flashpoint. Source files can be found {here}.",
   "FAQ_Question12": "Where can I donate to the project?",
   "FAQ_Answer12": "Out of respect for the artists and developers whose works can be found in Flashpoint, we try to avoid soliciting donations. While we once ran {an emergency fundraiser} to cover server costs, we have no plans to launch another one in the future.",
   "FAQ_Question13": "Flashpoint isn't working correctly!",

@@ -1,16 +1,11 @@
 <span class="title"><?= t('Downloads_Title') ?></span>
 <hr class="title-divider">
-<?= t('Downloads_Para1', '<a href="changelog.txt">') ?>
-<div class="break-medium"></div>
-<?= t('Downloads_Para2', '<b>') ?>
-<div class="break-large"></div>
-
-<span class="title-small"><?= t('Downloads_Software_Title') ?></span>
-<hr>
-<a class="title-small download-installer" href="FlashpointInstaller.exe"><img src="images/installer.png"><?= t('Downloads_Software_Download') ?></a>
+<a class="title-small download-installer" href="https://github.com/FlashpointProject/FlashpointComponentTools/releases/latest/download/FlashpointInstaller.exe">
+    <img src="images/installer.png"><?= t('Downloads_Software_Download') ?>
+</a>
 <div class="break-medium"></div>
 <div class="download-info">
-    <?= t('Downloads_Software_Size', '<b>', '1.9MB') ?>
+    <?= t('Downloads_Software_Size', '<b>', '1.9MB', '~1GB', '~3GB') ?>
     <div class="break-min"></div>
     <?= t('Downloads_Software_Requirements', '<b>', '<a href="datahub/Mac_Support">', '<a href="datahub/Linux_Support">') ?>
     <div class="break-min"></div>
@@ -20,16 +15,14 @@
 
 <?= t('Downloads_Software_Para1', '<b>', '<a href="source">') ?>
 <div class="break-medium"></div>
-<?= t('Downloads_Software_Para2', '<i>', '<a href="Flashpoint%20Core%2011.7z">', '<a href="datahub/Curation_Tutorial">') ?>
-<div class="break-medium"></div>
-<?= t('Downloads_Software_Para3', '<b>', '<a href="datahub/Troubleshooting_Antivirus_Interference">', '<a href="faq#security-concerns">') ?>
+<i><?= t('Downloads_Software_Para2', '<b>', '<a href="datahub/Troubleshooting_Antivirus_Interference">', '<a href="faq#security-concerns">') ?></i>
 <div class="break-large"></div>
 
 <span class="title-small"><?= t('Downloads_Archive_Title') ?></span>
 <hr>
 <?= t('Downloads_Archive_Para1', '<a href="https://unstable.life/flashpoint-database/downloads/">') ?>
 <div class="break-medium"></div>
-<b><?= t('Downloads_Archive_Para2') ?></b>
+<b><u><?= t('Downloads_Archive_Para2') ?></u></b>
 <div class="break-large"></div>
 
 <hr>

@@ -1,6 +1,7 @@
 {
   "News_Title": "News",
-  "News_Description": "All notable events in Flashpoint history as of October 2019.",
+  "News_Para1": "All notable events in Flashpoint history as of October 2019. Hover over a version's codename for an explanation from BlueMaxima, the project's founder.",
+  "News_Para2": "A changelog encompassing every version released before the switch to the component-based system can be found {here}.",
   "News_Flashpoint_Started": "BlueMaxima's Flashpoint was started.",
   "News_Flashpoint_0": "Flashpoint Zero was released.",
   "News_Flashpoint_1": "Flashpoint Version One was released.",

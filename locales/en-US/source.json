@@ -1,11 +1,12 @@
 {
   "Source_Title": "Source Code",
-  "Source_Desc": "The software that powers Flashpoint is free and open-source, obviously excluding most of the supported browser plugins/technologies (we can't do much about that). Applications and utilities developed by project contributors can be found at our {GitHub team page} and at our {GitLab}.",
+  "Source_Desc": "The software that powers Flashpoint is free and open-source, obviously excluding most of the supported browser plugins/technologies (we can't do much about that). Applications and utilities developed by project contributors can be found at our {GitHub team page}.",
   "Source_Developed_Projects_Title": "Projects Developed by Flashpoint",
   "Source_Developed_Projects_Desc": "The following projects are released under the MIT license:",
   "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher}, an extensible, Electron-based launcher inspired by LaunchBox.",
   "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}, a library that enables communication between a browser/projector and Flashpoint's simulated internet.",
   "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}, an advanced application that allows for playback of plugin-based content without making permanent changes to the Windows registry.",
+  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}, a set of applications that allow the user to download, manage, and remove components.",
   "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}, a tool that runs applications with simulated clock speeds.",
   "Source_Utilized_Projects_Title": "Projects Utilized by Flashpoint",
   "Source_Utilized_Projects_Desc": "The following projects are included directly within the Flashpoint download:",
