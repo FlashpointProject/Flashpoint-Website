@@ -2,7 +2,7 @@
   "Downloads_Avast_Title": "给 Avast 和 AVG 用户的警告：",
   "Downloads_Avast_Warning": "Flashpoint 玩游戏所需的文件会被检测为病毒并被隔离，这是一个误报！请{按照此步骤}为 Flashpoint 设置例外。我们会尽力保证档案及相关技术不含病毒。{了解更多}",
   "Downloads_Title": "下载",
-  "Downloads_Para1": "所有 Flashpoint 的下载都是可移植的、免费的并且{以开源软件构建}（显然这不包括游戏及其平台）。大多数开源代码是此项目原创，您可以在{这里}的 GitHub 团队页面查看。",
+  "Downloads_Para1": "所有 Flashpoint 的下载都是可移植的、免费的并且{以开源软件构建}（不包括我们支持的大多数浏览器技术，它们基本上都已被废弃）。大多数开源代码是此项目原创，您可以在我们的{源代码页面}查看。",
   "Downloads_Para2": "要了解自开始到现在发生了什么变更，请查看{更新记录}。注意：记录很长。",
   "Downloads_Para3": "{支持的操作系统：}Windows 7 SP1 及更高、MacOS、Linux",
   "Downloads_Prerequisites": "{前置依赖：} {Visual C++ 2015 Redistributable (x86)}，\n{Microsoft .NET Framework 4.7}\n（终极版与核心版需要 {7-Zip} 来解压）",
