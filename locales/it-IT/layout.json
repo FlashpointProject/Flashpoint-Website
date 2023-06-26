@@ -1,12 +1,14 @@
 {
   "Lang_Code": "it-IT",
-  "Home": "Per Iniziare",
+  "Home": "Per iniziare",
   "Platforms": "Piattaforme",
   "News": "Notizie",
   "FAQ": "FAQ",
   "Downloads": "Scaricamenti",
+  "Source": "Source Code",
   "Branding": "Marchio",
   "Contact": "Contattaci",
+  "Database": "Database",
   "Manual": "Manuale",
   "Wiki": "Wiki"
 }
