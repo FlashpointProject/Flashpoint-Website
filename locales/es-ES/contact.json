@@ -1,6 +1,6 @@
 {
-  "Contact_Title": "Contacto",
-  "Contact_Para1": "Si necesitas contactar al proyecto directamente, envía un correo electrónico a {flashpoint (at) bluemaxima (dot) org.}",
-  "Contact_Disclaimer1": "Flashpoint no ofrece servicios para crear contenido en navegadores a partir de 2020. Por favor, revisa proyectos como {Ruffle} para esto.",
-  "Contact_Disclaimer2": "Las solicitudes de archivado no deben realizarse por correo electrónico, en su lugar, {follow this guide}. Los correos electrónicos para soporte técnico se aceptan, pero por favor, lee primero el {manual}."
+  "Contact_Title": "Contact",
+  "Contact_Para1": "If you need to contact the project directly, send an e-mail to {flashpoint (at) bluemaxima (dot) org.}",
+  "Contact_Disclaimer1": "Flashpoint does not offer services for making Flash-enabled content available in the browser after 2020. Please refer to projects such as {Ruffle} instead.",
+  "Contact_Disclaimer2": "Archival requests should not be done via email; {follow this guide} instead. Troubleshooting emails are accepted, but please read the {manual} first."
 }
