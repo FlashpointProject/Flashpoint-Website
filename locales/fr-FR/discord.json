@@ -1,15 +1,15 @@
 {
   "Discord_Title": "Discord",
-  "Discord_Intro": "Please read the rules before joining our Discord server (they can also be viewed in {#rules-and-faq} once you're in):",
-  "Discord_Rule1": "Abide by Discord’s rules, and ours: {https://discordapp.com/terms} / {https://discordapp.com/guidelines}.",
-  "Discord_Rule2": "Be respectful towards others. Don't be a bigot, incite drama, act obnoxiously, mention users/roles repeatedly, or send DMs to server members (including staff) without permission.",
-  "Discord_Rule3": "Keep topics to their designated channels. Always read the description if you aren't fully sure of its purpose. If a staff member asks you to move the conversation, please do so.",
-  "Discord_Rule4": "Distribution of content that is currently being sold or requested to be removed from Flashpoint is not allowed.",
-  "Discord_Rule5": "{Never send emails relating to Flashpoint without the consent of staff, no matter how good you think it is.} Nobody wants their chance of contacting a developer to go to waste, that's why we want to make sure it doesn't happen.",
-  "Discord_Rule6": "Promotion of yourself or affiliated parties through Discord invites, YouTube links, money-making ventures or the like is prohibited unless it's in the context of Flashpoint or digital archival.",
-  "Discord_Rule7": "NSFW content and discussion must be kept in {#nsfw-lounge} (the channel's existence alone should explain more than enough).",
-  "Discord_Rule8": "Political talk has no place in this server. Take it somewhere else or don't discuss it at all.",
-  "Discord_Curation_Exception": "(Curations - specific discussion of, and included content - are the only exception to rules 7 and 8.)",
-  "Discord_Sanctions": "Team members are allowed to warn/silence/kick/ban users they feel are breaking these rules based on the severity of the rule broken. We encourage staff to show levity to first time or accidental rule breaks, but multiple broken rules will result in harsher punishments.",
-  "Discord_Agreed": "I've read the rules and I want to join the server!"
+  "Discord_Intro": "Veuillez lire les règles avant de rejoindre notre serveur Discord (elles peuvent aussi être consultées dans {#rules-and-faq} une fois que vous y êtes) :",
+  "Discord_Rule1": "Respectez les règles de Discord et les nôtres : {https://discordapp.com/terms} / {https://discordapp.com/guidelines}.",
+  "Discord_Rule2": "Soyez respectueux envers les autres. Ne soyez pas intolérant, n'encouragez pas le drame, n'agissez pas de manière odieuse, ne mentionnez pas des utilisateurs/rôles à plusieurs reprises et n'envoyez pas des MP aux membres du serveur (y compris le personnel) sans permission.",
+  "Discord_Rule3": "Gardez les sujets sur leurs canaux désignés. Lisez toujours la description si vous n'êtes pas tout à fait sûr de son utilité. Si un membre du personnel vous demande de déplacer la conversation, veuillez le faire.",
+  "Discord_Rule4": "La distribution de contenu actuellement en vente ou dont la suppression de Flashpoint a été demandée n'est pas autorisée.",
+  "Discord_Rule5": "{N'envoyez jamais d'e-mails relatifs à Flashpoint sans l'accord du personnel, même si vous pensez que c'est une bonne idée.} Personne ne veut la chance de contacter un développeur aller à la poubelle, c'est pourquoi nous voulons nous assurer que cela ne se produise pas.",
+  "Discord_Rule6": "La promotion de vous-même ou de parties affiliées via des invitations Discord, des liens YouTube, des entreprises lucratives ou autres est interdite, sauf dans le contexte de Flashpoint ou d'archivage numérique.",
+  "Discord_Rule7": "Le contenu et les discussions NSFW doivent être conservés dans {#nsfw-lounge} (l'existence même de la chaîne devrait expliquer plus qu'assez).",
+  "Discord_Rule8": "Le discours politique n'a pas sa place dans ce serveur. Parlez-en autre part ou n'en parlez pas du tout.",
+  "Discord_Curation_Exception": "(Les conservations - discussion spécifique et contenu inclus - sont la seule exception aux règles 7 et 8.)",
+  "Discord_Sanctions": "Les membres de l'équipe sont autorisés à avertir / mute / ban les utilisateurs qu'ils estiment enfreindre ces règles en fonction de la sévérité de la règle violée. Nous encourageons le personnel à faire preuve de légèreté lors d'une première fois ou lors d'un accident, mais de multiples règles non respectées entraîneront des sanctions plus sévères.",
+  "Discord_Agreed": "J'ai lu les règles et je veux rejoindre le serveur !"
 }
