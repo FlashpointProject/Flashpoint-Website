@@ -1,5 +1,5 @@
 {
-  "News_Title": "Hírek",
+  "News_Title": "News",
   "News_Description": "All notable events in Flashpoint history as of October 2019.",
   "News_Flashpoint_Started": "BlueMaxima's Flashpoint was started.",
   "News_Flashpoint_0": "Flashpoint Zero was released.",
@@ -23,7 +23,7 @@
   "News_Flashpoint_5_1_Meta": "Playlists were added here (a filter, if you will). The name is taken from the Mesarthim EP, The Great Filter.",
   "News_Flashpoint_5_2": "Type III",
   "News_Flashpoint_5_2_Meta": "The Great Filter and Type III are two Mesarthim EPs that are often put together. No other name came up when we needed it.",
-  "News_Flashpoint_5_3": "Forradalom",
+  "News_Flashpoint_5_3": "Revolution",
   "News_Flashpoint_5_3_Meta": "This version was released close to the 1-year anniversary of Flashpoint, and we felt it was truly a revolution. (It was also originally going to be named 'Orbit', but that was a stupid name for the concept.)",
   "News_Flashpoint_5_4": "Recombination",
   "News_Flashpoint_5_4_Meta": "This version moved animations in with games, which were previously in seperate folders with seperate clients. 'Recombination' and '74%' also happened to be the name of two tracks in the Mesarthim album The Density Parameter.",
@@ -41,7 +41,7 @@
   "News_Flashpoint_6_3_Meta": "Named after an offhand line from nosamu, a staff member.",
   "News_Old_Releases_Title": "Retroactive Timeline of Releases",
   "News_Old_Releases_Description": "Due to a news column only having existed since December 2019, the majority of releases up to that point have went uncatalogued. This section accounts for those missing versions.",
-  "News_Is_Available": "már elérhető!",
+  "News_Is_Available": "is now available!",
   "News_Grab_Download": "Grab it from the {downloads page}",
   "News_Flashpoint_Update_October_2019": "The Flashpoint status update for October 2019 is now available on Medium. Check it out {here}.",
   "News_Flashpoint_Update_November_2019": "The Flashpoint status update for November 2019 is now available on Medium. Check it out {here}.",
@@ -61,13 +61,15 @@
   "News_Flashpoint_Update_August_2020": "The Flashpoint status update for August 2020 is now available on Medium. Check it out {here}.",
   "News_Flashpoint_8_2": "Approaching Planet Nine",
   "News_Flashpoint_8_2_Meta": "A (stretched, I'll grant you) portmanteau of 'approaching version nine', and Planet Nine, the Mesarthim EP.",
-  "News_Flashpoint_9_0": "Dicsőséges Napnyugta",
+  "News_Flashpoint_9_0": "Glorious Sunset",
   "News_Flashpoint_9_0_Meta": "Named after Glorious Morning, the song most known for being in Age of War. This was the last version to release before Flash's death, hence 'sunset'.",
   "News_Flashpoint_Update_April_2021": "The Flashpoint status update for April 2021 was released today. Check it out {here}.",
-  "News_Flashpoint_10_0": "Hiány",
+  "News_Flashpoint_10_0": "Absence",
   "News_Flashpoint_10_0_Meta": "This is the first version to release to a post-Flash internet, hence the name 'Absence'. It also happened to be the name of the last track on the Mesarthim EP 'Vacuum Solution'.",
   "News_Flashpoint_10_1": "Absence II",
   "News_Flashpoint_10_1_Meta": "Go on, guess.",
   "News_Flashpoint_11": "Oops, All Plugins!",
-  "News_Flashpoint_11_Meta": "It's a meme, because 11 added three dozen new plugins."
+  "News_Flashpoint_11_Meta": "It's a meme, because 11 added three dozen new plugins.",
+  "News_Flashpoint_11_1": "Operation Cherry Blossom",
+  "News_Flashpoint_11_1_Meta": "A reference to the game Muv-Luv (go buy it on Steam)."
 }
