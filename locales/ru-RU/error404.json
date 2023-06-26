@@ -1,5 +1,5 @@
 {
-  "Error_Title": "404 – Страница не найдена",
-  "Error_Para1": "Убедитесь, что вы правильно ввели URL-адрес.",
-  "Error_Para2": "Если вы попали на эту страницу, перейдя по ссылке где-то на нашем сайте, пожалуйста, {contact us}."
+  "Error_Title": "404 – Page not found",
+  "Error_Para1": "Make sure you typed the URL address correctly.",
+  "Error_Para2": "If you got to this webpage by clicking a link somewhere on our website, {contact us} please."
 }
