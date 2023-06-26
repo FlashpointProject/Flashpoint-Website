@@ -1,5 +1,5 @@
 {
-  "Source_Title": "Source Code",
+  "Source_Title": "Codice Sorgente",
   "Source_Desc": "The software that powers Flashpoint is free and open-source, obviously excluding most of the supported browser plugins/technologies (we can't do much about that). Applications and utilities developed by project contributors can be found at our {GitHub team page} and at our {GitLab}.",
   "Source_Developed_Projects_Title": "Projects Developed by Flashpoint",
   "Source_Developed_Projects_Desc": "The following projects are released under the MIT license:",
