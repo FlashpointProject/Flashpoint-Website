@@ -1,14 +1,14 @@
 {
-  "Lang_Code": "en-US",
+  "Lang_Code": "cs-CZ",
   "Home": "Domů",
   "Platforms": "Platformy",
-  "News": "News",
+  "News": "Novinky",
   "FAQ": "FAQ",
-  "Downloads": "Downloads",
-  "Source": "Source Code",
+  "Downloads": "Stáhnout",
+  "Source": "Zdrojový Kód",
   "Branding": "Značka",
   "Contact": "Kontakt",
-  "Database": "Database",
-  "Manual": "Manual",
+  "Database": "Databáze",
+  "Manual": "Manuál",
   "Wiki": "Wiki"
 }
