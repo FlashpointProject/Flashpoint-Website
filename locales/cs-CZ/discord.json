@@ -1,15 +1,15 @@
 {
   "Discord_Title": "Discord",
-  "Discord_Intro": "Please read the rules before joining our Discord server (they can also be viewed in {#rules-and-faq} once you're in):",
-  "Discord_Rule1": "Abide by Discord’s rules, and ours: {https://discordapp.com/terms} / {https://discordapp.com/guidelines}.",
-  "Discord_Rule2": "Be respectful towards others. Don't be a bigot, incite drama, act obnoxiously, mention users/roles repeatedly, or send DMs to server members (including staff) without permission.",
-  "Discord_Rule3": "Keep topics to their designated channels. Always read the description if you aren't fully sure of its purpose. If a staff member asks you to move the conversation, please do so.",
-  "Discord_Rule4": "Distribution of content that is currently being sold or requested to be removed from Flashpoint is not allowed.",
-  "Discord_Rule5": "{Never send emails relating to Flashpoint without the consent of staff, no matter how good you think it is.} Nobody wants their chance of contacting a developer to go to waste, that's why we want to make sure it doesn't happen.",
-  "Discord_Rule6": "Promotion of yourself or affiliated parties through Discord invites, YouTube links, money-making ventures or the like is prohibited unless it's in the context of Flashpoint or digital archival.",
-  "Discord_Rule7": "NSFW content and discussion must be kept in {#nsfw-lounge} (the channel's existence alone should explain more than enough).",
-  "Discord_Rule8": "Political talk has no place in this server. Take it somewhere else or don't discuss it at all.",
-  "Discord_Curation_Exception": "(Curations - specific discussion of, and included content - are the only exception to rules 7 and 8.)",
-  "Discord_Sanctions": "Team members are allowed to warn/silence/kick/ban users they feel are breaking these rules based on the severity of the rule broken. We encourage staff to show levity to first time or accidental rule breaks, but multiple broken rules will result in harsher punishments.",
-  "Discord_Agreed": "I've read the rules and I want to join the server!"
+  "Discord_Intro": "Prosím přečtěte si pravidla před připojením k našemu Discord serveru (můžete se také na ně kouknout v {#rules-and-faq}, jakmile budete uvnitř):",
+  "Discord_Rule1": "Dodržujte Discord pravidla a k tomu i ta naše: {https://discordapp.com/terms} / {https://discordapp.com/guidelines}.",
+  "Discord_Rule2": "Respektujte ostatní. Nebuďte bigotní, nepodněcujte problémy, nechovejte se protivně, opakovaně nezmiňujte uživatele/role, nebo neposílejte přímé zprávy členům serveru (včetně personálu) bez svolení.",
+  "Discord_Rule3": "Ponechte témata v jejich určených kanálech. Pokud si nejste plně jisti účelem kanálu, vždy si přečtěte popis. Pokud vás zaměstnanec požádá o přesun konverzace, udělejte to prosím.",
+  "Discord_Rule4": "Distribuce obsahu, který se v současné době prodává nebo o který se žádá, aby byl odstraněn z Flashpointu není povolena.",
+  "Discord_Rule5": "{Never send emails relating to Flashpoint without the consent of staff, no matter how good you think it is.} Nikdo nechce, aby jeho šance na kontaktování vývojáře přišla nazmar, proto chceme zajistit, aby se to nestalo.",
+  "Discord_Rule6": "Propagace vašich nebo přidružených stran prostřednictvím Discord pozvánek, YouTube odkazů, peněžitého podnikání nebo podobných aktivit je zakázaná, pokud není v kontextu Flashpoint nebo digitálního archivu.",
+  "Discord_Rule7": "Erotický obsah a diskuse musí být uchovány v {#nsfw-lounge} (samotná existence kanálu by měla vysvětlit více než dost).",
+  "Discord_Rule8": "Politické konverzace nemají na tomto serveru místo. Provádějte je někde jinde nebo vůbec.",
+  "Discord_Curation_Exception": "(Jedinou výjimkou z pravidel 7 a 8 jsou kurátorské příspěvky - konkrétní diskuse o nich a o obsahu, který obsahují.)",
+  "Discord_Sanctions": "Členům týmu je dovoleno varovat/umlčet/vyhodit/zabanovat uživatele, o kterých mají pocit, že porušují tato pravidla na základě závažnosti porušeného pravidla. Vyzýváme zaměstnance, aby byli velkorysí při prvním nebo náhodném porušení, ale mnohonásobné porušení pravidel budou mít za následek tvrdší tresty.",
+  "Discord_Agreed": "Přečetl/a jsem si pravidla a chci se připojit k serveru!"
 }
