@@ -26,7 +26,7 @@
   "Downloads_Infinity_Line4": "Wird als selbstextrahierende, ausführbare Datei bereitgestellt (Flashpoint wird beim Ausführen in das angegebene Verzeichnis entpackt)",
   "Downloads_Exe": "EXE herunterladen",
   "Downloads_Instructions": "Anleitung",
-  "Downloads_Mirror": "Archive.org Mirror (Windows)",
+  "Downloads_Mirror": "Archive.org Spiegelserver (Windows)",
   "Downloads_Manual": "Sieh dir das {help manual} für die Verwendung/Fehlerbehebung von Flashpoint an!",
   "Downloads_Core": "Es gibt auch {Flashpoint Core}, eine mini-Kopie von Flashpoint, die speziell auf Projektmitwirkende zugeschnitten ist. Es enthält Beispieleinträge für jede Plattform sowie hilfreiche Werkzeuge zur Kuratierung. {here} kann es heruntergeladen werden. Um zu erfahren, wie du mit Flashpoint Core zum Archiv beitragen kannst, lies bitte das {curation tutorial}."
 }
