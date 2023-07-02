@@ -2,7 +2,6 @@
 <html>
     <head>
         <title><?= ${basename(__FILE__, '.phtml').'_title'} ?></title>
-        <base href="/flashpoint/" />
         <link rel="icon" href="images/favicon.svg">
         <?php foreach (self::$cssFiles as $cssFile) : ?>
             <link rel="stylesheet" type="text/css" href="css/<?= $cssFile ?>.css">
@@ -37,7 +36,7 @@
                         <a href="branding"><div><?= t('Branding') ?></div><div>◀&#xFE0E;</div></a>
                         <a href="contact"><div><?= t('Contact') ?></div><div>◀&#xFE0E;</div></a>
                         <div class="break-medium"></div>
-                        <a href="https://unstable.life/flashpoint-database/"><div><?= t('Database') ?></div><div>◀&#xFE0E;</div></a>
+                        <a href="https://flashpointproject.github.io/flashpoint-database/"><div><?= t('Database') ?></div><div>◀&#xFE0E;</div></a>
                         <a href="https://flashpointproject.github.io/manual/"><div><?= t('Manual') ?></div><div>◀&#xFE0E;</div></a>
                         <a href="datahub"><div><?= t('Wiki') ?></div><div>◀&#xFE0E;</div></a>
                         <a href="discord"><div>Discord</div><div>◀&#xFE0E;</div></a>

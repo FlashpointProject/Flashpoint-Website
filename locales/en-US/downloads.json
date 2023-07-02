@@ -4,7 +4,7 @@
   "Downloads_Software_Size": "{Size:} {} (installer), {} (minimum installation), {} (full installation)",
   "Downloads_Software_Requirements": "{System Requirements:} Windows 7 SP1 or higher (limited {Mac} and {Linux} support is also available)",
   "Downloads_Software_Hash": "{SHA-256:} {{}}",
-  "Downloads_Software_Para1": "The software that powers the Flashpoint archive is portable and {{built with open-source software}} (excluding the plugins themselves, which are mostly abandonware). It can operate without having the archive available locally by downloading content from our servers on-demand. The individual components comprising Flashpoint's software suite can also be updated automatically via a built-in updater.",
+  "Downloads_Software_Para1": "The software that powers Flashpoint is portable and {{built with open-source software}} (excluding the plugins themselves, which are mostly abandonware). It can operate without having the archive available locally by downloading content from our servers on-demand. The individual components comprising Flashpoint's software suite can also be updated automatically via a built-in updater.",
   "Downloads_Software_Para2": "{NOTE:} Some antiviruses, particularly Avast, will detect certain important files as a virus and prevent some games from working. If you are affected, {follow these instructions} to create an exception for Flashpoint. For more information about any potential security concerns from using the Flashpoint software, see {this FAQ entry}.",
   "Downloads_Archive_Title": "Archive Downloads",
   "Downloads_Archive_Para1": "New packages of the archive are generated automatically every few months, with both torrent and direct downloads available at the Flashpoint Database {here}.",
