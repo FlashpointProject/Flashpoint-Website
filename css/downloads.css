@@ -1,9 +1,64 @@
-.download-installer img {
+.download-avast {
+    color: #f00;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.3em 0 0.5em;
+}
+.download-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+.download-item {
+    display: flex;
+    max-width: 400px;
+    border: 2px solid #EFCCD1;
+    padding: 16px;
+    flex-direction: column;
+}
+.download-title img {
     height: 1.25em;
-    margin-right: 0.4em;
+    margin-right: 0.2em;
     vertical-align: bottom;
 }
-
+.download-item.ultimate .download-title img {
+    filter: hue-rotate(-70deg);
+}
 .download-info {
     font-size: 0.9em;
+}
+.download-description {
+    flex-grow: 1;
+}
+.download-link-main {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: auto;
+}
+.download-link-alt {
+    margin-top: 0.2em;
+    font-size: 0.9em;
+}
+.download-item.infinity .download-link-alt {
+    visibility: hidden;
+}
+.download-requirements {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width:1110px) {
+    .download-container {
+        flex-direction: column;
+    }
+    .download-item {
+        max-width: 100%;
+    }
+    .download-item.infinity .download-link-alt {
+        display: none;
+    }
 }
