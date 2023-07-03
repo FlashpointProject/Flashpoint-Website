@@ -1,5 +1,5 @@
 {
-  "Source_Title": "Source Code",
+  "Source_Title": "Código Fuente",
   "Source_Desc": "The software that powers Flashpoint is free and open-source, obviously excluding most of the supported browser plugins/technologies (we can't do much about that). Applications and utilities developed by project contributors can be found at our {GitHub team page} and at our {GitLab}.",
   "Source_Developed_Projects_Title": "Projects Developed by Flashpoint",
   "Source_Developed_Projects_Desc": "The following projects are released under the MIT license:",
@@ -8,8 +8,8 @@
   "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}, an advanced application that allows for playback of plugin-based content without making permanent changes to the Windows registry.",
   "Source_Flashpoint_VM_Desc": "{flashpointvm}, an Apache-configured Linux disk image that securely serves the contents of ZIP archives.",
   "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}, a tool that runs applications with simulated clock speeds.",
-  "Source_Utilized_Projects_Title": "Projects Utilized by Flashpoint",
-  "Source_Utilized_Projects_Desc": "The following projects are included directly within the Flashpoint download:",
+  "Source_Utilized_Projects_Title": "Proyectos utilizados por Flashpoint",
+  "Source_Utilized_Projects_Desc": "Los siguientes proyectos se incluyen directamente en la descarga de Flashpoint:",
   "Source_Apache_Desc": "{Apache HTTP Server}, a web server released under the Apache-2.0 license.",
   "Source_Basilisk_Desc": "{Basilisk}, a web browser released under the MPL-2.0 license. Flashpoint uses a custom 32-bit build with its own branding, which can be found {here}.",
   "Source_Chromium_Desc": "{Chromium}, a web browser released under various open-source licenses.",
