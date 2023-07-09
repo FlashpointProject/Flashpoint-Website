@@ -2,6 +2,7 @@
 <html>
     <head>
         <title><?= ${basename(__FILE__, '.phtml').'_title'} ?></title>
+        <base href="/" />
         <link rel="icon" href="images/favicon.svg">
         <?php foreach (self::$cssFiles as $cssFile) : ?>
             <link rel="stylesheet" type="text/css" href="css/<?= $cssFile ?>.css">
