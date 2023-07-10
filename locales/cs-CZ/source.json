@@ -1,18 +1,17 @@
 {
   "Source_Title": "Zdrojový Kód",
-  "Source_Desc": "Software, který pohání Flashpoint je zdarma a open-source, samozřejmě s výjimkou většiny podporovaných pluginů/technologií (s těmi toho moc nenaděláme). Aplikace a nástroje vyvinuté přispěvateli projaktu naleznete na {GitHub team page} a na našem {GitLab}.",
-  "Source_Developed_Projects_Title": "Projekty vyvinuté Flashpointem",
-  "Source_Developed_Projects_Desc": "Následující projekty jsou vydané v rámci licence MIT:",
+  "Source_Desc": "The software that powers Flashpoint is free and open-source, obviously excluding most of the supported browser plugins/technologies (we can't do much about that). Applications and utilities developed by project contributors can be found at our {GitHub team page}.",
+  "Source_Developed_Projects_Title": "Software Developed by Flashpoint Contributors",
+  "Source_Developed_Projects_Desc": "The following software is available under the MIT license:",
   "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher}, launcher založený na Electronu inspirovaný LaunchBoxem.",
   "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}, knihovna, která umožňuje komunikaci mezi prohlížečem/projektorem a simulovaným internetem Flashpointu.",
   "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}, pokročilá aplikace, která umožňuje přehrávání obsahu na základě pluginu bez trvalých změn ve Windows registru.",
-  "Source_Flashpoint_VM_Desc": "{flashpointvm}, Linuxový obraz disku nakonfigurovaný přes Apache, který bezpečně manipuluje s obsahem ZIP archivů.",
+  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}, a set of applications that allow the user to download, manage, and remove components.",
   "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}, nástroj, který spouští aplikace se simulovanou taktovací frekvencí.",
-  "Source_Utilized_Projects_Title": "Projekty využívané Flashpointem",
-  "Source_Utilized_Projects_Desc": "Následující projekty jsou při stažení přímo zabudovány do Flashpointu:",
+  "Source_Utilized_Projects_Title": "Third-Party Software Utilized by Flashpoint",
+  "Source_Utilized_Projects_Desc": "The following open-source software is not developed by us, but is included within Flashpoint's software suite:",
   "Source_Apache_Desc": "{Apache HTTP Server}, webový server vydaný pod Apache-2.0 licencí.",
   "Source_Basilisk_Desc": "{Basilisk}, webový prohlížeč vydaný pod licencí MPL-2.0. Flashpoint využívá vlastní 32-bitovou sestavu s vlastním brandingem, kterou lze nalézt {here}.",
   "Source_Chromium_Desc": "{Chromium}, webový prohlížeč vydaný pod různými open-source licencemi.",
-  "Source_PHP_Desc": "{PHP}, webový skriptovací jazyk vydaný pod PHP licencí.",
-  "Source_QEMU_Desc": "{QEMU}, strojový emulátor vydaný pod licencí GPL-2.0-only."
+  "Source_PHP_Desc": "{PHP}, webový skriptovací jazyk vydaný pod PHP licencí."
 }
