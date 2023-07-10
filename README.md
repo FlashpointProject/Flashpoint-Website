@@ -1,5 +1,5 @@
 # Flashpoint-Website
-This is the GitHub repository for the BlueMaxima's Flashpoint website, located at http://bluemaxima.org/flashpoint/.
+This is the GitHub repository for the Flashpoint website, located at http://bluemaxima.org/flashpoint/.
 
 ## Setting up dev environment
 1. Download and install XAMPP from https://www.apachefriends.org/download.html. Set your install location to the root directory (`C:\` on Windows).

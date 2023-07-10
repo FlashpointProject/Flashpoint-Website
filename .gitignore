@@ -1,1 +1,4 @@
 /.idea/
+log.txt
+static/
+.env

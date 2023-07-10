@@ -11,9 +11,9 @@ class Home extends Controller
      */
     public function process(array $args): bool
     {
-        self::$data['layout_title'] = 'BlueMaxima\'s Flashpoint';
-        self::$data['layout_description'] = 'A webgame preservation project and archive.';
-        self::$data['layout_keywords'] = 'Flash, Shockwave, HTML5, Unity, Webgame Preservation, Flash Game Archive, BlueMaxima, DarkMoe';
+        self::$data['layout_title'] = 'Flashpoint Archive';
+        self::$data['layout_description'] = 'A community effort to preserve games and animations from the web.';
+        self::$data['layout_keywords'] = 'Flash, Shockwave, HTML5, Unity, Archive, Webgame Preservation, Flash Game Archive, BlueMaxima, DarkMoe';
 
         self::$views[] = 'home';
         self::$dictionaries[] = 'home';

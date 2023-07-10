@@ -19,7 +19,7 @@ class Rooter extends Controller
     {
         $url = $args[0];
         $url = strtok($url, '?'); //Remove the query string
-        $url = preg_replace('/^\/flashpoint\//', '', $url); //Remove containing directory from string
+        $url = preg_replace('/^\//', '', $url); //Remove containing directory from string
         $urlArguments = explode('/', $url); //Split the arguments
 
         $firstArgument = array_shift($urlArguments); //Get the first argument

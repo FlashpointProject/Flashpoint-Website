@@ -2,15 +2,12 @@ Options -Indexes
 
 RewriteEngine On
 
-# In case of redirection problems, uncommenting the following line might help
-# RewriteBase /flashpoint/
-
 # In case it's necessary to allow direct access to all files besides those with extensions listed bellow, uncomment the next two lines
 # RewriteCond %{REQUEST_FILENAME} !-f
 # RewriteCond %{REQUEST_FILENAME} !-d
 
 # Allow direct access to datahub documents
-RewriteCond %{REQUEST_URI} !^/flashpoint/datahub
+RewriteCond %{REQUEST_URI} !^/datahub
 
 # Allow direct access to files with certain extensions, redirect everything else to index.php
 RewriteRule !\.(txt|xml|ico|svg|gif|png|jpg|exe|7z|zip|css|js|gz)$ index.php [L]

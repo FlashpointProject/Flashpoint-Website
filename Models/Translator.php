@@ -90,7 +90,7 @@ class Translator
                     break;
                 case '}':
                     $currentFormatTag = array_pop($openedFormatTagsStack);
-                    if (!is_null($currentFormatTag)) {
+                    if (!is_null($currentFormatTag) && mb_substr($currentFormatTag, 0, 1) == '<') {
                         $finalString .= self::createClosingTag($currentFormatTag);
                     }
                     break;
