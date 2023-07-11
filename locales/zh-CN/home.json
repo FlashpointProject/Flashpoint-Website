@@ -1,10 +1,10 @@
 {
   "About_Welcome": "欢迎",
-  "About_Title": "Flashpoint Archive is a community effort to preserve games and animations from the web.",
-  "About_Para1": "Internet history and culture is important, and the web is evolving at such a rapid pace that what might be commonplace today could be obselete tomorrow. This project is dedicated to preserving as many experiences from these platforms as possible, so that they aren't lost to time. Since December 2017, {over {} games and animations} have been preserved across more than a hundred browser plugins and web technologies.",
-  "About_Para2": "In addition to our preservation efforts, we also provide a highly flexible software package for reliable navigation and playback of preserved content. Among the software that powers Flashpoint is {a fully-featured launcher} that acts as a frontend for the collection, {a proxy} that tricks games into thinking they're running on the live web, and {a sandbox} that allows for secure playback of plugin-enabled content - all of which are {open-source software}.",
-  "About_Para3": "The project {was originally started} by BlueMaxima in an attempt to outrun the disappearance of webgames prior to the death of Flash. It has since evolved into a major undertaking involving hundreds of community contributors from around the world, encompassing both games and animations created for numerous internet plugins, frameworks, and standards.",
-  "About_Para4": "Flashpoint Archive operates as non-profit with the goal of furthering efforts in the preservation and accessibility of games, animations and other digital interactive experiences from the web. If you wish to support us or find out more about how we're funded and where these funds are spent, please use the Donate button in the left sidebar or visit our {Open Collective page}.",
+  "About_Title": "Flashpoint 档案馆是由社区组织的保存 Web 游戏和动画的行动。",
+  "About_Para1": "互联网的历史与文化是至关重要的，Web 技术的发展日新月异，今天还司空见惯的技术可能在明天就会被淘汰。本项目致力于尽可能地保存这些平台的体验，以免它们随时间消逝。自 2017 年 12 月以来，我们已经保存了上百个浏览器插件和 Web 技术下的{超过 {} 份游戏和动画}。",
+  "About_Para2": "除了保存行动之外，我们还提供了一组非常灵活的软件包，用于可靠地浏览和播放已保存的内容。驱动 Flashpoint 的软件包括所有藏品的前端{全功能启动器}、使游戏认为它们仍在真实互联网中运行的{代理服务器}以及安全播放插件内容的{沙箱系统}——所有一切都是{开放源代码软件}。",
+  "About_Para3": "此项目由 BlueMaxima {最早发起}，试图在 Flash 寿终正寝之前阻止网页游戏的消失。自此以后，它已经发展成为一个由来自全世界的上百名社区贡献者参与的重大项目，包罗为各种互联网插件、框架与标准创作的游戏与动画。",
+  "About_Para4": "Flashpoint 档案馆作为非营利项目，目标为进一步努力保存游戏、动画和其他基于 Web 技术的数字交互内容，并使它们能正常运行。如果您愿意支持我们，或想了解我们的资金来源和去向，请点击左侧边栏的捐赠按钮或访问我们的 {Open Collective 页面}。",
   "Search_Collection": "搜索藏品",
   "Request_Archival": "请求存档内容"
 }
