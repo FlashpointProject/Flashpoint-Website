@@ -1,10 +1,10 @@
 {
-  "Downloads_Avast": "AVAST USERS: PLEASE READ {THIS} BEFORE DOWNLOADING!",
+  "Downloads_Avast": "AVAST 使用者：在下載前請先閱讀這份 {THIS} 指南！",
   "Downloads_Title": "下載",
   "Downloads_Description": "Flashpoint's downloads are free, portable, and {{powered by open-source software}} (excluding the plugins themselves, which are mostly abandonware). If you have any questions or concerns, consult the {FAQ} or ask in the {Discord}.",
   "Downloads_Infinity_Title": "Flashpoint {} Infinity",
   "Downloads_Infinity_Size": "{Size:} 下載大小 {}，安裝大小 {}",
-  "Downloads_Infinity_Para1": "Entries are downloaded from our servers when you play them. Ideal for casual users.",
+  "Downloads_Infinity_Para1": "遊戲將在您遊玩時從我們的伺服器下載。適合一般使用者。",
   "Downloads_Infinity_Para2": "Total size depends on chosen components, and increases as you download entries.",
   "Downloads_Infinity_Link": "下載安裝程式",
   "Downloads_Infinity_Link2": "鏡像",
