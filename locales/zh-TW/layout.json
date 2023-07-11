@@ -2,14 +2,14 @@
   "Lang_Code": "en-US",
   "Home": "首頁",
   "Platforms": "平台",
-  "News": "News",
-  "FAQ": "FAQ",
+  "News": "新聞",
+  "FAQ": "常見問題",
   "Downloads": "下載",
-  "Source": "Source Code",
+  "Source": "原始碼",
   "Branding": "品牌形象",
-  "Contact": "Contact",
-  "Database": "Database",
-  "Manual": "Manual",
+  "Contact": "聯絡我們",
+  "Database": "資料庫",
+  "Manual": "使用手冊",
   "Wiki": "Wiki",
-  "Donate": "Donate"
+  "Donate": "捐贈"
 }
