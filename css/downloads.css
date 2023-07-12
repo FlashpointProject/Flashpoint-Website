@@ -41,9 +41,6 @@
     margin-top: 0.2em;
     font-size: 0.9em;
 }
-.download-item.infinity .download-link-alt {
-    visibility: hidden;
-}
 .download-requirements {
     display: inline-block;
     position: relative;
