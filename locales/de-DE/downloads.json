@@ -1,7 +1,7 @@
 {
-  "Downloads_Avast": "AVAST USERS: PLEASE READ {THIS} BEFORE DOWNLOADING!",
+  "Downloads_Avast": "FÜR NUTZER VON AVAST: BITTE ZUERST {THIS} VOR DEM DOWNLOAD LESEN!",
   "Downloads_Title": "Downloads",
-  "Downloads_Description": "Flashpoint's downloads are free, portable, and {{powered by open-source software}} (excluding the plugins themselves, which are mostly abandonware). If you have any questions or concerns, consult the {FAQ} or ask in the {Discord}.",
+  "Downloads_Description": "Flashpoints Downloads sind kostenlos, portabel, und {{powered by open-source software}} (ausgenommen die Plugins selbst, meist Abandonware). Wenn du Fragen oder Bedenken haben, sieh das {FAQ} an oder frage im {Discord}.",
   "Downloads_Infinity_Title": "Flashpoint {} Infinity",
   "Downloads_Infinity_Size": "{Size:} {} download, {} when installed",
   "Downloads_Infinity_Para1": "Entries are downloaded from our servers when you play them. Ideal for casual users.",
