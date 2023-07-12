@@ -1,4 +1,4 @@
 {
-  "Template_Testing_Paragraph": "This text will be sent to Crowdin to be translated.",
-  "Template_Formatted_Testing_Paragraph": "This text will be {bold}, {italic}, {underlined} or a {hyperlink}. {This will be all}"
+  "Template_Testing_Paragraph": "Esse texto será enviado para o Crowdin para ser traduzido.",
+  "Template_Formatted_Testing_Paragraph": "Esse texto será {em negrito}, {itálico}, {sublinhado} ou um {hyperlink}. {Isso é tudo}"
 }
