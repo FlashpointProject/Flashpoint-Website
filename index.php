@@ -30,6 +30,7 @@ $result = $rooter->process(array($requestedUrl));
 if ($result !== true) {
     //Display the error webpage, overwrite the page headers (title, description, keywords)
     $rooter->process(array('err404'));
+    http_response_code(404);
 }
 
 //Function for inserting translations into views
