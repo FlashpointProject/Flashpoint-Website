@@ -1,8 +1,8 @@
 {
   "Source_Title": "Source Code",
-  "Source_Desc": "The software that powers Flashpoint is free and open-source, obviously excluding most of the supported browser plugins/technologies (we can't do much about that). Applications and utilities developed by project contributors can be found at our {GitHub team page}.",
-  "Source_Developed_Projects_Title": "Software Developed by Flashpoint Contributors",
-  "Source_Developed_Projects_Desc": "The following software is available under the MIT license:",
+  "Source_Desc": "Oprogramowanie, które napędza Flashpointa jest darmowe i otwarte, pomijając oczywiście większość wspieranych wtyczek/technologii przeglądarkowych (nie możemy z tym wiele zrobić). Aplikacje oraz narzędzia stworzone przez współtwórców projektu można znaleźć na {stronie GitHub zespołu}.",
+  "Source_Developed_Projects_Title": "Oprogramowanie stworzone przez współtwórców Flashpointa",
+  "Source_Developed_Projects_Desc": "Następujące oprogramowanie jest dostępne na licencji MIT:",
   "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher}, an extensible, Electron-based launcher inspired by LaunchBox.",
   "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}, a library that enables communication between a browser/projector and Flashpoint's simulated internet.",
   "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}, an advanced application that allows for playback of plugin-based content without making permanent changes to the Windows registry.",
