@@ -1,0 +1,20 @@
+{
+  "Downloads_Avast": "UTILISATEURS D'AVAST : VEUILLEZ LIRE {CECI} AVANT DE TÉLÉCHARGER !",
+  "Downloads_Title": "Téléchargements",
+  "Downloads_Description": "Les téléchargements de Flashpoint sont gratuits, portables et {{alimentés par des logiciels libres}} (à l'exception des plugins eux-mêmes, qui sont pour la plupart des logiciels abandonnés). Si vous avez des questions ou des inquiétudes, consultez la {FAQ} ou demandez dans le {Discord}.",
+  "Downloads_Infinity_Title": "Flashpoint {} Infinity",
+  "Downloads_Infinity_Size": "{Taille :} téléchargement de {}, {} une fois installé",
+  "Downloads_Infinity_Para1": "Les entrées sont téléchargées à partir de nos serveurs quand vous les jouez. Idéal pour les utilisateurs occasionnels.",
+  "Downloads_Infinity_Para2": "La taille totale dépend des composants choisis et augmente au fur et à mesure que vous téléchargez les entrées.",
+  "Downloads_Infinity_Link": "Télécharger l'installateur",
+  "Downloads_Infinity_Link2": "Copie zippée (si l'installateur ne fonctionne pas)",
+  "Downloads_Ultimate_Title": "Flashpoint {} Ultimate",
+  "Downloads_Ultimate_Size": "{Taille :} téléchargement de {}, {} une fois extrait",
+  "Downloads_Ultimate_Para1": "Toutes les entrées sont disponibles hors ligne dès le départ. Idéal pour les archivistes et les amasseurs de données.",
+  "Downloads_Ultimate_Para2": "Nécessite un client torrent tel que {qBittorrent} pour le téléchargement et {7-Zip} pour l'extraction.",
+  "Downloads_Ultimate_Link": "Télécharger le torrent",
+  "Downloads_Ultimate_Link2": "Téléchargement direct (Archive.org)",
+  "Downloads_Requirements": "{Configuration requise :} Windows 7 SP1 ou supérieur (un support limité pour {Mac} et {Linux} est également disponible)",
+  "Downloads_Prerequisites": "{Prérequis :} {Visual C++ 2015 Redistributable (x86)}, {Microsoft .NET Framework 4.7} ou supérieur",
+  "Downloads_Footer": "Pour obtenir des informations et des listes de modifications concernant les versions antérieures, veuillez consulter la page {Actualités}."
+}

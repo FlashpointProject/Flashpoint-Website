@@ -1,0 +1,17 @@
+{
+  "Source_Title": "Kod źródłowy",
+  "Source_Desc": "Oprogramowanie, które napędza Flashpointa jest darmowe i otwarte, pomijając oczywiście większość wspieranych wtyczek/technologii przeglądarkowych (nie możemy z tym wiele zrobić). Aplikacje oraz narzędzia stworzone przez współtwórców projektu można znaleźć na {stronie GitHub zespołu}.",
+  "Source_Developed_Projects_Title": "Oprogramowanie stworzone przez współtwórców Flashpointa",
+  "Source_Developed_Projects_Desc": "Następujące oprogramowanie jest dostępne na licencji MIT:",
+  "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher}, elastyczny launcher oparty na frameworku Electron, zainspirowany przez LaunchBox.",
+  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}, biblioteka pozwalająca na komunikację między przeglądarką/projektorem a symulowanym internetem Flashpointa.",
+  "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}, zaawansowana aplikacja pozwalająca na odtwarzania zawartości opartej na wtyczkach bez wprowadzania trwałych zmian w rejestrze systemu Windows.",
+  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}, zestaw aplikacji pozwalający użytkownikowi na pobieranie, zarządzanie oraz usuwanie komponentów.",
+  "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}, narzędzie uruchamiające aplikacje z symulowaną prędkością zegara procesora.",
+  "Source_Utilized_Projects_Title": "Oprogramowanie zewnętrzne używane przez Flashpointa",
+  "Source_Utilized_Projects_Desc": "Następujące oprogramowanie open source nie zostało stworzone przez nas, ale jest zawarte w zestawie oprogramowania Flashpointa:",
+  "Source_Apache_Desc": "{Apache HTTP Server}, serwer HTTP wydany na licencji Apache-2.0.",
+  "Source_Basilisk_Desc": "{Basilisk}, przeglądarka internetowa wydana na licencji MPL-2.0. Flashpoint używa swojego niestandardowego, 32-bitowego wydania z własną marką, które można znaleźć {tutaj}.",
+  "Source_Chromium_Desc": "{Chromium}, przeglądarka internetowa wydana na podstawie różnych licencji open source.",
+  "Source_PHP_Desc": "{PHP}, skryptowy język stron internetowych wydany na licencji PHP."
+}

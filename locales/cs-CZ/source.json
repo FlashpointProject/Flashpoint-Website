@@ -1,0 +1,17 @@
+{
+  "Source_Title": "Zdrojový Kód",
+  "Source_Desc": "Software, který pohání Flashpoint je zdarma a open-source, samozřejmě s výjimkou většiny podporovaných pluginů/technologií (s těmi toho moc nenaděláme). Aplikace a nástroje vyvinuté přispěvateli projektu naleznete na našem {GitHub team page}.",
+  "Source_Developed_Projects_Title": "Software vyvinutý přispěvateli k Flashpointu",
+  "Source_Developed_Projects_Desc": "Následující software je k dispozici pod licencí MIT:",
+  "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher}, launcher založený na Electronu inspirovaný LaunchBoxem.",
+  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}, knihovna, která umožňuje komunikaci mezi prohlížečem/projektorem a simulovaným internetem Flashpointu.",
+  "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}, pokročilá aplikace, která umožňuje přehrávání obsahu na základě pluginu bez trvalých změn ve Windows registru.",
+  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}, sada aplikací, které umožňují uživateli stahovat, spravovat a odebírat komponenty.",
+  "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}, nástroj, který spouští aplikace se simulovanou taktovací frekvencí.",
+  "Source_Utilized_Projects_Title": "Software třetích stran používaný Flashpointem",
+  "Source_Utilized_Projects_Desc": "Následující open-source software jsme nevyvinuli my, ale je součástí softwarové sady Flashpointu:",
+  "Source_Apache_Desc": "{Apache HTTP Server}, webový server vydaný pod Apache-2.0 licencí.",
+  "Source_Basilisk_Desc": "{Basilisk}, webový prohlížeč vydaný pod licencí MPL-2.0. Flashpoint využívá vlastní 32-bitovou sestavu s vlastním brandingem, kterou lze nalézt {here}.",
+  "Source_Chromium_Desc": "{Chromium}, webový prohlížeč vydaný pod různými open-source licencemi.",
+  "Source_PHP_Desc": "{PHP}, webový skriptovací jazyk vydaný pod PHP licencí."
+}

@@ -1,0 +1,17 @@
+{
+  "Source_Title": "Quelltext",
+  "Source_Desc": "Die Software von Flashpoint ist frei und quelloffen, was natürlich die meisten der unterstützten Browser-Plugins/Technologien ausschließt (daran können wir nicht viel ändern). Von Projektmitarbeitern entwickelte Anwendungen und Dienstprogramme finden sich auf unserer {GitHub team page}.",
+  "Source_Developed_Projects_Title": "Von Flashpoint-Mitwirkenden entwickelte Software",
+  "Source_Developed_Projects_Desc": "Folgende Software ist unter der MIT-Lizenz verfügbar:",
+  "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher}, ein erweiterbares, auf Electron basierender Launcher inspiriert von LaunchBox.",
+  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}, eine Bibliothek, die Kommunikation zwischen einem Browser und dem von Flashpoint simulierten Internet herstellt.",
+  "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}, eine fortgeschrittene Anwendung, die die Wiedergabe von Plugin-basierten Inhalten ermöglicht, ohne dass dauerhafte Änderungen an der Windows Registry vorgenommen werden müssen.",
+  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}, ein Satz von Anwendungen, die es ermöglichen, Komponenten herunterzuladen, zu verwalten und zu entfernen.",
+  "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}, ein Werkzeug, das Anwendungen mit simulierter Taktfrequenz ausführt.",
+  "Source_Utilized_Projects_Title": "Drittanbieter-Software, die von Flashpoint benutzt wird",
+  "Source_Utilized_Projects_Desc": "Die folgende Open-Source-Software wird nicht von uns entwickelt, ist aber in der Flashpoint-Software-Suite enthalten:",
+  "Source_Apache_Desc": "{Apache HTTP Server}, ein und der Apache-2.0-Lizenz veröffentlichter Webserver.",
+  "Source_Basilisk_Desc": "{Basilisk}, ein unter der MPL-2.0-Lizenz veröffentlichter Browser. Flashpoint verwendet eine eigene 32-Bit-Version mit eigenem Branding, der {here} zu finden ist.",
+  "Source_Chromium_Desc": "{Chromium}, ein unter diversen Open-Source-Lizenzen veröffentlichter Browser.",
+  "Source_PHP_Desc": "{PHP}, eine unter der PHP-Lizenz veröffentlichte Webskriptsprache."
+}

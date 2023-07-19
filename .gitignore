@@ -1,4 +1,9 @@
-/.idea/
-log.txt
+.idea/
+node_modules/
 static/
 .env
+log.txt
+package.json
+package-lock.json
+secrets.json
+updateLangs.mjs

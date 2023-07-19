@@ -1,6 +1,7 @@
 {
   "News_Title": "新闻",
-  "News_Description": "自 2019 年 10 月以来，Flashpoint 所有值得记录的历史事件。",
+  "News_Para1": "截至 2019 年 10 月，Flashpoint 历史上的所有重大事件。指向版本代号查看来自项目创始人 BlueMaxima 的说明。",
+  "News_Para2": "可以在{这里}查看所有在切换到基于组件的系统之前发布版本的更新记录。要直接下载旧版 Flashpoint 终极版，可以在{这里}和{这里}查看 BlueMaxima 和 Dri0m 的互联网档案馆账号。",
   "News_Flashpoint_Started": "BlueMaxima 的 Flashpoint 项目启动。",
   "News_Flashpoint_0": "Flashpoint Zero 发布。",
   "News_Flashpoint_1": "Flashpoint Version One 发布。",
@@ -69,5 +70,9 @@
   "News_Flashpoint_10_1": "Absence II",
   "News_Flashpoint_10_1_Meta": "猜猜这是什么意思。",
   "News_Flashpoint_11": "Oops, All Plugins!",
-  "News_Flashpoint_11_Meta": "这是在玩梗，因为 11 添加了 30 多个新插件。"
+  "News_Flashpoint_11_Meta": "这是在玩梗，因为 11 添加了 30 多个新插件。",
+  "News_Flashpoint_11_1": "Operation Cherry Blossom",
+  "News_Flashpoint_11_1_Meta": "引自游戏 Muv-Luv（可以在 Steam 上购买）。",
+  "News_Flashpoint_12": "Axolotl",
+  "News_Flashpoint_12_meta": "美西螈又可爱又酷炫。"
 }

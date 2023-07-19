@@ -1,12 +1,15 @@
 {
   "Lang_Code": "it-IT",
-  "Home": "Per Iniziare",
+  "Home": "Per iniziare",
   "Platforms": "Piattaforme",
   "News": "Notizie",
   "FAQ": "FAQ",
   "Downloads": "Scaricamenti",
+  "Source": "Codice Sorgente",
   "Branding": "Marchio",
   "Contact": "Contattaci",
+  "Database": "Database",
   "Manual": "Manuale",
-  "Wiki": "Wiki"
+  "Wiki": "Wiki",
+  "Donate": "Fai una donazione"
 }

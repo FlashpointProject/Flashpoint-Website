@@ -1,0 +1,10 @@
+{
+  "About_Welcome": "Bienvenue",
+  "About_Title": "Flashpoint Archive est un effort de la communauté pour préserver les jeux et les animations du web.",
+  "About_Para1": "L'histoire et la culture d'Internet sont importantes, et le web évolue à un rythme si rapide que ce qui est banal aujourd'hui pourrait être obsolète demain. Ce projet est dédié à la préserver autant d'expériences de ces plateformes que possible, afin qu'elles ne soient pas perdues dans le temps. Depuis décembre 2017, {plus de {} jeux et animations} ont été préservés à travers plus d'une centaine de plugins de navigateur et de technologies web.",
+  "About_Para2": "En plus de nos efforts de préservation, nous fournissons également un ensemble de logiciels très flexible pour une navigation et une lecture fiable du contenu préservé. Parmi les logiciels qui alimentent Flashpoint, on trouve {un lanceur complet} qui sert de façade à la collection, {un proxy} qui fait croire aux jeux qu'ils s'exécutent sur le web en direct, et {un bac à sable} qui permet une lecture sécurisée des contenus activés par des plugins - qui sont tous des {logiciels open-source}.",
+  "About_Para3": "Le projet {a été lancé à l'origine} par BlueMaxima pour tenter d'éviter la disparition des jeux en ligne avant la mort de Flash. Il a depuis évolué en une entreprise majeure impliquant des centaines de contributeurs communautaires du monde entier, englobant à la fois des jeux et des animations créés pour de nombreux plugins Internet, frameworks et standards.",
+  "About_Para4": "Flashpoint Archive opère en tant qu'organisme à but non lucratif dont l'objectif est de promouvoir la préservation et l'accessibilité des jeux, animations et autres expériences interactives numériques sur le web. Si vous souhaitez nous soutenir ou en savoir plus sur la manière dont nous sommes financés et où ces fonds sont dépensés, veuillez utiliser le bouton \"Faire un don\" dans la barre latérale gauche ou visitez notre {page Open Collective}.",
+  "Search_Collection": "Rechercher dans la collection",
+  "Request_Archival": "Demander du contenu pour archivage"
+}
