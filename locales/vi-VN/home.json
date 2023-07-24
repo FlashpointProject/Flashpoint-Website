@@ -1,5 +1,5 @@
 {
-  "About_Welcome": "Welcome",
+  "About_Welcome": "Chào bạn",
   "About_Title": "Flashpoint Archive is a community effort to preserve games and animations from the web.",
   "About_Para1": "Internet history and culture is important, and the web is evolving at such a rapid pace that what might be commonplace today could be obsolete tomorrow. This project is dedicated to preserving as many experiences from these platforms as possible, so that they aren't lost to time. Since December 2017, {over {} games and animations} have been preserved across more than a hundred browser plugins and web technologies.",
   "About_Para2": "In addition to our preservation efforts, we also provide a highly flexible software package for reliable navigation and playback of preserved content. Among the software that powers Flashpoint is {a fully-featured launcher} that acts as a frontend for the collection, {a proxy} that tricks games into thinking they're running on the live web, and {a sandbox} that allows for secure playback of plugin-enabled content - all of which are {open-source software}.",
