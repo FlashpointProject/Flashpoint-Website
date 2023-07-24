@@ -1,14 +1,14 @@
 {
   "Discord_Title": "Discord",
-  "Discord_Intro": "Hãy đọc các nội quy trước khi gia nhập vào máy chủ Discord của chúng tôi (các nội quy đó có thể được tìm thấy trên kênh {#rules-and-faq} khi bạn vào máy chủ này):",
-  "Discord_Rule1": "Tuân thủ các nội quy của chúng tôi và của Discord: {https://discordapp.com/terms} / {https://discordapp.com/guidelines}.",
+  "Discord_Intro": "Xin đọc các nội quy trước khi gia nhập máy chủ Discord của chúng tôi (bạn cũng có thể xem qua chúng trong kênh {#rules-and-faq} khi đã vào):",
+  "Discord_Rule1": "Hãy tuân thủ các nội quy của chúng tôi và của Discord: {https://discordapp.com/terms} / {https://discordapp.com/guidelines}.",
   "Discord_Rule2": "Hãy tôn trọng người khác. Không được gây thù ghét, xung đột, liên tục nhắc (mention/ping) người dùng/vai trò hoặc gửi tin nhắn cá nhân (DM/PM) đến các thành viên khác trong máy chủ (kể cả nhân viên) mà không có sự cho phép.",
   "Discord_Rule3": "Hãy nói cho đúng chủ đề với các kênh tương ứng. Hãy đọc phần mô tả nếu bạn không biết mục đích của kênh này là gì. Nếu một nhân viên yêu cầu bạn chuyển đến một kênh khác để nói chuyện thì bạn phải làm theo yêu cầu đó.",
   "Discord_Rule4": "Không được phân phối các nội dung hiện đang được bán hoặc được yêu cầu gỡ khỏi Flashpoint.",
   "Discord_Rule5": "{Không được gửi e-mail liên quan đến Flashpoint mà không có sự cho phép của nhân viên.} Không ai muốn lãng phí cơ hội liên hệ một nhà phát triển đâu. Do đó chúng ta không muốn để những chuyện đó xảy ra lần nữa.",
   "Discord_Rule6": "Người dùng không được tự quảng cáo bản thân mình hoặc quảng cáo các bên liên quan của mình thông qua các lời mời Discord, các đường dẫn YouTube, các bên đầu cơ kiếm tiền và những việc khác nếu không liên quan đến Flashpoint hoặc lưu trữ kỹ thuật số.",
-  "Discord_Rule7": "Bạn chỉ có thể đăng hoặc nói về những nội dung khiêu dâm, đồi trụy (NSFW) trên kênh {#nsfw-lounge} (kênh này đã có mặt trên máy chủ này vì lý do đó rồi).",
-  "Discord_Rule8": "Không được nói chuyện chính trị trên máy chủ này. Hãy nói chuyện đó ở máy chủ/nền tảng mạng xã hội khác hoặc không nói chuyện đó nữa.",
+  "Discord_Rule7": "Bạn chỉ được đăng và bàn về nội dung phản cảm trên kênh {#nsfw-lounge} (cũng có lí do mà chúng tôi dành hẳn một kênh cho những nội dung này).",
+  "Discord_Rule8": "Không bàn chuyện chính trị trên máy chủ này. Bạn nên đem chuyện này ra chỗ khác hoặc đừng nói.",
   "Discord_Curation_Exception": "(Các thẩm định - nhất là các cuộc thảo luận liên quan đến nội dung - không được tính là vi phạm các nội quy 7 và 8)",
   "Discord_Sanctions": "Các nhân viên dự án có quyền cảnh cáo/tắt âm/đuổi/cấm thành viên mà họ cho là vi phạm nội quy dựa trên mức độ nghiêm trọng của hành vi vi phạm đó. Chúng tôi khuyến khích các nhân viên hãy khoan hồng đối với những thành viên vi phạm lần đầu hoặc vô tình vi phạm, nhưng các nhân viên phải xử lý nghiêm những trường hợp cố tình vi phạm nhiều nội quy.",
   "Discord_Agreed": "Tôi đã đọc các nội quy và đã sẵn sàng gia nhập máy chủ!"
