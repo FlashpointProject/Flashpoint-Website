@@ -1,15 +1,15 @@
 {
-  "Lang_Code": "en-US",
+  "Lang_Code": "vi-VN",
   "Home": "Trang chủ",
   "Platforms": "Nền tảng",
-  "News": "News",
-  "FAQ": "FAQ",
-  "Downloads": "Tùy Chọn Tải Về",
-  "Source": "Source Code",
-  "Branding": "Branding",
+  "News": "Tin tức",
+  "FAQ": "Câu hỏi thường gặp",
+  "Downloads": "Tải về",
+  "Source": "Mã nguồn",
+  "Branding": "Thương hiệu",
   "Contact": "Liên hệ",
-  "Database": "Database",
-  "Manual": "Manual",
+  "Database": "Cơ sở dữ liệu",
+  "Manual": "Hướng dẫn",
   "Wiki": "Wiki",
-  "Donate": "Donate"
+  "Donate": "Quyên góp"
 }
