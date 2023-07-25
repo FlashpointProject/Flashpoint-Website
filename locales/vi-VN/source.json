@@ -9,8 +9,8 @@
   "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}, a set of applications that allow the user to download, manage, and remove components.",
   "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}, a tool that runs applications with simulated clock speeds.",
   "Source_Utilized_Projects_Title": "Third-Party Software Utilized by Flashpoint",
-  "Source_Utilized_Projects_Desc": "The following open-source software is not developed by us, but is included within Flashpoint's software suite:",
-  "Source_Apache_Desc": "{Apache HTTP Server}, a web server released under the Apache-2.0 license.",
+  "Source_Utilized_Projects_Desc": "Chúng tôi không phát triển các phần mềm mã nguồn mở sau đây nhưng chúng được đưa vào bộ phần mềm Flashpoint:",
+  "Source_Apache_Desc": "{Apache HTTP Server}, một máy chủ mạng được phát hành với giấy phép Apache-2.0.",
   "Source_Basilisk_Desc": "{Basilisk}, a web browser released under the MPL-2.0 license. Flashpoint uses a custom 32-bit build with its own branding, which can be found {here}.",
   "Source_Chromium_Desc": "{Chromium}, a web browser released under various open-source licenses.",
   "Source_PHP_Desc": "{PHP}, a web scripting language released under the PHP license."
