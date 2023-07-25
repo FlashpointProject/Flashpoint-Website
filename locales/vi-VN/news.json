@@ -1,5 +1,5 @@
 {
-  "News_Title": "News",
+  "News_Title": "Tin tức",
   "News_Para1": "Những sự kiện nổi bật trong lịch sử Flashpoint tính từ tháng 10/2019. Rê chuột lên tên phiên bản để đọc giải thích của BlueMaxima, người sáng lập dự án.",
   "News_Para2": "A changelog encompassing every version released before the switch to the component-based system can be found {here}. For direct downloads to older versions of Flashpoint Ultimate, see BlueMaxima's and Dri0m's Internet Archive accounts {here} and {here}, respectively.",
   "News_Flashpoint_Started": "BlueMaxima's Flashpoint ra đời.",
@@ -50,8 +50,8 @@
   "News_Flashpoint_7_0_Meta": "Eight thousand hours was roughly how long Flash had to live at the time of release.",
   "News_Flashpoint_7_1": "Stay on Target",
   "News_Flashpoint_7_1_Meta": "Flashpoint 7.0, by our standards, came out a mess. 7.1 was a heavy bugfix release.",
-  "News_Featured_Kotaku_Link": "We've been featured on Kotaku!",
-  "News_Featured_Kotaku_Rest": "This is a massive milestone. Thank you all for the support!",
+  "News_Featured_Kotaku_Link": "Kotaku nhắc đến chúng tôi!",
+  "News_Featured_Kotaku_Rest": "Đây là một cột mốc lớn. Cảm ơn các bạn đã ủng hộ!",
   "News_Flashpoint_Update_March_2020": "The Flashpoint status update for March 2020 is now available on Medium. Check it out {here}.",
   "News_Flashpoint_Update_April_2020": "The Flashpoint status update for April 2020 is now available on Medium. Check it out {here}.",
   "News_Flashpoint_8_0": "301",
@@ -74,5 +74,5 @@
   "News_Flashpoint_11_1": "Operation Cherry Blossom",
   "News_Flashpoint_11_1_Meta": "A reference to the game Muv-Luv (go buy it on Steam).",
   "News_Flashpoint_12": "Axolotl",
-  "News_Flashpoint_12_meta": "They're cute and they're cool."
+  "News_Flashpoint_12_meta": "Vì chúng quá dễ thương và ngầu lòi."
 }
