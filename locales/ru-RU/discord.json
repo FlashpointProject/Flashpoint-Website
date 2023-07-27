@@ -10,6 +10,6 @@
   "Discord_Rule7": "NSFW-контент и его обсуждение должны вестись в {#nsfw-lounge} (название канала говорит само за себя).",
   "Discord_Rule8": "Политическим разговорам не место на этом сервере. Обсудите их в другом месте или не обсуждайте вообще.",
   "Discord_Curation_Exception": "(Curations - specific discussion of, and included content - are the only exception to rules 7 and 8.)",
-  "Discord_Sanctions": "Team members are allowed to warn/silence/kick/ban users they feel are breaking these rules based on the severity of the rule broken. We encourage staff to show levity to first time or accidental rule breaks, but multiple broken rules will result in harsher punishments.",
-  "Discord_Agreed": "I've read the rules and I want to join the server!"
+  "Discord_Sanctions": "Члены команды могут, в зависимости от степени тяжести нарушения, предупреждать/замалчивать/кикать/банить пользователей, которые, по их мнению, нарушают правила. Мы рекомендуем персоналу относиться снисходительно к первым или случайным нарушениям правил, однако многократное их нарушение приведёт к более суровому наказанию.",
+  "Discord_Agreed": "Я прочёл правила и хочу присоединиться к серверу!"
 }
