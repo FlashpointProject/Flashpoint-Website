@@ -1,6 +1,6 @@
 {
   "Contact_Title": "Обратная связь",
   "Contact_Para1": "Если вам нужно связаться с нами напрямую, отправьте письмо на {flashpoint (at) bluemaxima (dot) org.}",
-  "Contact_Disclaimer1": "Flashpoint does not offer services for making Flash-enabled content available in the browser after 2020. Please refer to projects such as {Ruffle} instead.",
-  "Contact_Disclaimer2": "Archival requests should not be done via email; {follow this guide} instead. Troubleshooting emails are accepted, but please read the {manual} first."
+  "Contact_Disclaimer1": "Flashpoint не предоставляет сервисы для доступа к Flash-контенту в браузерах после 2020 года. Пожалуйста, воспользуйтесь для этого проектами вроде {Ruffle}.",
+  "Contact_Disclaimer2": "Запросы на архивацию не следует отправлять по электронной почте; вместо этого воспользуйтесь {данным руководством}. Письма с просьбами об устранении неполадок принимаются, но сперва прочтите {инструкцию}."
 }
