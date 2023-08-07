@@ -1,17 +1,18 @@
 {
   "Source_Title": "Codice Sorgente",
-  "Source_Desc": "Il software che alimenta Flashpoint è gratuito e open-source, ovviamente escludendo la maggior parte dei plugin / tecnologie del browser supportati (non possiamo fare molto a riguardo). Applicazioni e utilità sviluppate dai collaboratori di progetto possono essere trovate presso il nostro {GitHub team page}.",
-  "Source_Developed_Projects_Title": "Software sviluppato dai contributori di Flashpoint",
-  "Source_Developed_Projects_Desc": "Il seguente software è disponibile sotto la licenza MIT:",
+  "Source_Desc": "The software that powers Flashpoint is free and open-source, obviously excluding most of the supported browser plugins/technologies (we can't do much about that). Applications and utilities developed by project contributors can be found at our {GitHub team page} and at our {GitLab}.",
+  "Source_Developed_Projects_Title": "Projects Developed by Flashpoint",
+  "Source_Developed_Projects_Desc": "The following projects are released under the MIT license:",
   "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher}, un launcher estensibile, con base Electron ispirato a LaunchBox.",
   "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}, una libreria che consente la comunicazione tra un browser/proiettore e un internet simulato di Flashpoint.",
   "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}, un'applicazione avanzata che consente la riproduzione di contenuti basati su plugin senza apportare modifiche permanenti al registro di sistema di Windows.",
-  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}, un insieme di applicazioni che consentono all'utente di scaricare, gestire e rimuovere componenti.",
+  "Source_Flashpoint_VM_Desc": "{flashpointvm}, an Apache-configured Linux disk image that securely serves the contents of ZIP archives.",
   "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}, uno strumento che esegue applicazioni con velocità di clock simulate.",
-  "Source_Utilized_Projects_Title": "Software di terze parti utilizzato da Flashpoint",
-  "Source_Utilized_Projects_Desc": "Il seguente software open-source non è sviluppato da noi, ma è incluso nella suite software di Flashpoint:",
+  "Source_Utilized_Projects_Title": "Projects Utilized by Flashpoint",
+  "Source_Utilized_Projects_Desc": "The following projects are included directly within the Flashpoint download:",
   "Source_Apache_Desc": "{Apache HTTP Server}, un web server rilasciato sotto la licenza Apache-2.0.",
   "Source_Basilisk_Desc": "{Basilisk}, un browser web rilasciato sotto la licenza MPL-2.0. Flashpoint utilizza una build personalizzata a 32 bit con un proprio branding, che può essere trovato {here}.",
   "Source_Chromium_Desc": "{Chromium}, un browser web rilasciato sotto varie licenze open-source.",
-  "Source_PHP_Desc": "{PHP}, un linguaggio di scripting web rilasciato sotto la licenza PHP."
+  "Source_PHP_Desc": "{PHP}, un linguaggio di scripting web rilasciato sotto la licenza PHP.",
+  "Source_QEMU_Desc": "{QEMU}, a machine emulator released under the GPL-2.0-only license."
 }
