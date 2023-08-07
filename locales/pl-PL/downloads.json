@@ -1,5 +1,5 @@
 {
-  "Downloads_Avast_Title": "WARNING FOR AVAST AND AVG USERS:",
+  "Downloads_Avast_Title": "OSTRZEŻENIE DLA UŻYTKOWNIKÓW AVASTA I AVG:",
   "Downloads_Avast_Warning": "A file needed by Flashpoint to play games will be detected as a virus and quarantined; this is a false positive! {Follow these instructions} to make an exception for Flashpoint. We try our best to keep the archive and its surrounding technologies virus-free. {Learn more}",
   "Downloads_Title": "Pliki do pobrania",
   "Downloads_Para1": "All Flashpoint downloads are portable, free-of-charge and {built with open-source software} (excluding most supported browser technologies, which are largely abandonware). Much of the open-source code is original to the project, links to which you can find at our {source code page}.",
