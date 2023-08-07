@@ -1,0 +1,20 @@
+{
+  "Downloads_Avast": "Utilizatorii de antivirus Avast: Va rugăm să citiți {THIS} înainte de a descărca!",
+  "Downloads_Title": "Descărcări",
+  "Downloads_Description": "Descărcările Flashpoint sunt gratuite portabile și {{powered by open-source software}} (excluzând pluginurile în sine, care sunt în mare parte abandonate). Dacă aveți întrebări sau nelămuriri, consultați {FAQ}-ul sau puneți întrebări pe {Discord}.",
+  "Downloads_Infinity_Title": "Flashpoint {} Infinity",
+  "Downloads_Infinity_Size": "{Size:} {} descărcare, {} după instalare",
+  "Downloads_Infinity_Para1": "Conținutul este descărcat de pe serverele noastre când alegi să le joci. Ideal pentru utilizatorii obișnuiți.",
+  "Downloads_Infinity_Para2": "Dimensiunea totală depinde de componentele alese și crește pe măsură ce descărcați conținut.",
+  "Downloads_Infinity_Link": "Descarcă installer-ul",
+  "Downloads_Infinity_Link2": "Copie arhivată (dacă installer-ul nu funcționează)",
+  "Downloads_Ultimate_Title": "Flashpoint {} Ultimate",
+  "Downloads_Ultimate_Size": "{Size:} {} descărcare, {} când a fost extrasă",
+  "Downloads_Ultimate_Para1": "Tot conținutul Flashpoint este disponibil offline de la descărcare. Ideal pentru arhiviști și data hoarders.",
+  "Downloads_Ultimate_Para2": "Necesită un client de torrente, cum ar fi {qBittorrent} pentru a descărca și {7-Zip} pentru a extrage.",
+  "Downloads_Ultimate_Link": "Descarcă Torrent",
+  "Downloads_Ultimate_Link2": "Descărcare directă (Archive.org)",
+  "Downloads_Requirements": "{System Requirements:} Windows 7 SP1 sau versiune mai nouă (suport limitat pentru sistemele de operare {Mac} și {Linux} este de asemenea disponibil)",
+  "Downloads_Prerequisites": "{Prerequisites:} {Visual C++ 2015 Redistributable (x86)}, {Microsoft .NET Framework 4.7} sau versiuni mai noi",
+  "Downloads_Footer": "Pentru informații și modificări referitoare la versiunile mai vechi, vă rugăm să vizitați pagina de {News}."
+}

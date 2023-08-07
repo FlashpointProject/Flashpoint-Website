@@ -1,0 +1,15 @@
+{
+  "Discord_Title": "Discord",
+  "Discord_Intro": "Te rugăm citește regulile înainte să te alături serverului nostru de Discord (ele pot fi văzute și în {#rules-and-faq} odată ce ai intrat):",
+  "Discord_Rule1": "Urmează regulile Discord-ului, și pe ale noastre: {https://discordapp.com/terms} / {https://discordapp.com/guidelines}.",
+  "Discord_Rule2": "Fii respectuos față de ceilalți. Nu fi intolerant, nu incita drama, nu acționa în mod deranjant și nu menționa în mod repetat utilizatorii/rolurile sau trimite mesaje private membrilor serverului (inclusiv personalul) fără permisiune.",
+  "Discord_Rule3": "Păstrează subiectele de discuție pentru canalele lor specifice. Citește întotdeauna descrierea dacă nu ești complet sigur de scopul lor. Dacă un membru al personalului te roagă să schimbi subiectul, te rugăm să faci acest lucru.",
+  "Discord_Rule4": "Distribuția conținutului care este vândut în prezent sau cerut să fie șters din Flashpoint nu este permisă.",
+  "Discord_Rule5": "{Never send emails relating to Flashpoint without the consent of staff, no matter how good you think it is.} Nimeni nu vrea să risipească șansa de a contacta un dezvoltator, tocmai de asta vrem să ne asigurăm că nu o să se întâmple.",
+  "Discord_Rule6": "Promovarea ta sau altora afiliați prin invitații Discord, link-uri YouTube, proiectele care fac bani sau altele similare sunt interzise, cu excepția cazului în care este în contextul Flashpoint sau al arhivei digitale.",
+  "Discord_Rule7": "Conținutul pornografic și discuțiile de acest fel trebuie păstrate în {#nsfw-lounge} (existența canalului ar trebui să explice mai mult decât suficient).",
+  "Discord_Rule8": "Discursul politic nu are loc pe acest server. Luați-l în altă parte sau nu îl discutați deloc.",
+  "Discord_Curation_Exception": "(Curațiile - discuțiile specifice despre conținutul inclus sunt singurele excepții de la regulile 7 și 8.)",
+  "Discord_Sanctions": "Membrii echipei au dreptul de a avertiza/silenția/da afară/bloca utilizatorii care sunt considerați că încalcă aceste reguli în funcție de gravitatea regulii încălcate. Încurajăm personalul să dea dovadă de lejeritate la prima încălcare a regulilor sau la cele accidentale, însă încălcarea mai multor reguli va duce la pedepse mai aspre.",
+  "Discord_Agreed": "Am citit regulile și vreau să mă alătur serverului!"
+}
