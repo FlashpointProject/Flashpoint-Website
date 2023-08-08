@@ -1,6 +1,7 @@
 {
   "News_Title": "Neuigkeiten",
-  "News_Description": "All notable events in Flashpoint history as of October 2019.",
+  "News_Para1": "All notable events in Flashpoint history as of October 2019. Hover over a version's codename for an explanation from BlueMaxima, the project's founder.",
+  "News_Para2": "A changelog encompassing every version released before the switch to the component-based system can be found {here}. For direct downloads to older versions of Flashpoint Ultimate, see BlueMaxima's and Dri0m's Internet Archive accounts {here} and {here}, respectively.",
   "News_Flashpoint_Started": "BlueMaximas Flashpoint wurde gestartet.",
   "News_Flashpoint_0": "Flashpoint Zero wurde veröffentlicht.",
   "News_Flashpoint_1": "Flashpoint Version One wurde veröffentlicht.",
@@ -71,5 +72,7 @@
   "News_Flashpoint_11": "Hoppla, alle Plugins!",
   "News_Flashpoint_11_Meta": "Das ist ein Witz, denn Flashpoint 11 hat drei Dutzend neue Plugins hinzugefügt.",
   "News_Flashpoint_11_1": "Operation Kirschblüte",
-  "News_Flashpoint_11_1_Meta": "Anspielung auf das Spiel Muv-Luv (Kauf es auf Steam)."
+  "News_Flashpoint_11_1_Meta": "Anspielung auf das Spiel Muv-Luv (Kauf es auf Steam).",
+  "News_Flashpoint_12": "Axolotl",
+  "News_Flashpoint_12_meta": "They're cute and they're cool."
 }
