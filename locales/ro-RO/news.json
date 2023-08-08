@@ -1,6 +1,7 @@
 {
   "News_Title": "Noutăți",
-  "News_Description": "All notable events in Flashpoint history as of October 2019.",
+  "News_Para1": "All notable events in Flashpoint history as of October 2019. Hover over a version's codename for an explanation from BlueMaxima, the project's founder.",
+  "News_Para2": "A changelog encompassing every version released before the switch to the component-based system can be found {here}. For direct downloads to older versions of Flashpoint Ultimate, see BlueMaxima's and Dri0m's Internet Archive accounts {here} and {here}, respectively.",
   "News_Flashpoint_Started": "Bluemaxima's Flashpoint a început.",
   "News_Flashpoint_0": "Flashpoint Zero a fost lansat.",
   "News_Flashpoint_1": "Flashpoint versiunea 1 a fost lansată.",
@@ -71,5 +72,7 @@
   "News_Flashpoint_11": "Hopa, toate plugin-urile!",
   "News_Flashpoint_11_Meta": "Este un meme, deoarece versiunea 11 a adăugat trei duzini de plugin-uri noi.",
   "News_Flashpoint_11_1": "Operațiunea Cherry Blossom",
-  "News_Flashpoint_11_1_Meta": "O referință la jocul Muv-Luv (mergeți și cumpărați-l de pe Steam)."
+  "News_Flashpoint_11_1_Meta": "O referință la jocul Muv-Luv (mergeți și cumpărați-l de pe Steam).",
+  "News_Flashpoint_12": "Axolotl",
+  "News_Flashpoint_12_meta": "They're cute and they're cool."
 }
