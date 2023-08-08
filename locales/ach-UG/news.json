@@ -1,6 +1,7 @@
 {
   "News_Title": "crwdns6313:0crwdne6313:0",
-  "News_Description": "crwdns6895:0crwdne6895:0",
+  "News_Para1": "crwdns6975:0crwdne6975:0",
+  "News_Para2": "crwdns6977:0{here}crwdnd6977:0{here}crwdnd6977:0{here}crwdne6977:0",
   "News_Flashpoint_Started": "crwdns6317:0crwdne6317:0",
   "News_Flashpoint_0": "crwdns6319:0crwdne6319:0",
   "News_Flashpoint_1": "crwdns6321:0crwdne6321:0",
@@ -71,5 +72,7 @@
   "News_Flashpoint_11": "crwdns6451:0crwdne6451:0",
   "News_Flashpoint_11_Meta": "crwdns6453:0crwdne6453:0",
   "News_Flashpoint_11_1": "crwdns6455:0crwdne6455:0",
-  "News_Flashpoint_11_1_Meta": "crwdns6457:0crwdne6457:0"
+  "News_Flashpoint_11_1_Meta": "crwdns6457:0crwdne6457:0",
+  "News_Flashpoint_12": "crwdns6979:0crwdne6979:0",
+  "News_Flashpoint_12_meta": "crwdns6981:0crwdne6981:0"
 }
