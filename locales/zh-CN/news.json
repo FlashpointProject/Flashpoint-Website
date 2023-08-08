@@ -1,7 +1,7 @@
 {
   "News_Title": "新闻",
-  "News_Para1": "All notable events in Flashpoint history as of October 2019. Hover over a version's codename for an explanation from BlueMaxima, the project's founder.",
-  "News_Para2": "A changelog encompassing every version released before the switch to the component-based system can be found {here}. For direct downloads to older versions of Flashpoint Ultimate, see BlueMaxima's and Dri0m's Internet Archive accounts {here} and {here}, respectively.",
+  "News_Para1": "截至 2019 年 10 月，Flashpoint 历史上的所有重大事件。指向版本代号查看来自项目创始人 BlueMaxima 的说明。",
+  "News_Para2": "可以在{这里}查看所有在切换到基于组件的系统之前发布版本的更新记录。要直接下载旧版 Flashpoint 终极版，可以在{这里}和{这里}查看 BlueMaxima 和 Dri0m 的互联网档案馆账号。",
   "News_Flashpoint_Started": "BlueMaxima 的 Flashpoint 项目启动。",
   "News_Flashpoint_0": "Flashpoint Zero 发布。",
   "News_Flashpoint_1": "Flashpoint Version One 发布。",
@@ -74,5 +74,5 @@
   "News_Flashpoint_11_1": "Operation Cherry Blossom",
   "News_Flashpoint_11_1_Meta": "引自游戏 Muv-Luv（可以在 Steam 上购买）。",
   "News_Flashpoint_12": "Axolotl",
-  "News_Flashpoint_12_meta": "They're cute and they're cool."
+  "News_Flashpoint_12_meta": "美西螈又可爱又酷炫。"
 }
