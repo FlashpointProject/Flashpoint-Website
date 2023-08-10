@@ -1,5 +1,5 @@
 {
-  "Downloads_Avast": "UTILISATEURS D'AVAST : VEUILLEZ LIRE {CECI} AVANT DE TÉLÉCHARGER!",
+  "Downloads_Avast": "UTILISATEURS D'AVAST : VEUILLEZ LIRE {CECI} AVANT DE TÉLÉCHARGER !",
   "Downloads_Title": "Téléchargements",
   "Downloads_Description": "Les téléchargements de Flashpoint sont gratuits, portables et {{alimentés par des logiciels open-source}} (à l'exception des plugins eux-mêmes, qui sont pour la plupart des logiciels abandonnés). Si vous avez des questions ou des inquiétudes, consultez la {FAQ} ou demandez dans le {Discord}.",
   "Downloads_Infinity_Title": "Flashpoint {} Infinity",
@@ -15,6 +15,6 @@
   "Downloads_Ultimate_Link": "Télécharger le torrent",
   "Downloads_Ultimate_Link2": "Téléchargement direct (Archive.org)",
   "Downloads_Requirements": "{Configuration requise :} Windows 7 SP1 ou supérieur (un support limité pour {Mac} et {Linux} est également disponible)",
-  "Downloads_Prerequisites": "{Prerequisites:} {Visual C++ 2015 Redistributable (x86)}, {Microsoft .NET Framework 4.7} or higher",
-  "Downloads_Footer": "For information and changelogs pertaining to older releases, please visit the {News} page."
+  "Downloads_Prerequisites": "{Prérequis :} {Visual C++ 2015 Redistributable (x86)}, {Microsoft .NET Framework 4.7} ou supérieur",
+  "Downloads_Footer": "Pour des informations et des notes de mise à jour concernant les anciennes versions, veuillez visiter la page {News}."
 }
