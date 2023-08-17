@@ -1,0 +1,17 @@
+{
+  "Source_Title": "Исходный код",
+  "Source_Desc": "Программное обеспечение, с помощью которого работает Flashpoint, является свободным и открытым, что, разумеется, исключает большинство поддерживаемых браузером плагинов/технологий (мы ничего не можем поделать с этим). Приложения и утилиты, разработанные участниками проекта, можно найти на нашей {странице GitHub}.",
+  "Source_Developed_Projects_Title": "Программное обеспечение, разработанное участниками Flashpoint",
+  "Source_Developed_Projects_Desc": "Данное программное обеспечение доступно под лицензией MIT:",
+  "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher} — расширяемая программа запуска (лаунчер) на базе Electron, вдохновлённая LaunchBox.",
+  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy} — библиотека, обеспечивающая связь между браузером/проектором и симулированным Интернетом Flashpoint'а.",
+  "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player} — продвинутое приложение, позволяющее воспроизводить плагинный контент без внесения необратимых изменений в реестр Windows.",
+  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools} — набор приложений, позволяющих пользователю загружать, управлять и удалять компоненты.",
+  "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator} — инструмент с имитацией тактовых частот для запуска приложений.",
+  "Source_Utilized_Projects_Title": "Стороннее ПО, используемое Flashpoint",
+  "Source_Utilized_Projects_Desc": "Следующее программное обеспечение с открытым исходным кодом не разработано нами, но входит в состав программного комплекта Flashpoint:",
+  "Source_Apache_Desc": "{Apache HTTP Server} — веб-сервер, распространяемый под лицензией Apache-2.0.",
+  "Source_Basilisk_Desc": "{Basilisk} — веб-браузер, распространяемый под лицензией MPL-2.0. Flashpoint использует собственную 32-битную сборку с фирменным оформлением, которую можно найти {здесь}.",
+  "Source_Chromium_Desc": "{Chromium} — веб-браузер, распространяемый под различными открытыми лицензиями.",
+  "Source_PHP_Desc": "{PHP} — язык для веб-программирования, распространяемый под лицензией PHP."
+}
