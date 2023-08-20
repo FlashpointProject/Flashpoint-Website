@@ -13,7 +13,7 @@
 }
 .download-item {
     display: flex;
-    max-width: 400px;
+    max-width: 420px;
     border: 2px solid #EFCCD1;
     padding: 16px;
     flex-direction: column;
