@@ -11,9 +11,10 @@
   "Downloads_Ultimate_Title": "Flashpoint {} Ultimate",
   "Downloads_Ultimate_Size": "{Size:} {} download, {} when extracted",
   "Downloads_Ultimate_Para1": "All entries are available offline from the get-go. Ideal for archivists and data hoarders.",
-  "Downloads_Ultimate_Para2": "Use {Free Download Manager} to download, and {7-Zip ZS} to extract. A {dedicated updater} is also available.",
-  "Downloads_Ultimate_Link": "Download Archive",
-  "Downloads_Ultimate_Link2": "Alternate Download Link",
+  "Downloads_Ultimate_Para2": "Read {this article} for information about downloading, extracting, and updating Ultimate.",
+  "Downloads_Ultimate_Link": "Download Torrent",
+  "Downloads_Ultimate_Link2": "Direct Download",
+  "Downloads_Ultimate_Link3": "Archive.org Mirror",
   "Downloads_Requirements": "{System Requirements:} Windows 7 SP1 or higher (limited {Mac} and {Linux} support is also available)",
   "Downloads_Prerequisites": "{Prerequisites:} {Visual C++ 2015 Redistributable (x86)}, {Microsoft .NET Framework 4.7} or higher",
   "Downloads_Footer": "For information and changelogs pertaining to older releases, please visit the {News} page."
