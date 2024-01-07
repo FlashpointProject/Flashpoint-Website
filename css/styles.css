@@ -28,7 +28,7 @@ a:active {
 ol {
     margin: 2px 0 2px -20px;
 }
-ol > li {
+ol > li:not(:last-child) {
     margin-bottom: 16px;
 }
 

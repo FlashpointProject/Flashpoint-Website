@@ -1,6 +1,6 @@
 {
   "News_Title": "News",
-  "News_Para1": "All notable events in Flashpoint history as of October 2019. Hover over a version's codename for an explanation from BlueMaxima, the project's founder.",
+  "News_Para1": "All notable events in Flashpoint history beginning in October 2019. Hover over a version's codename for an explanation from a project contributor.",
   "News_Para2": "A changelog encompassing every version released before the switch to the component-based system can be found {here}. For direct downloads to older versions of Flashpoint Ultimate, see BlueMaxima's and Dri0m's Internet Archive accounts {here} and {here}, respectively.",
   "News_Flashpoint_Started": "BlueMaxima's Flashpoint was started.",
   "News_Flashpoint_0": "Flashpoint Zero was released.",
@@ -44,6 +44,7 @@
   "News_Old_Releases_Description": "Due to a news column only having existed since December 2019, the majority of releases up to that point have went uncatalogued. This section accounts for those missing versions.",
   "News_Is_Available": "is now available!",
   "News_Grab_Download": "Grab it from the {downloads page}",
+  "News_Update_Or_Grab": "Update your copy or grab it from the {downloads page}",
   "News_Flashpoint_Update_October_2019": "The Flashpoint status update for October 2019 is now available on Medium. Check it out {here}.",
   "News_Flashpoint_Update_November_2019": "The Flashpoint status update for November 2019 is now available on Medium. Check it out {here}.",
   "News_Flashpoint_7_0": "Eight Thousand Hours",
@@ -74,5 +75,7 @@
   "News_Flashpoint_11_1": "Operation Cherry Blossom",
   "News_Flashpoint_11_1_Meta": "A reference to the game Muv-Luv (go buy it on Steam).",
   "News_Flashpoint_12": "Axolotl",
-  "News_Flashpoint_12_meta": "They're cute and they're cool."
+  "News_Flashpoint_12_Meta": "&quot;Fun fact: When they lose a limb, Axolotls can patch themselves by growing a new one. Now Flashpoint can do that too!&quot; ~Corvy",
+  "News_Flashpoint_12_1": "Salamander",
+  "News_Flashpoint_12_1_Meta": "&quot;Sounded cool&quot; ~Colin"
 }
