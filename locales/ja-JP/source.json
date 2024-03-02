@@ -1,0 +1,17 @@
+{
+  "Source_Title": "ソースコード",
+  "Source_Desc": "（仕方がなく）サポートされているプラグインやテクノロジーを除いて、Flashpointが利用しているソフトウェアが無料でオープンソースです。プロジェクトの参加者が開発したアプリケーションやユーティリティが{GitHubのチームページ}に掲載しています。",
+  "Source_Developed_Projects_Title": "Flashpointの参加者によって開発したソフトウェア",
+  "Source_Developed_Projects_Desc": "以下のソフトウェアはMITライセンスで利用できます。",
+  "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher}：LaunchBoxに想を得た、Electronベースの拡張可能なランチャー。",
+  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}：ブラウザかプロジェクターとFlashpointの疑似インターネットの通信を可能にするライブラリ。",
+  "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}：　Windowsレジストリを永続的に変更せずに、プラグインベースのコンテンツの再生ができる高度なアプリケーション。",
+  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}：ユーザーがコンポーネントをダウンロード、管理、削除できるようにするアプリケーションのセット。",
+  "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}：クロック速度のシミュレーションのアプリケーションを実行するツール。",
+  "Source_Utilized_Projects_Title": "Flashpointが利用する第三者ソフトウェア",
+  "Source_Utilized_Projects_Desc": "以下のオープンソースソフトウェアは、Flashpointが開発したものではないが、Flashpointのソフトウェアスイートに含まれています。",
+  "Source_Apache_Desc": "{Apache HTTP Server}：Apache-2.0のライセンスでリリースされているサーバー。",
+  "Source_Basilisk_Desc": "{Basilisk}：MPL-2.0のライセンスでリリースされているウェブ ブラウザ。Flashpointは、カスタムのブランディング付きの32ビット ビルドを利用している。そのビルドは{こちら}。",
+  "Source_Chromium_Desc": "{Chromium}：様々なオープンソースのライセンスでリリースされているウエブ ブラウザ。",
+  "Source_PHP_Desc": "{PHP}：PHPのライセンスでリリースされているウエブのスクリプト言語。"
+}

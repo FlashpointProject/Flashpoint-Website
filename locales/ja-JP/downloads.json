@@ -1,0 +1,20 @@
+{
+  "Downloads_Avast": "Avastを利用している方：ダウンロードする前にこれ（{THIS}）を読む必要があります。",
+  "Downloads_Title": "ダウンロードファイル",
+  "Downloads_Description": "Flashpointのダウンロードは移植できる無料のプログラムで、オープンソースのソフトウェアで動いています（オープンソースではないのはプラグインのみで、ほとんどアバンダンウェアのものです）。質問や関心がある方は、{よくある質問}を読むこと、{Discord}で聞くことをしてください。",
+  "Downloads_Infinity_Title": "Flashpoint {} Infinity",
+  "Downloads_Infinity_Size": "{ファイルサイズ：}ダウンロードで{}、インストールで{}",
+  "Downloads_Infinity_Para1": "エントリーが初めてプレイするときにサーバーからダウンロードします。一般のユーザーに適切。",
+  "Downloads_Infinity_Para2": "アプリの領域が選択されたコンポーネントによって異なり、エントリーをダウンロードするたびに増加します。",
+  "Downloads_Infinity_Link": "ダウンロードのインストーラ",
+  "Downloads_Infinity_Link2": "zip形式で圧縮したコピー（インストーラが使えない場合）",
+  "Downloads_Ultimate_Title": "Flashpoint {} Ultimate",
+  "Downloads_Ultimate_Size": "{ファイルサイズ：}ダウンロードで{}、解凍で{}",
+  "Downloads_Ultimate_Para1": "全エントリーを即座にオフラインで利用できる。 アーキビストの方や、データ好きな方に適切な版。",
+  "Downloads_Ultimate_Para2": "ダウンロードするために{qBittorrent}等のトレントクライアント、ファイル解凍に{7-Zip}が必要です。",
+  "Downloads_Ultimate_Link": "ダウンロードのトレント",
+  "Downloads_Ultimate_Link2": "直接ダウンロード（Archive.org）",
+  "Downloads_Requirements": "{動作環境：}Windows 7 SP1 以降（{Mac}や{Linux}の特定のバージョンもサポートしています）",
+  "Downloads_Prerequisites": "{設置条件：} {Visual C++ 2015 Redistributable (x86)}、 {Microsoft .NET Framework 4.7} 以降",
+  "Downloads_Footer": "古いリリースに関する情報や変更履歴については、 {News} ページをご覧ください。"
+}
