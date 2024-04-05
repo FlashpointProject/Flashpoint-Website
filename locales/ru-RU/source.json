@@ -4,7 +4,7 @@
   "Source_Developed_Projects_Title": "Программное обеспечение, разработанное участниками Flashpoint",
   "Source_Developed_Projects_Desc": "Данное программное обеспечение доступно под лицензией MIT:",
   "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher} — расширяемая программа запуска (лаунчер) на базе Electron, вдохновлённая LaunchBox.",
-  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy} — библиотека, обеспечивающая связь между браузером/проектором и симулированным Интернетом Flashpoint'а.",
+  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy} — библиотека, обеспечивающая связь между браузером/проектором и симулированным Интернетом Flashpoint.",
   "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player} — продвинутое приложение, позволяющее воспроизводить плагинный контент без внесения необратимых изменений в реестр Windows.",
   "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools} — набор приложений, позволяющих пользователю загружать, управлять и удалять компоненты.",
   "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator} — инструмент с имитацией тактовых частот для запуска приложений.",
