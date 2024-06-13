@@ -1,0 +1,10 @@
+{
+  "About_Welcome": "Bem-vindo",
+  "About_Title": "O Flashpoint Archive é um esforço da comunidade para preservar jogos e animações da web.",
+  "About_Para1": "A história da Internet e cultura são importantes, e a “web” está evoluindo em um rápido passo que poder ser comum hoje e poderia ser obsoleto amanhã. Esse projeto é dedicado para preservar quantas experiências dessas plataformas quanto possível, então que eles não estão perdidos no tempo. Desde 2017, {mais de {} jogos e animações} já foram preservadas ao redor mais do que centenas de plugins de browser e tecnologias da web.",
+  "About_Para2": "Além dos nossos esforços de preservação, também fornecemos um pacote de software altamente flexível para uma navegação confiável e reprodução de conteúdo preservado. Entre o software que sustenta o Flashpoint está {um launcher cheio de recursos} que atua como uma frontend para a coleção, {uma proxy} que engana os jogos para pensarem que estão correndo na web ativa, e {uma caixa de areia} que permite a reprodução segura de conteúdo habilitado pelo plugin - todos são de {código-aberto}.",
+  "About_Para3": "O projeto {foi originalmente iniciado} por BlueMaxima na tentativa de reverter o desaparecimento de jogos da web antes da morte do Flash. Desde então, evoluiu para uma grande empresa envolvendo centenas de colaboradores comunitários de todo o mundo, englobando tanto jogos e animações criadas para vários plugins de internet, frameworks e padrões.",
+  "About_Para4": "Flashpoint Archive opera sem os fins lucrativos com o objetivo de promover esforços na preservação e acessibilidade dos jogos, animações e outras experiências interativas digitais da web. Se você deseja nos apoiar ou saber mais sobre como somos financiados e onde os fundos são gastos, por favor, use o botão Doar na barra lateral esquerda ou visite nossa {Open Collective page}.",
+  "Search_Collection": "Pesquisar na Coleção",
+  "Request_Archival": "Solicitar Conteúdo para Arquivamento"
+}

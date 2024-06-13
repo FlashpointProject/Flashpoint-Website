@@ -1,0 +1,15 @@
+{
+  "Discord_Title": "Discord",
+  "Discord_Intro": "Por favor, Leia as regras antes de entrar no nosso servidor do Discord (elas também podem ser vistas no {#rules-and-faq} assim que você entrar):",
+  "Discord_Rule1": "Mantido pelas regras do Discord e pelas nossas: {https://discordapp.com/terms} / {https://discordapp.com/guidelines}.",
+  "Discord_Rule2": "Seja respeitoso com os outros. Não seja um intolerante, incitar drama, haja detestavelmente, mencionar usuários/cargos repetidamente ou enviar mensagens diretas para membros do servidor (incluindo a equipe) sem permissão.",
+  "Discord_Rule3": "Mantenha tópicos para os canais designados. Sempre leia a descrição se você não tem completa certeza de seu propósito. Se um membro da equipe lhe pedir para mover a conversa, por favor, faça.",
+  "Discord_Rule4": "Distribuição de conteúdo que está sendo vendido ou solicitado para ser removido do Flashpoint não é permitido.",
+  "Discord_Rule5": "{Nunca mande email relacionando com Flashpoint sem o consentimento do funcionário, não importa o quão bom você ache} Ninguém quer a chance de contatar um desenvolvedor para ir ao lixo, por isso porque nós queremos ter certeza que isso não aconteça.",
+  "Discord_Rule6": "Promoção de si mesmo ou partes afiliadas através de convites do Discord, links do YouTube, empreendimentos para criação de dinheiro ou afins são proibidos, a menos que sejam no contexto de Flashpoint ou arquivamento digital.",
+  "Discord_Rule7": "Conteúdo e discussão NSFW devem ser mantidos em {#nsfw-lounge} (a existência desse canal deve explicar mais do que o suficiente).",
+  "Discord_Rule8": "A conversa política não tem lugar neste servidor. Vá para outro lugar ou não discuta nada sobre isso.",
+  "Discord_Curation_Exception": "(curações — discussões específicas. E conteúdo incluído — são a única exceção às regras 7 e 8.)",
+  "Discord_Sanctions": "Os membros da equipe podem alertar/silenciar/expulsar/banir usuários a qual sentem que estão quebrando estas regras com base na gravidade da regra quebrada. Incentivamos a equipe a mostrar levidade à primeira vez ou as rupturas acidentais de regras, mas múltiplas regras quebradas resultarão em punições mais severas.",
+  "Discord_Agreed": "Eu li as regras e quero me juntar ao servidor!"
+}
