@@ -4,7 +4,7 @@
   "Source_Developed_Projects_Title": "Programe dezvoltate de contribuitorii Flashpoint",
   "Source_Developed_Projects_Desc": "Programele următoare sunt disponibile sub licență MIT:",
   "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher}, lansator bazat pe Electron și inspirat de LaunchBox.",
-  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}, program ce permite comunicarea dintre navigator sau proiector și Internetul simulat de Flashpoint.",
+  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}, program ce permite comunicarea dintre navigator web sau proiector și Internetul simulat de Flashpoint.",
   "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}, program avansat ce permite redarea conținutului bazat pe plugin-uri fără a face modificări permanente în registrul Windows.",
   "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}, un set de programe care permit utilizatorului să descarce, să gestioneze și să elimine componente.",
   "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}, unealtă care rulează aplicații ce necesită simularea unei anumite frecvențe a procesorului.",
