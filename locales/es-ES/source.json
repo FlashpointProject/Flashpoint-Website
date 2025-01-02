@@ -1,0 +1,17 @@
+{
+  "Source_Title": "Código Fuente",
+  "Source_Desc": "El software de programa que constituye a Flashpoint es de código-abierto, u open-source, esto obviamente excluyendo la mayoría de los plugins/tecnologías de navegador soportadas. (No hay mucho que podamos hacer al respecto.) Toda aplicación y utilidad desarrollada por contribuyentes del proyecto puede ser encontrada en nuestra {GitHub team page}.",
+  "Source_Developed_Projects_Title": "Software Desarrollado por los Colaboradores de Flashpoint",
+  "Source_Developed_Projects_Desc": "El siguiente software está disponible bajo la licencia MIT:",
+  "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher}, un versátil programa ejecutable basado en Electron, inspirado por Launchbox.",
+  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}, una biblioteca que permite la comunicación entre un proyector/navegador y el sistema de internet simulado de Flashpoint.",
+  "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}, una avanzada aplicación que permite la reproducción de contenido basado en plugin sin realizar cambios permanentes al registro de Windows del usuario.",
+  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}, un set de aplicaciones que permite al usuario la descarga, administración y eliminación de componentes.",
+  "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}, una herramienta que ejecuta aplicaciones con velocidades de ciclo o reloj simuladas.",
+  "Source_Utilized_Projects_Title": "Programas de Tercera-Fuente Utilizados por Flashpoint",
+  "Source_Utilized_Projects_Desc": "El siguiente programa de fuente-abierta no ha sido desarrollado por nosotros, sin embargo es incluido como parte de la suite de programas de Flashpoint:",
+  "Source_Apache_Desc": "{Apache HTTP Server}, un servidor web lanzado bajo la licencia de Apache 2.0.",
+  "Source_Basilisk_Desc": "{Basilisk}, un navegador web lanzado bajo la licencia MPL-2.0. Flashpoint utiliza una compilación de 32-bits personalizada con su propia marca, la cual puede ser encontrada {here}.",
+  "Source_Chromium_Desc": "{Chromium}, un navegador web lanzado bajo una multitud de licencias de fuente-abierta.",
+  "Source_PHP_Desc": "{PHP}, un lenguaje de secuencia de comandos lanzado bajo la licencia PHP."
+}
