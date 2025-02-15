@@ -1,15 +1,15 @@
 {
   "Lang_Code": "ro-RO",
-  "Home": "Pag. principală",
+  "Home": "Pagina principală",
   "Platforms": "Platforme",
   "News": "Știri",
   "FAQ": "Întrebări frecvente",
   "Downloads": "Descărcări",
   "Source": "Cod sursă",
-  "Branding": "Elemente de marcă",
+  "Branding": "Marcă",
   "Contact": "Contact",
-  "Database": "Bază de date",
-  "Manual": "Manual",
-  "Wiki": "Wiki",
-  "Donate": "Donați"
+  "Database": "Bibliotecă (en.)",
+  "Manual": "Manual (en.)",
+  "Wiki": "Wiki (en.)",
+  "Donate": "Platformă de donații (en.)"
 }
