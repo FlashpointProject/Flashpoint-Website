@@ -14,7 +14,7 @@
   "Downloads_Ultimate_Para2": "ダウンロードするために{qBittorrent}等のトレントクライアント、ファイル解凍に{7-Zip}が必要です。",
   "Downloads_Ultimate_Link": "ダウンロードのトレント",
   "Downloads_Ultimate_Link2": "直接ダウンロード（Archive.org）",
-  "Downloads_Requirements": "{動作環境：}Windows 7 SP1 以降（{Mac}や{Linux}の特定のバージョンもサポートしています）",
+  "Downloads_Requirements": "{動作環境：}Windows 8.1 以降（{Mac}や{Linux}の特定のバージョンもサポートしています）",
   "Downloads_Prerequisites": "{設置条件：} {Visual C++ 2015 Redistributable (x86)}、 {Microsoft .NET Framework 4.7} 以降",
   "Downloads_Footer": "古いリリースに関する情報や変更履歴については、 {News} ページをご覧ください。"
 }

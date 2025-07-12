@@ -3,7 +3,7 @@
   "FAQ_Question1": "¿Esto no solía llamarse BlueMaxima's Flashpoint?",
   "FAQ_Answer1": "Sí - el proyecto operaba con BlueMaxima en su nombre hasta su retiro del proyecto en enero del 2023.",
   "FAQ_Question2": "¿Qué sistemas operativos soporta?",
-  "FAQ_Answer2": "Flashpoint soporta Windows 7 SP1 y más recientes (excluyendo la versión base de Windows 8). Versiones de macOS y Linux también están disponibles, sin embargo, requieren pasos extra para instalar y solo pueden ejecutar unas pocas de las más tecnologías de navegador.",
+  "FAQ_Answer2": "Flashpoint soporta Windows 8.1 y más recientes (excluyendo la versión base de Windows 8). Versiones de macOS y Linux también están disponibles, sin embargo, requieren pasos extra para instalar y solo pueden ejecutar unas pocas de las más tecnologías de navegador.",
   "FAQ_Question3": "¿Tiene Flashpoint algún problema de seguridad?",
   "FAQ_Answer3": "No que sepamos. Ninguna de nuestras aplicaciones (exceptuando la tecnología de descarga de juegos de Infinity) puede conectarse a internet; cualquier cambio en el registro realizado por Flashpoint Secure Player es eliminado luego de cerrar el juego; todas las curaciones entrantes pasan por una PC con programas antivirus competentes y actualizados; y lo más importante, el aplicativo lanzador y todas las mecánicas internas de Flashpoint {are free and open-source}. Hicimos nuestro mejor esfuerzo para asegurarnos de que la colección sea lo más segura posible, pero a pesar de todo nuestro trabajo, algunos antivirus como Avast y AVG tienden a detectar componentes importantes como peligrosos. Si te ves afectado por este problema, {read this page} para obtener instrucciones de resolución de problemas.",
   "FAQ_Question4": "¿Cuántos juegos/animaciones hay?",

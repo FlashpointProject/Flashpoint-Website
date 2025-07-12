@@ -14,7 +14,7 @@
   "Downloads_Ultimate_Para2": "Requer um cliente de torrent como {qBittorrent} para baixar e {7-Zip} para extrair.",
   "Downloads_Ultimate_Link": "Baixar Torrent",
   "Downloads_Ultimate_Link2": "Download Direto (Archive.org)",
-  "Downloads_Requirements": "{Requerimentos do sistema:} Windows 7 SP1 ou superior (suporte limitado para {Mac} e {Linux} também está disponível)",
+  "Downloads_Requirements": "{Requerimentos do sistema:} Windows 8.1 ou superior (suporte limitado para {Mac} e {Linux} também está disponível)",
   "Downloads_Prerequisites": "{Pré-requisitos:} {Visual C++ 2015 Redistributável (x86)}, {Microsoft .NET Framework 4.7} ou superior",
   "Downloads_Footer": "Para informações e atualizações relativas á lançamentos mais antigos, por favor visite a página {News}."
 }
