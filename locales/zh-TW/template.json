@@ -1,0 +1,4 @@
+{
+  "Template_Testing_Paragraph": "此文字將傳送至 Crowdin 進行翻譯。",
+  "Template_Formatted_Testing_Paragraph": "此文字將為 {bold}、{italic}、{underlined}或 {hyperlink}。 {This will be all}。"
+}

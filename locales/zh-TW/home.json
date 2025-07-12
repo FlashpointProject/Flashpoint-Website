@@ -1,0 +1,10 @@
+{
+  "About_Welcome": "歡迎",
+  "About_Title": "Flashpoint Archive 是一個保存網路遊戲與動畫的社群活動。",
+  "About_Para1": "網際網路的歷史與文化非常重要，而且網路的發展速度非常快，今天可能很普遍的東西，明天就可能過時。本專案致力於盡可能保存這些平台上的經驗，讓它們不會因時間而消失。自 2017 年 12 月以來，{已有超過一百個瀏覽器外掛和網頁技術保存了{}個遊戲和動畫。}",
+  "About_Para2": "除了保存工作之外，我們也提供高度彈性的軟體套件，以便可靠地導覽與播放保存的內容。為 Flashpoint 提供動力的軟體包括：{a fully-featured launcher}，可作為收藏集的前端；{a proxy}，可讓遊戲誤以為是在即時網路中執行；以及{a sandbox}，可安全播放外掛程式啟用的內容 - 所有這些都是{open-source software}。",
+  "About_Para3": "本計畫 {was originally started} 原先由 BlueMaxima 發起，目標是在 Flash 終止支援前拯救即將消失的網頁遊戲。從此開始，這項計畫逐漸進化為一項大規模行動，現在有來自全球數百個社群的貢獻者參與其中，致力於保存使用網頁附加元件、架構及標準所製作的遊戲及動畫。",
+  "About_Para4": "Flashpoint Archive 以非營利性質運作，其目標在於促進遊戲、動畫與其他網路數位互動體驗的保存與存取。如果您想支持我們或瞭解更多關於我們的資金來源以及這些資金的用途，請使用左側欄位的捐款按鈕或造訪我們的{Open Collective page}。",
+  "Search_Collection": "搜尋收藏庫",
+  "Request_Archival": "請求想加入收藏庫的內容"
+}

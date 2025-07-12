@@ -1,0 +1,17 @@
+{
+  "Source_Title": "原始碼",
+  "Source_Desc": "為 Flashpoint 提供動力的軟體是免費且開放原始碼的，顯然不包括大部分支援的瀏覽器外掛程式/技術（我們對此無能為力）。您可以在我們的 {GitHub team page}.找到專案貢獻者所開發的應用程式與工具。",
+  "Source_Developed_Projects_Title": "由 Flashpoint 貢獻者開發的軟體",
+  "Source_Developed_Projects_Desc": "以下軟體在 MIT 授權下提供：",
+  "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher}，一個可擴充、基於 Electron 的啟動器，靈感來自 LaunchBox。",
+  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}，一個可讓瀏覽器/投影機與 Flashpoint 模擬網際網路進行通訊的函式庫。",
+  "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}，這是一款先進的應用程式，可播放外掛程式內容，且不會對 Windows 註冊表進行永久變更。",
+  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}，一套允許使用者下載、管理及移除元件的應用程式。",
+  "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}，一個以模擬時脈速度執行應用程式的工具。",
+  "Source_Utilized_Projects_Title": "由 Flashpoint 使用的第三方軟體",
+  "Source_Utilized_Projects_Desc": "下列開放原始碼軟體並非由我們開發，但已包含在 Flashpoint 的軟體套件中：",
+  "Source_Apache_Desc": "{Apache HTTP Server}，是以 Apache-2.0 授權釋出的網頁伺服器。",
+  "Source_Basilisk_Desc": "{Basilisk}，一個以 MPL-2.0 授權釋出的網頁瀏覽器。Flashpoint 使用自訂的 32 位元建立，並擁有自己的品牌，可以在 { 這裡} 找到。",
+  "Source_Chromium_Desc": "{Chromium}，一個以各種開放原始碼授權釋出的網頁瀏覽器。",
+  "Source_PHP_Desc": "{PHP} 是以 PHP 授權釋出的網頁腳本語言。"
+}

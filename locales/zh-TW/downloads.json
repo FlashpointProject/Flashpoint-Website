@@ -1,0 +1,20 @@
+{
+  "Downloads_Avast": "AVAST 使用者：在下載前請先閱讀這份 {THIS} 指南！",
+  "Downloads_Title": "下載",
+  "Downloads_Description": "Flashpoint是免費，可無安裝，並且{{powered by open-source software}}(不包括插件本身，因爲大多數都老到被放棄了。) 如有任何疑問，可以看看{FAQ} 或在{Discord} 裏面問問看。",
+  "Downloads_Infinity_Title": "Flashpoint {} Infinity",
+  "Downloads_Infinity_Size": "{Size:} 下載大小 {}，安裝大小 {}",
+  "Downloads_Infinity_Para1": "遊戲將在您遊玩時從我們的伺服器下載。適合一般使用者。",
+  "Downloads_Infinity_Para2": "總空間是由您選的組件來決定的，而且下載越多游戲也會增加總空間。",
+  "Downloads_Infinity_Link": "下載安裝程式",
+  "Downloads_Infinity_Link2": "壓縮檔 (如果無法執行安裝程式)",
+  "Downloads_Ultimate_Title": "Flashpoint {} Ultimate",
+  "Downloads_Ultimate_Size": "{Size:} 下載大小 {}，解壓縮大小 {}",
+  "Downloads_Ultimate_Para1": "所有游戲及動畫都已经有了并且能直接离线开启。非常适合大量文件保存者和資料囤積著。",
+  "Downloads_Ultimate_Para2": "需要像是{qBittorrent} 的種子軟件來下載和像{7-Zip} 的軟件來解壓縮。",
+  "Downloads_Ultimate_Link": "下載 種子文件",
+  "Downloads_Ultimate_Link2": "直接下載 (Archive.org)",
+  "Downloads_Requirements": "{System Requirements:} Windows 7 SP1或更高的版本 (此軟件也支持部分{Mac} 版本和{Linux}。)",
+  "Downloads_Prerequisites": "{Prerequisites:} {Visual C++ 2015 可轉散發套件 (x86)}，{Microsoft .NET Framework 4.7} 或更高版本。",
+  "Downloads_Footer": "關於舊版本的資訊及更新紀錄，請到 {News} 頁面檢視。"
+}
