@@ -1,0 +1,15 @@
+{
+  "Discord_Title": "Discord",
+  "Discord_Intro": "在您加入我們的 Discord 伺服器之前，請先閱讀使用規範 (您也可以於加入後在 {#rules-and-faq} 頻道閱讀)：",
+  "Discord_Rule1": "請遵守 Discord 及我們的使用規範：{https://discordapp.com/terms} / {https://discordapp.com/guidelines}。",
+  "Discord_Rule2": "對他人保持尊重。請不要過於固執、挑起紛爭、做出粗魯無禮的行為、反覆提及使用者或身分組，或在未經允許的情況下對伺服器成員 (包含管理者) 發送私人訊息。",
+  "Discord_Rule3": "請在適當的頻道進行討論。如果您不確定該頻道的用途，請先閱讀頻道描述。如果管理成員請您移動至指定頻道進行討論，請遵照其指示。",
+  "Discord_Rule4": "我們嚴格禁止散佈任何目前仍在販賣中或已請求 Flashpoint 移除的創作內容。",
+  "Discord_Rule5": "不論您的文筆多好，請永遠不要未經管理成員同意就發送有關 Flashpoint 的電子郵件。{Never send emails relating to Flashpoint without the consent of staff, no matter how good you think it is.} 沒有人希望白白浪費聯繫開發者的大好機會，這也是為什麼我們盡力避免造成這種遺憾。",
+  "Discord_Rule6": "除了專為 Flashpoint 或數位典藏之目的，我們嚴格禁止任何透過 Discord 邀請、YouTube 連結或營利活動等方式，進行自我宣傳及推廣相關團體。",
+  "Discord_Rule7": "兒少不宜 (NSFW) 之內容必須且只能存在於 NSFW 頻道 {#nsfw-lounge} (單憑該頻道的存在應該就能解釋一切了)。",
+  "Discord_Rule8": "本伺服器不歡迎任何政治討論。請完全避免此類討論，或請您移駕至他處進行討論。",
+  "Discord_Curation_Exception": "(典藏 — Curations：針對典藏作品及其內容的討論，是規則 7、8 的唯一例外。)",
+  "Discord_Sanctions": "團隊成員有權基於違規的嚴重程度來警告、禁言、剔除、封鎖使用者。我們鼓勵管理成員寬貸初犯或誤觸法網的行為，但多次違反規則將導致更嚴厲的處罰。",
+  "Discord_Agreed": "我已經閱讀所有規則，我想要加入這個伺服器！"
+}
