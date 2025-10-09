@@ -1,0 +1,20 @@
+{
+  "Downloads_Avast": "AVAST GEBRUIKERS: LEES {THIS} VOORDAT U GAAT DOWNLOADEN!",
+  "Downloads_Title": "Downloads",
+  "Downloads_Description": "Flashpoints downloads zijn gratis, draagbaar, en {{powered by open-source software}} (met uitzondering van de plugins zelf, die meestal abandonware zijn). Als u vragen of opmerkingen heeft, raadpleeg dan de {FAQ} of vraag het in de {Discord}.",
+  "Downloads_Infinity_Title": "Flashpoint {} Oneindigheid",
+  "Downloads_Infinity_Size": "{Size:} {} download, {} na installatie",
+  "Downloads_Infinity_Para1": "Inzendingen worden gedownload van onze servers wanneer je ze speelt. Ideaal voor casual gebruikers.",
+  "Downloads_Infinity_Para2": "De totale grootte hangt af van de gekozen onderdelen en neemt toe als je items downloadt.",
+  "Downloads_Infinity_Link": "Installer downloaden",
+  "Downloads_Infinity_Link2": "Zipped kopie (als het installatieprogramma niet werkt)",
+  "Downloads_Ultimate_Title": "Flashpoint {} Ultimate",
+  "Downloads_Ultimate_Size": "{Size:} {} download, {} bij uitpakken",
+  "Downloads_Ultimate_Para1": "Alle gegevens zijn vanaf het begin offline beschikbaar. Ideaal voor archivarissen en gegevensverzamelaars.",
+  "Downloads_Ultimate_Para2": "Vereist een torrentclient zoals {qBittorrent} om te downloaden en {7-Zip} om uit te pakken.",
+  "Downloads_Ultimate_Link": "Torrent downloaden",
+  "Downloads_Ultimate_Link2": "Direct downloaden (Archive.org)",
+  "Downloads_Requirements": "{Systeemvereisten:} Windows 8.1 of hoger (beperkte ondersteuning voor {Mac} en {Linux} is ook beschikbaar)",
+  "Downloads_Prerequisites": "{Prerequisites:} {Visual C++ 2015 Redistributable (x86)}, {Microsoft .NET Framework 4.7} of hoger",
+  "Downloads_Footer": "Ga voor informatie en changelogs met betrekking tot oudere releases naar de {News} pagina."
+}

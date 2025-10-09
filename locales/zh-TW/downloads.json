@@ -14,7 +14,7 @@
   "Downloads_Ultimate_Para2": "需要像是{qBittorrent} 的種子軟件來下載和像{7-Zip} 的軟件來解壓縮。",
   "Downloads_Ultimate_Link": "下載 種子文件",
   "Downloads_Ultimate_Link2": "直接下載 (Archive.org)",
-  "Downloads_Requirements": "{System Requirements:} Windows 7 SP1或更高的版本 (此軟件也支持部分{Mac} 版本和{Linux}。)",
+  "Downloads_Requirements": "{System Requirements:} Windows 8.1 或更高的版本 (此軟件也支持部分{Mac} 版本和{Linux}。)",
   "Downloads_Prerequisites": "{Prerequisites:} {Visual C++ 2015 可轉散發套件 (x86)}，{Microsoft .NET Framework 4.7} 或更高版本。",
   "Downloads_Footer": "關於舊版本的資訊及更新紀錄，請到 {News} 頁面檢視。"
 }

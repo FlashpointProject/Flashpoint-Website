@@ -3,7 +3,7 @@
   "FAQ_Question1": "以前這不是叫 BlueMaxima's Flashpoint 嗎？",
   "FAQ_Answer1": "是的 - 專案曾以 BlueMaxima 的名義運作，直到他在 2023 年 1 月從專案退休為止。",
   "FAQ_Question2": "你們支援哪些作業系統？",
-  "FAQ_Answer2": "Flashpoint 支援 Windows 7 SP1 及更新版本（不包括 Windows 8）。MacOS 和 Linux 版本也有提供；不過，它們需要額外的安裝步驟，而且只能執行少數最流行的瀏覽器技術。",
+  "FAQ_Answer2": "Flashpoint 支援 Windows 8.1 及更新版本（不包括 Windows 8）。MacOS 和 Linux 版本也有提供；不過，它們需要額外的安裝步驟，而且只能執行少數最流行的瀏覽器技術。",
   "FAQ_Question3": "Flashpoint 會造成任何安全問題嗎？",
   "FAQ_Answer3": "就我們所知，沒有。整套軟體 (除了 Infinity 版本的遊戲下載功能) 都無法連接到網際網路；任何對登錄檔的變更都由 Flashpoint Secure Player 執行，並於遊戲關閉時復原；所有已上傳的展品都會透過有效且最新版的防毒軟體掃描；最重要的是，啟動器及所有 Flashpoint 的內部運作機制都是自由且開源的 {are free and open-source}。我們致力確保收藏庫的安全無虞，但儘管我們已做出最大努力，某些防毒軟體 (像是 Avast 及 AVG) 往往會誤判重要的程式元件為危險。若您遇到此問題，請閱讀此頁 {read this page} 來執行疑難排解。",
   "FAQ_Question4": "總共有多少遊戲及動畫？",

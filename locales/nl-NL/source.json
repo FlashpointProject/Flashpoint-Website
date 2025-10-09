@@ -1,0 +1,17 @@
+{
+  "Source_Title": "Broncode",
+  "Source_Desc": "De software waarop Flashpoint draait, is gratis en open source, met uitzondering van de meeste ondersteunde browserplug-ins/technologieën (daar kunnen we niet veel aan doen). Applicaties en hulpprogramma's die door projectmedewerkers zijn ontwikkeld, zijn te vinden op onze {GitHub-teampagina}.",
+  "Source_Developed_Projects_Title": "Software ontwikkeld door Flashpoint-bijdragers",
+  "Source_Developed_Projects_Desc": "De volgende software is beschikbaar onder de MIT-licentie:",
+  "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher}, een uitbreidbare, op Electron gebaseerde launcher geïnspireerd door LaunchBox.",
+  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy}, een bibliotheek die communicatie mogelijk maakt tussen een browser/projector en het gesimuleerde internet van Flashpoint.",
+  "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}, een geavanceerde applicatie waarmee plug-in-gebaseerde inhoud kan worden afgespeeld zonder permanente wijzigingen aan te brengen in het Windows-register.",
+  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}, een set applicaties waarmee de gebruiker componenten kan downloaden, beheren en verwijderen.",
+  "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator}, een hulpmiddel die applicaties met gesimuleerde kloksnelheden uitvoert.",
+  "Source_Utilized_Projects_Title": "Door Flashpoint gebruikte software van derden",
+  "Source_Utilized_Projects_Desc": "De volgende open-bron software is niet door ons ontwikkeld, maar is opgenomen in de softwaresuite van Flashpoint:",
+  "Source_Apache_Desc": "{Apache HTTP Server}, een webserver uitgebracht onder de Apache-2.0-licentie.",
+  "Source_Basilisk_Desc": "{Basilisk}, een webbrowser uitgebracht onder de MPL-2.0-licentie. Flashpoint maakt gebruik van een aangepaste 32-bits build met eigen branding, die {here} te vinden is.",
+  "Source_Chromium_Desc": "{Chromium}, een webbrowser die onder verschillende open-source licenties wordt uitgebracht.",
+  "Source_PHP_Desc": "{PHP}, een webscripttaal die onder de PHP-licentie is uitgebracht."
+}
