@@ -2,14 +2,14 @@
   "Discord_Title": "Discord",
   "Discord_Intro": "Veuillez lire les règles avant de rejoindre notre serveur Discord (elles peuvent aussi être consultées dans {#rules-and-faq} une fois que vous y êtes) :",
   "Discord_Rule1": "Respectez les règles de Discord et les nôtres : {https://discordapp.com/terms} / {https://discordapp.com/guidelines}.",
-  "Discord_Rule2": "Soyez respectueux envers les autres. Ne soyez pas intolérant, n'encouragez pas le drame, n'agissez pas de manière odieuse, ne mentionnez pas des utilisateurs/rôles à plusieurs reprises et n'envoyez pas des MP aux membres du serveur (y compris le personnel) sans permission.",
+  "Discord_Rule2": "Soyez respectueux envers les autres. Ne soyez pas intolérant, n'encouragez pas le drama, n'ayez pas de comportement indécent, ne mentionnez pas des utilisateurs/rôles à plusieurs reprises et n'envoyez pas des MP aux membres du serveur (y compris le personnel) sans permission.",
   "Discord_Rule3": "Gardez les sujets sur leurs canaux désignés. Lisez toujours la description si vous n'êtes pas tout à fait sûr de son utilité. Si un membre du personnel vous demande de déplacer la conversation, veuillez le faire.",
   "Discord_Rule4": "La distribution de contenu actuellement en vente ou dont la suppression de Flashpoint a été demandée n'est pas autorisée.",
   "Discord_Rule5": "{N'envoyez jamais d'e-mails relatifs à Flashpoint sans l'accord du personnel, même si vous pensez que c'est une bonne idée.} Personne ne veut la chance de contacter un développeur aller à la poubelle, c'est pourquoi nous voulons nous assurer que cela ne se produise pas.",
   "Discord_Rule6": "La promotion de vous-même ou de parties affiliées via des invitations Discord, des liens YouTube, des entreprises lucratives ou autres est interdite, sauf dans le contexte de Flashpoint ou d'archivage numérique.",
-  "Discord_Rule7": "Le contenu et les discussions NSFW doivent être conservés dans {#nsfw-lounge} (l'existence même de la chaîne devrait expliquer plus qu'assez).",
+  "Discord_Rule7": "Le contenu et les discussions NSFW doivent être conservés dans {#nsfw-lounge} (l'existence même de la chaîne devrait en dire long).",
   "Discord_Rule8": "Le discours politique n'a pas sa place dans ce serveur. Parlez-en autre part ou n'en parlez pas du tout.",
   "Discord_Curation_Exception": "(Les conservations - discussion spécifique et contenu inclus - sont la seule exception aux règles 7 et 8.)",
-  "Discord_Sanctions": "Les membres de l'équipe sont autorisés à avertir / mute / ban les utilisateurs qu'ils estiment enfreindre ces règles en fonction de la sévérité de la règle violée. Nous encourageons le personnel à faire preuve de légèreté lors d'une première fois ou lors d'un accident, mais de multiples règles non respectées entraîneront des sanctions plus sévères.",
+  "Discord_Sanctions": "Les membres de l'équipe sont autorisés à avertir / muter / bannir les utilisateurs qu'ils estiment enfreindre ces règles en fonction de la sévérité de la règle violée. Nous encourageons le personnel à faire preuve de légèreté lors d'une première fois ou lors d'un accident, mais de multiples règles non respectées entraîneront des sanctions plus sévères.",
   "Discord_Agreed": "J'ai lu les règles et je veux rejoindre le serveur !"
 }

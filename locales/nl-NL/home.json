@@ -1,0 +1,10 @@
+{
+  "About_Welcome": "Welkom",
+  "About_Title": "Flashpoint Archive is een gemeenschapsinspanning om spellen en animaties van het web te bewaren.",
+  "About_Para1": "Internetgeschiedenis en -cultuur is belangrijk en het web evolueert in zo'n snel tempo dat wat vandaag heel gewoon is, morgen al achterhaald kan zijn. Dit project is gewijd aan het bewaren van zoveel mogelijk ervaringen van deze platforms, zodat ze niet verloren gaan in de tijd. Sinds december 2017 zijn er {meer dan {} spellen en animaties} bewaard gebleven in meer dan honderd browserplugins en webtechnologieën.",
+  "About_Para2": "Naast onze conserveringsinspanningen bieden we ook een zeer flexibel softwarepakket voor betrouwbare navigatie en het afspelen van bewaarde content. Onder de software die Flashpoint aandrijft is {een volledig uitgeruste launcher} die fungeert als een frontend voor de collectie, {een proxy} die games laat denken dat ze op het live web draaien en {een sandbox} die het mogelijk maakt om veilig plugin-geschikte content af te spelen - allemaal {open-source software}.",
+  "About_Para3": "Het project {was oorspronkelijk gestart} door BlueMaxima in een poging het verdwijnen van webgames voor de dood van Flash te voorkomen. Sindsdien is het uitgegroeid tot een grote onderneming met honderden bijdragers van over de hele wereld, die zowel spellen als animaties omvat die zijn gemaakt voor talloze internetplugins, frameworks en standaarden.",
+  "About_Para4": "Flashpoint Archive werkt zonder winstoogmerk met als doel het bevorderen van inspanningen in het behoud en de toegankelijkheid van games, animaties en andere digitale interactieve ervaringen van het web. Als u ons wilt steunen of meer wilt weten over hoe we worden gefinancierd en waar dit geld aan wordt besteed, gebruik dan de Doneer-knop in de linker zijbalk of bezoek onze {Open Collectieve pagina}.",
+  "Search_Collection": "Zoeken in de collectie",
+  "Request_Archival": "Inhoud aanvragen voor archivering"
+}
