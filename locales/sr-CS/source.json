@@ -1,0 +1,17 @@
+{
+  "Source_Title": "Izvorni kod",
+  "Source_Desc": "Softver koji pokreće Flashpoint je besplatan i otvorenog koda, očito isključujući većinu podržanih dodataka/tehnologija pretraživača (ne možemo puno učiniti po tom pitanju). Aplikacije i uslužni programi koje su razvili saradnici na projektu mogu se pronaći na našoj {GitHub timskoj stranici}.",
+  "Source_Developed_Projects_Title": "Softver napravljen od strane Flashpoint Kontributora",
+  "Source_Developed_Projects_Desc": "Ovaj softver je dostupan pod MIT licencom:",
+  "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher} je ekstenzivan, Elektronski baziran pokretač inspiriran od strane LaunchBoxom.",
+  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proksi}, je biblioteka koja omogućuje komunikaciju između pretraživača/projektora i simuliranog interneta u Flashpointu.\n",
+  "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player}, je napredna aplikacija koja omogućuje reprodukciju sadržaja temeljenog na dodacima bez trajnih promena u registru Windowsa.",
+  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools}, je skup aplikacija koje korisniku omogućuju preuzimanje, upravljanje i uklanjanje komponenti.",
+  "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator} je alat koji pokreće aplikacije sa simuliranim brzinama takta.",
+  "Source_Utilized_Projects_Title": "Softver treće strane koji koristi Flashpoint",
+  "Source_Utilized_Projects_Desc": "Ovaj softver otvorenog koda nije razvijen od strane nas, ali je uključen u Flashpointov softverski paket:",
+  "Source_Apache_Desc": "{Apache HTTP Server} je web poslužitelj objavljen pod licencom Apache-2.0.",
+  "Source_Basilisk_Desc": "{Basilisk}, je web pretraživač objavljen pod MPL-2.0 licencom. Flashpoint koristi prilagođenu 32-bitnu verziju sa vlastitim brendiranjem, koju možete pronaći {ovdje}.",
+  "Source_Chromium_Desc": "{Chromium}, je web pretraživač objavljen pod raznim licencama otvorenog koda.",
+  "Source_PHP_Desc": "{PHP} je web skriptni jezik objavljen pod PHP licencom."
+}
