@@ -1,10 +1,10 @@
 {
-  "About_Welcome": "Dobrodošli",
-  "About_Title": "Flashpoint Arhiva je zajednički napor da se sačuvaju igre i animacije sa interneta.",
-  "About_Para1": "Istorija i kultura interneta su važne, a internet se razvija tako brzo da ono što je danas uobičajeno sutra može biti zastarelo. Ovaj je projekt posvećen očuvanju što više iskustava sa ovih platformi kako se ne bi izgubila u vremenu. Od Decembra 2017. sačuvano je {preko {} igara i animacija} u više od stotinu pretraživačkih dodataka i web tehnologija.",
-  "About_Para2": "Uz naše napore u očuvanju, nudimo i vrlo fleksibilan softverski paket za ouzdanu navigaciju i reprodukciju sačuvanog sadržaja. Među softverom koji pokreće Flashpoint je {potpuno opremljen pokretač} koji deluje kao frontend za kolekciju, {proxy} koji vara igre da misle da se izvode na webu uživo i {sandbox} koji omogućuje sigurnu reprodukciju sadržaja sa omogućenim dodacima - svi su to {softver otvorenog koda}.",
-  "About_Para3": "Projekt {je originalno porkenut} od strane BlueMaxime u pokušaju da se spreči nestanak web igara pre smrti Flasha. Od tada se razvio u veliki poduhvat koji uključuje stotine članova zajednice iz celoga sveta, a obuhvaća igre i animacije stvorene za brojne internetske dodatke, okvire i standarde.",
-  "About_Para4": "Arhiva Flashpoint posluje kao neprofitna organizacija sa ciljem očuvanja i dostupnosti igara, animacija i drugih digitalnih interaktivnih iskustava sa interneta. Ako želite da nas podržite ili saznate više o tome kako se finansiramo i gde se ta sredstva troše, koristite dugme Doniraj u levoj bočnoj traci ili posetite našu {Otvorenu kolektivnu stranicu}.",
-  "Search_Collection": "Pretraži Kolekciju",
-  "Request_Archival": "Zahtev za Arhiviranje"
+  "About_Welcome": "Dobro došli",
+  "About_Title": "Flashpoint arhiva je zajednički napor da se sačuvaju igrice i animacije sa interneta.",
+  "About_Para1": "Istorija i kultura interneta su važne, a internet se razvija takvom brzinom da ono što je danas uobičajeno sutra može biti zastarelo. Ovaj projekat je posvećen očuvanju što više iskustava sa ovih platformi kako se ne bi izgubila u vremenu. Od decembra 2017. godine, sačuvano je {preko {} igara i animacija} u više od stotinu pretraživačkih dodataka i web tehnologija.",
+  "About_Para2": "Kao dodatak našem naporu u očuvanju, nudimo i vrlo fleksibilan softverski paket za pouzdanu navigaciju i reprodukciju sačuvanog sadržaja. Među softverom koji pokreće Flashpoint je {potpuno opremljen pokretač} koji se ponaša kao frontend za kolekciju, {proxy} koji vara igrice da misle da se izvršavaju uživo na internetu i {sandbox} koji omogućava sigurnu reprodukciju sadržaja sa omogućenim dodacima - gde su svi {otvorenog koda}.",
+  "About_Para3": "Projekat {je originalno porkenut} od strane BlueMaxima-e u pokušaju da se spreči nestanak web igara pre gašenja Flash-a. Od tada se razvio u veliki poduhvat koji uključuje stotine članova zajednice iz celog sveta, obuhvatajući igrice i animacije stvorene za brojne internet dodatke, okvire i standarde.",
+  "About_Para4": "Flashpoint arhiva radi kao neprofitabilna organizacija sa ciljem očuvanja i dostupnosti igara, animacija i drugih digitalnih interaktivnih iskustava sa interneta. Ako želite da nas podržite ili saznate više o tome kako se finansiramo, kao i gde se ta sredstva troše, molimo kliknite na dugme Doniraj u levoj bočnoj traci ili posetite našu {Open Collective stranicu}.",
+  "Search_Collection": "Pretraži kolekciju",
+  "Request_Archival": "Zahtev za arhiviranje sadržaja"
 }
