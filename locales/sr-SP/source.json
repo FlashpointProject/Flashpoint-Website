@@ -1,0 +1,17 @@
+{
+  "Source_Title": "Изворни код",
+  "Source_Desc": "Софтвер који покреће Flashpoint је бесплатан и отвореног кода, очито искључујући већину подржаних додатака/технологија претраживача (не можемо учинити много по том питању). Апликације и програми које су развили сарадници на пројекту могу се пронаћи на нашој {тимској GitHub страници}.",
+  "Source_Developed_Projects_Title": "Софтвер који су направили Flashpoint сарадници",
+  "Source_Developed_Projects_Desc": "Следећи програми су доступни под MIT лиценцом:",
+  "Source_Flashpoint_Launcher_Desc": "{Flashpoint Launcher} је проширив покретач базиран на Electron-у инспирисан LaunchBox-ом.",
+  "Source_Flashpoint_Proxy_Desc": "{Flashpoint Proxy} је библиотека која омогућава комуникацију између претраживача/пројектора и Flashpoint-овог симулираног интернета.",
+  "Source_Flashpoint_Secure_Player_Desc": "{Flashpoint Secure Player} је напредна апликација која омогућава репродукцију садржаја који се темељи на додацима без трајних измена у Windows регистру.",
+  "Source_Flashpoint_Component_Tools_Desc": "{Flashpoint Component Tools} је скуп апликација које кориснику омогућавају преузимање, управљање и уклањање компонената.",
+  "Source_Flashpoint_OldCPUSimulator_Desc": "{OldCPUSimulator} је алат који покреће апликације са симулираним брзинама такта.",
+  "Source_Utilized_Projects_Title": "Софтвер треће стране који Flashpoint користи",
+  "Source_Utilized_Projects_Desc": "Следеће програме отвореног кода нисмо ми развили, али су укључени у Flashpoint-ов софтверски пакет:",
+  "Source_Apache_Desc": "{Apache HTTP Server} је web сервер објављен под Apache-2.0 лиценцом.",
+  "Source_Basilisk_Desc": "{Basilisk} је web претраживач објављен под MPL-2.0 лиценцом. Flashpoint користи прилагођену 32-битну верзију са властитим брендирањем, коју можете пронаћи {овде}.",
+  "Source_Chromium_Desc": "{Chromium} је web претраживач објављен под разним лиценцама отвореног кода.",
+  "Source_PHP_Desc": "{PHP} је скриптни web језик објављен под PHP лиценцом."
+}
