@@ -1,0 +1,21 @@
+{
+  "Downloads_Avast": "КОРИСНИЦИ AVAST-А: МОЛИМО ВАС ПРОЧИТАЈТЕ {ОВО} ПРЕ ПРЕУЗИМАЊА!",
+  "Downloads_Title": "Преузимања",
+  "Downloads_Description": "Flashpoint-ова преузимања су бесплатна, портабилна и {{потпомогнута софтвером отвореног кода}} (осим самих додатака, који су углавном напуштени). Ако имате било каквих питања или Сте забринути, консултујте {FAQ} или питајте на {Discord}-у.",
+  "Downloads_Infinity_Title": "Flashpoint {} Infinity",
+  "Downloads_Infinity_Size": "{Величина:} {} преузимање, {} кад је преузето",
+  "Downloads_Infinity_Para1": "Уноси се преузимају са наших сервера када их играте. Идеално за повремене кориснике.",
+  "Downloads_Infinity_Para2": "Величина инсталације зависи од одабраних компонената и повећава се како преузимате уносе.",
+  "Downloads_Infinity_Link": "Преузми installer",
+  "Downloads_Infinity_Link2": "Zip-ована копија (Ако installer не ради)",
+  "Downloads_Ultimate_Title": "Flashpoint {} Ultimate",
+  "Downloads_Ultimate_Size": "{Величина:} {} инсталација",
+  "Downloads_Ultimate_Para1": "Сви уноси су доступни offline од самог почетка. Идеално за архиваторе и сакупљаче података.",
+  "Downloads_Ultimate_Para2": "Прочитајте {овај чланак} за информације о преузимању, отпакивању и ажурирању Ultimate-а.",
+  "Downloads_Ultimate_Link": "Преузми torrent",
+  "Downloads_Ultimate_Link2": "Директно преузимање",
+  "Downloads_Ultimate_Link3": "Archive.org Mirror",
+  "Downloads_Requirements": "{Системски захтеви:} Windows 8.1 или више (лимитирана {Mac} и {Linux} подршка је такође доступна)",
+  "Downloads_Prerequisites": "{Предуслови:} {Visual C++ 2015 Redistributable (x86)}, {Microsoft .NET Framework 4.7} или више",
+  "Downloads_Footer": "За информације и промене везане за старије верзије, молимо Вас посетите страницу {Новости}."
+}

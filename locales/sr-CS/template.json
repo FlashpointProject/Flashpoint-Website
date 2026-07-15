@@ -1,4 +1,4 @@
 {
-  "Template_Testing_Paragraph": "Ovaj tekst će biti poslat Crowdinu da prevede.",
-  "Template_Formatted_Testing_Paragraph": "Ovaj tekst će biti {bold}, {italic}, {podvučeno} ili {hiperlink}. {To je to}"
+  "Template_Testing_Paragraph": "Ovaj tekst će biti poslat na Crowdin za prevod.",
+  "Template_Formatted_Testing_Paragraph": "Ovaj tekst će biti {bold}, {italic}, {podvučen} ili {hiperlink}. {To je to}"
 }
